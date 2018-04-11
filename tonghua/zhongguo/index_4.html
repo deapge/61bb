@@ -1,0 +1,999 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>中国民间故事-儿歌网 </title>
+<meta name="keywords" content="中国民间故事" />
+<meta name="description" content="儿歌网 中国民间故事 "/>
+<link rel="stylesheet" href="/css/index.css" type="text/css" />
+<link rel="stylesheet" href="/css/colorbox.css" type="text/css" />
+<script language="javascript" src="/js/jquery-1.7.min.js"></script>
+<script language="javascript" src="/js/func.js"></script>
+<script language="javascript" src="/js/jquery.scrollto.js"></script>
+<script language="javascript" src="/js/jquery.colorbox.js"></script>
+<script language="javascript" src="/js/showbox.js"></script>
+<script language="javascript" src="/js/xqfunc.js"></script>
+</head>
+<body>
+ <!-- 顶部开始 --> 
+<div id="shortcut">
+  <div class="w">
+    <ul>
+      <li><a href="/" target="_blank">儿歌网</a></li>
+      <li><a href="/s/n180.html" target="_blank">最新儿歌</a></li>
+      <li><a href="/s/h180.html" target="_blank">热门儿歌</a></li>
+      <li><a href="/s/t180.html" target="_blank">推荐儿歌</a></li>
+     
+      
+    </ul>
+    <ul class="divLoginBar">
+       
+      <li id="add"><a onclick="AddFavorite('http://127.0.0.1',':儿歌-儿童小游戏-儿歌大全-儿童歌曲-儿童歌曲大全-儿歌视频大全-儿歌童谣-童谣大全-儿歌播放器-儿童资源_127.0.0.1')" style="cursor:hand" href="javascript:;">加入收藏</a></li>
+      <li id="conf"><a onclick="SetHome(this,'')" href="javascript:;">设为首页</a></li>
+    </ul>
+  </div>
+</div>
+<div class="c"></div>
+
+<div id="bb_box"> <div id="header">
+  <div id="bb_logo"><a href="/"><img alt="儿歌网" src="/css/logo.gif"/></a></div>
+  <div id="topgg"> <script src="/d/js/acmsd/thea2.js"></script></div>
+  <div class="c"></div>
+  <div id="bb_nav">
+    <ul>
+      <li id="home" class="current" ><a href="/" >首页</a></li>
+      <li  id="c1"><a href="/tingerge/">听儿歌</a></li>
+      <li id="c2"><a href="/jianggushi/">儿童故事</a></li>
+      <li id="c3"><a href="/xuezhishi/">学知识</a></li>
+      <li id="c4"><a href="/wanyouxi/">儿童游戏</a></li>
+      <li id="c5"><a href="/donghuapian/">动画片</a></li>
+      <li  id="TV"><a href="/fm/">亲宝电台</a></li>
+      <li id="park"><a href="http://www.taohi.cn"  target="_blank" >宝宝乐园</a></li>
+      <li id="c199"><a href="/jiaoan/">幼儿园教案</a> </li>
+    </ul>
+    <div class="nav_search">
+            <div class="seachslect" onmouseout="selectseout('select_tops')" onmouseover="selectseover('select_tops')">
+            	<span class="currcodes">
+                <em id="selectvalue">视频</em>
+                    <div id="select_tops" class="subtop_select" style="display: none;">
+                    	<a onclick="return search_show('1','0',this)" href="javascript:void(0)">视频</a>
+                        <a onclick="return search_show('2','0',this)" href="javascript:void(0)">文章</a>
+                    </div>
+                </span>
+            </div>      
+             <form name="fsearch" method="post" action="/e/search/index.php" target="_blank">
+              <input type="hidden" name="show" value="title">
+              <input id="tempid" type="hidden" name="tempid" value="1">
+              <input id="tbname" type="hidden" name="tbname" value="game">
+                <input type="hidden" name="show" value="title,smalltext,newstext,writer" />
+                <input id="classid" name="classid" type="hidden" value="0" />
+                <input name="keyboard" type="text"  class="nav_box"  value="输入儿歌名称" id="keys"/>
+              <input type="submit" value="搜索" class="nav_btn">
+              <div class="c"></div>
+            </form>
+      </div>
+    <div class="c"></div>
+  </div>
+  <div class="extra">
+   
+    <ul>
+      <li><a href="/tingerge/zhongwenerge/" target="_blank" >中文儿歌</a></li>
+      <li><a href="/tingerge/yingwenerge/" target="_blank">英文儿歌</a></li>
+      <li><a href="/tingerge/tongyao/" target="_blank" >童谣</a></li>
+      <li><a href="/donghuapian/" target="_blank">儿童动画片</a></li>
+      <li><a href="/jianggushi/jingdianxiaogushi/" target="_blank" >儿童故事</a></li>
+      <li><a href="/jianggushi/tonghuagushi/" target="_blank">童话</a> <a href="/jianggushi/yuyangushi/" target="_blank">寓言</a></li>
+      <li><a href="/jianggushi/chengyugushi/" target="_blank">成语故事</a></li>
+      <li><a href="/jianggushi/shenhuachuanshuo/" target="_blank">神话传说</a></li>
+      <li><a href="/wudao/ertongwudao/" target="_blank">儿童舞蹈</a></li>
+      <li><a href="/xuezhishi/tangshisongci/" target="_blank">唐诗宋词</a></li>
+      <li><a href="/xuezhishi/kuailepinyin/" target="_blank">快乐拼音</a></li>
+      <li><a href="/xuezhishi/youerqimeng/" target="_blank">幼儿启蒙</a></li>
+      <li><a href="/xuezhishi/yingyujiaoyu/" target="_blank">英语教育</a></li>
+      <li><a href="/xuezhishi/baikechangshi/" target="_blank">百科常识</a></li>
+      <li><a href="/miyu/" target="_blank">谜语</a></li>
+      <li><a href="/tonghua/" target="_blank">童话故事</a></li>
+
+    </ul>
+  </div>
+</div> 
+</div>
+<script>
+var classid = '38';
+if(classid){
+         $("#c"+classid).addClass("current");
+          $("#home").removeClass("current");
+       }
+</script>
+<div class="adm_960" id="adm"><!-- 广告位banner 960*60 --><script src="/d/js/acmsd/thea4.js"></script></div>
+
+    <div id="content" class="mt10">
+    	<div id="lesson_left">
+        	<div class="artical_list">
+                   <div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158574.html" target="_blank">美人系列</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          简短对话<br />
+<br />
+    西施对越王勾践的印象很模糊。<br />
+<br />
+    西施只知道在自己为时几年的习艺生活中，勾践会不时来巡视一番。虽然西<br />
+施在几十个女孩里最为出色，却并未因此被越王勾
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158570.html" target="_blank">过年的来历</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　相传：中国古时侯有一种叫＂年＂的怪兽，头长尖角，凶猛异常。<br />
+　　＂年＂兽长年深居海底，每到除夕，爬上岸来吞食牲畜伤害人命，因此每到除夕，村村寨寨的人们扶老携幼，逃往深山，以躲避＂年＂的伤
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158566.html" target="_blank">大酱的由来</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　在很久以前，在一个小村子里，有这么一个人：他姓牛，家里排行老二，人们都叫他牛二。因为此人做起事来有特别爱转牛角尖。由于这样的人往往被人在语言上形容非常倔强，所以牛二也不
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158564.html" target="_blank">尧王举贤</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　黄河流域；是中华民族的发源地。早在五千多年以前，人们就在这里兴建家园了。那时候，国家就是部落，部落是由氏族组成的。当时，平阳（今山西临汾）居住着一个有名的大部落，这个部落的
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158557.html" target="_blank">哈尼族新米先喂狗的传</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　传说哈尼族祖先原来不会开田种地。后来天上有一位掌管五谷的神仙，他在天上有一丘栽种七十七种谷物的大田，耕耘这丘田，必须有一千二百个仙童，驾驭着一千两百头神牛梨耙一天，才
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158558.html" target="_blank">临阵脱逃</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　庚子年①八国联军进攻北京城，吓得慈禧太后象惊弓之鸟，从西直门偷偷溜出，星夜向长安逃去。满朝文武百官也都&amp;ldquo;随驾&amp;rdquo;逃之夭夭了。随后又派李鸿章与洋人订立了丧权
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158554.html" target="_blank">昆山夜光</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                                          （一） <br />
+    在很久很久以前。曹州赵楼村有个花园叫奇香园。奇香园里住着一对老夫妻．老夫妻爱花如命。人们都叫他们花公、花婆。花婆五十多岁了，还没生过孩子
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158549.html" target="_blank">灵感观音笑传奇</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      上天竺寺位于白云峰麓，始建于五代吴越，是西湖佛寺久负盛名的观音道场。相传，后晋天福四年（九三九），僧人道诩深入当时尚未开发的白云峰下处女林中结庵修行。一天晚上，他见庵前山涧中
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158548.html" target="_blank">吃虫节的传说(仡佬族)</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　每年农历六月初二，是仡佬族的吃虫节。<br />
+　　传说古时候，仡佬山虫灾连年，五谷歉收。人们面对虫灾无可奈何。寨老们经过商议，悬下重赏：谁能除掉虫害，赏三头肥猪。红榜一出，首先是
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158543.html" target="_blank">“五彩祥云”失传记</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                           清朝光绪年间，曹州府赵楼时有位叫赵需俭的花农，人送外号“花仙”。由于连年兵荒马乱，“花仙”的亲人死的死，亡的亡，只剩下儿媳妇绿叶和小孙子秧孩了，一家三口靠卖花过日子。
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158535.html" target="_blank">汉高祖观殿</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　传说刘邦灭了项羽，一统天下之后，就出榜广召四方能工巧匠，在京城大兴土木，营造皇城、宫殿，消息传到老家沛县，有个巧木匠王小九也想报名应召。无奈商量几回，老娘咋也不愿意这个&amp;l
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158529.html" target="_blank">鱼的命根子在哪里</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      从前有一位老人，膝下有三个儿子。老人临死的时候，把三个儿子叫到身边，叮嘱他们要团结友爱、和睦相处。并且把自己珍藏的一把名叫“桑珠日尺”的如意宝刀，留给大儿子；把一块闪闪发
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158526.html" target="_blank">落雁</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　“落雁”，是昭君出塞的那段故事。汉元帝在位期间，南北交兵，边界不得安静。汉元帝为安抚北匈奴，选昭君与单于结成姻缘，以保两国永远和好。在一个秋高气爽的日子里，昭君告别了故
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158519.html" target="_blank">盘王节的传说(瑶族)</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　瑶族民间有关盘王节的传说很多，主要有两种：一　　天地洪荒的远古年代，在万山丛中有两座一样高大的宝山，相隔一里，对峙相望。左边那座叫布洛西山，像一个威武雄壮的男子；右边那座
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158516.html" target="_blank">鱼包菲菜的故事</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　水族过端节时祭祖用鱼包菲菜，意在怀念祖宗，不忘民族之根。这里有一个关于&quot;鱼包菲菜&quot;的故事。<br />
+　　水族并非此地的土著居民。相传水族远祖从南方向北迁移时，一位老者给远行
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158512.html" target="_blank">伤疤脸</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　从前，天下太平，所有的印第安人都安居乐业。那时有一位老人，身边有个女儿，年轻而美丽，许多小伙子都想娶她做妻子。<br />
+　　&amp;ldquo;我可不想嫁人，&amp;rdquo;她说。<br />
+　　&amp;ldquo;为什么
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158507.html" target="_blank">英丽的壮锦</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　在山青水秀的壮族地区，有一位年轻的妇女叫妲迷①。妲迷生了几个小孩都养不活，最后生了一个小男孩，孩子刚生下三天，父亲就去世了。所以妲迷就把这个最后生的小孩叫特伦②。
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158501.html" target="_blank">乾隆横招贼要店</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　在洛阳一带，流传着乾隆皇帝游龙门，扫&amp;ldquo;要店&amp;rdquo;的故事。<br />
+　　清朝乾隆年间，在洛阳通往北京一条官道上，有个村子名叫&amp;ldquo;要店寨&amp;rdquo;，寨子不大，只有一千多户人家，
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158499.html" target="_blank">彝族插花节的传说</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　每年二月初八，是彝族的插花节，又叫马缨花节。它是怎么来的呢？<br />
+<br />
+　　很久以前，整个世界洪水连天，淹没了土地，世界上只剩下了两兄妹，他们躲在一个大葫芦里，葫芦口用蜡封住。这个葫
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158490.html" target="_blank">阿诗玛的故事</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                       　　从前有个叫阿着底的地方，贫苦的格路日明家生下了一个美丽的姑娘，阿爹阿妈希望女儿像金子一样发光，因此给她起名阿诗玛。她渐渐地长大了，像一朵艳丽的美伊花。阿诗玛&quot;绣花包
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158491.html" target="_blank">老虎和青蛙(布依族传</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　相传北方有叫”故洪故流”的地方,住着一位无儿无女的老年妇女.一天,老人在屋前河边洗衣服,看到上游漂来一物,一只彩色的鸟张着两翅覆盖着.老人打捞上来一看,原来是只铜
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158486.html" target="_blank">芙蓉千载吊忠魂</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          南崖，亦称芙蓉崖。<br />
+    提起它，村里人就会记起一个可歌可泣、悲壮感人的事迹。据《永嘉县志》记载：“芙蓉山在城北四十八都仙居乡，山峰耸立，绛红辉映，如芙蓉山在城北四十八都
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158477.html" target="_blank">梁祝</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                         “蝶盟良缘一朝订，心若磐石永不移”。千百年来传颂不息的“梁祝”传说与“白蛇传”、“牛郎织女”、“孟姜女”同誉为中国四大民间传说。梁祝的故事美丽动人，深受人民大众
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158471.html" target="_blank">天职演员</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　貂蝉，古籍上没有记载，但文学作品中多有描述，为汉末三国纷争中重要人物。罗贯中在《三国演义》对貂蝉作了进一步的描写和刻划，影响颇大，民间传说尤为传奇，几乎是家喻户晓、妇孺
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158468.html" target="_blank">龙子和妹妹</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　一<br />
+　　很久以前，海南岛的五指山区里，有一个又深又阔的龙潭，统治着龙潭里水族百姓的是一个年青的龙子。它与沿潭的黎族人民，一向相处甚好。不仅从未兴风作浪，为害黎族人民，相
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158465.html" target="_blank">三姐弟</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      很早以前，在哲炯地方有两个姐姐和一个弟弟，由于父母早逝，两个姐姐只得承担起抚养弟弟的义务。大姐长得非常漂亮，招人喜欢，但她心狠手辣，爱杀生，就象魔鬼转世。二姐心地善良，尊姐爱弟
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158460.html" target="_blank">钟馗之死</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          唐朝德宗年间有个叫钟馗的举子此人长得豹头虎额铁面环眼脸上长满虬须。这钟馗外貌虽丑可才华出众武艺超群。这年恰逢秋季科举考试钟馗告别了亲友进京赶考。 <br />
+    钟馗风
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158459.html" target="_blank">元宵的传说</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　相传汉武帝时，他的身边有个聪明人，名叫东方朔。①东方朔心地善良，常常为百姓解危救难，受人尊敬。<br />
+　　有年腊月，御花园的梅花怒放，清香四溢，东方朔带着雅兴前来赏梅，当他刚踏进
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158454.html" target="_blank">紫斑牡丹的传说</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          明末，有位清贫之士，学识渊博，且擅长琴棋书画，只因看破“红尘”，拒官避世，削发为僧，隐居于太白山白云寺，法号“释易寿”。    山寺依山傍水，景色秀丽，院内广植牡丹花草。易寿在寺院
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158449.html" target="_blank">关山的传说</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      1111在张八岭镇和嘉山集乡之间，有一座山，现在山名叫&quot;关山&quot;。相传很久以前，这山叫&quot;双门山&quot;，说是东门岭和西门岭本是同一座山，出地约几十米后，分成东西两岭，两岭相对处是悬崖峭壁，两壁
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158445.html" target="_blank">滕小国的传说</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          东滕城索有“滕小国”之称。因为旧时这里有个“滕国”，滕县也由此而命名。<br />
+    传说在两千多年前，有一次下连阴雨，一连下了半个多月。许多房子都给淋倒了，水都漫到了膝盖，黄
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158446.html" target="_blank">西施沉江</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　战国末年。群雄逐鹿，战火四起。<br />
+　　江南。<br />
+　　苎萝村。<br />
+　　三月的清晨，薄薄的白雾笼着整个小村，小河边的垂柳静而妖娆地站着。杏花蕊中滚动着晶莹的水珠，像姑娘朦胧的媚
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158443.html" target="_blank">闽南民间故事：拿饭匙抵</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                            从前，步文乡有个老人，姓陈名勤。为人善良，团结乡里，一生抱负立足于“和为贵”，在其家门前高挂“无事牌”。一天，村里有个家财万贯的员外，见了此牌，呵呵大笑道：“人无千日好，花无
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158437.html" target="_blank">貂蝉拜月</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      貂蝉拜月<br />
+　　貂蝉是东汉末年司徒王允的歌女，国色天香，有倾国倾城之貌。见东汉王朝被奸臣董卓所操纵，于月下焚香祷告上天，愿为主人担忧。王允眼看董卓将篡夺东汉王朝，设下连环计
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158435.html" target="_blank">颐和园的石舫</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　颐和园的石舫，有两层楼那么高，是整块石头雕成的。它的东边是听邵馆和百丈亭，南面是一大片昆明湖。<br />
+　　当年，西太后为了要庆五十大寿，下令要修万寿园。这事她让贴身太监给筹
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158433.html" target="_blank">国王,法官和大臣</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　相传很久以前，城里有个法官，从外表看上去非常虔诚、正直。人们对他印像不错，有人还说，世界上再没有一个母亲生下过象他这样诚实、正直、聪明、能干的儿子了。法官听了这些议
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158430.html" target="_blank">万卷书的传说</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                           明代，安徽亳州有书生，名叫欧阳搏云，字苦书。本是出生在宦官之家，后因家境日下，渐渐败落，十分贫寒。但是，书生不甘命运的安排，更不愿寄人篱下，决心考取“功名”，光耀列祖，哪知连年
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158424.html" target="_blank">孟姜女的传说</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          相传在秦朝的时候，有一户姓孟的人家，种了一棵瓜，瓜秧顺着墙爬到姜家结了瓜。瓜熟了，一瓜跨两院得分啊！打开一看，里面有个又白又胖的小姑娘，于是就给她起了个名字叫孟姜女。孟姜
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158419.html" target="_blank">楼台牡丹</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          隋炀帝即位后，任杨素为营作太监，令宇文恺主其事，修东变京，建宫殿，辟西苑，诏天下诸州献草木、花果、奇禽、异兽。河北易州进牡丹二十箱，尽植西苑。西苑周二进里，内建海渠、缘渠十
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158418.html" target="_blank">嘉庆皇帝受骗</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　乾隆皇帝死后，嘉庆皇帝①即位。这时，嘉庆的老师徐铎已经六十岁了，他一心想在离职前大捞一把，便递上奏章告老还乡，还提出回乡后要为皇上办三件大事：一是开一条西接运河、东连大
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158414.html" target="_blank">藏珠</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          谷雨时节，堪称“国色天香”的曹州牡丹竞相开放，五彩缤纷的花朵开满枝头，笑迎中外游客。只有一种牡丹与众花不同。它那银红色的花朵不是开在枝头，而是藏在绿叶丛中，人们叫它“
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158412.html" target="_blank">纳西族火把节</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      从农历六月二十四日起，纳西人按古规一连要过三天的火把节，点三个晚上的火把。每天门前要点一支柱子般又粗又大的大火把，寨子里的青年们个个拿着又细又长的小火把，沿着田埂、山路
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158400.html" target="_blank">雍正盗诏</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　相传，雍正①当了清朝皇帝没有多长时间，突然就死了。雍正为什么死了？这还得从头讲起。<br />
+　　雍正幼年时代，就整天吃喝嫖赌，游手好闲，整天偷跑到外面去鬼混，从来不务正业。他父亲
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158398.html" target="_blank">黑将军的宝藏</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          相传在西夏的时候，有个名叫黑水城的都城，居住着一位君主，英武绝伦，能征善战，号称黑将军。他是黑水城的最后一位君主，不甘心偏安一隅，出兵争霸。后战败，逃回黑水城。敌军包围黑水
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158393.html" target="_blank">万家酒店与十里桃花</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      诗人李白浪迹天下，漫游四方，不仅走遍了名山大川，当时无甚名声的皖南山区，也留下了诗人的足迹与华章。黄山情侣太平湖，堪称皖南名山胜水，太平湖的下游，有个地方叫做桃花潭。当年诗仙
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158391.html" target="_blank">猢狲红屁股</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　森林里住着百兽，生活自由自在，自从出了妖魔鬼怪，就勿太平了，每日里提心吊胆，百兽们纷纷议论，这样下去，日脚难过，顶好推选个大王，带领大家来对付妖魔。谁做大王呢，议了半天还定勿落
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158385.html" target="_blank">日月潭</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　古时候，大清溪边住着一对青年夫妇，男的叫大尖哥，女的叫水社姐。<br />
+他两口子专靠捕鱼过活。<br />
+　　他们织大网捞鱼，做浮筒钓鱼，钻进深潭里石岩底下摸鱼。<br />
+　　小夫妻的日子过得挺
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158384.html" target="_blank">长寿花</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　长白山是我国东北最高的一座大山，岭连岭，山连山。在这座山尖上，不长树，不长草，连个鸟雀都飞不上去，一年到头积雪不化。这里，有个很大很深的湖，现在叫天池，过去都管它叫龙王潭。
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158383.html" target="_blank">活佛转世的传说</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　活佛转世制度的创始人是噶玛拨希，他佛法高深，神通非凡，深得元朝皇帝的赏识，曾得忽必列的兄弟阿里不哥所赐黑边帽，此帽保存至今。噶玛拨希于１２８３年在楚布寺圆寂，寿达８０。在圆寂之时，告
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158378.html" target="_blank">端节前夕扫房屋由来</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　节日前夕（寅日），家家户户都得认真打扫房屋、院坝，并将屋内外的尘土撒到稻田里去。关于这一习俗的由来，水族有个民间传说：早年，水族远祖带领大家从南方迁到都柳江上游地区后，不避
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158379.html" target="_blank">翠牡丹</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          传说明末清初，曹州鲁山之阴有一村庄，名刘屯，村中有户两口之家，母子二人相依为命。母亲桑氏，能织善纺；儿子刘俊生，十七八岁，聪明伶俐，勤奋种田，所种牡丹格外茁壮，开花也特别鲜艳。<br />
+
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158373.html" target="_blank">老虎怕“屋漏”</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      在很久以前，通道到处是深山老林，在这深林中住着老两口，无儿无女，生活十分贫寒，身边只有一头老牛相伴，人和牛同住在一间破草房里，老牛睡一头，老两口睡一头。<br />
+一天夜里突然狂风四起，大
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158361.html" target="_blank">红石山的传说</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          古时候，苦县西边有个六十里宽六十里长的大水洼。水洼里的水黑清黑清的。大水洼正当中长出一座方圆四十里的红石山。这红石山一不高，二不陡，就象一个很大很大的高岗子。高岗
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158354.html" target="_blank">羞花</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　“羞花”，说的是杨贵妃。唐朝开元年间，唐明皇骄奢淫逸，派出人马，四处搜寻美女。当时寿邸县的宏农杨元琰，有一美貌女儿叫杨玉环，被选进宫来。杨玉环进宫后，思念家乡。一天，她到花
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158352.html" target="_blank">用芳香做武装</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　我国唐朝的第六代皇帝唐玄宗，于开元28年行幸温泉宫，遇一美姬，香气袭人，玄宗为之倾倒，占为已有，封为贵妃，此女就是杨玉环。当时唐明皇已60有余，杨玉环26岁。玄宗也是唐代一位有作
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158346.html" target="_blank">山神讲故事</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      在阳洞滩的半山腰上有一个岩洞，经常有山神在这里讲故事。<br />
+包亚和依亚合伙做盐生意，发了财，从广西挑铜板回来。包亚想独吞钱财。他俩走到阳洞滩时，包亚指着十丈高的瀑布说：“哎呀，
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158347.html" target="_blank">李太白跳月</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          南京夫子庙前，有一座文德桥。听老辈人说，每逢冬月十五月亮当头的时候，站在桥头朝水上看，倒映在水里的月影子刚好分成两半：桥这边半个，桥那边半个。    圆圆的月亮影子，为什么会
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158337.html" target="_blank">不见棺材不落泪 不到</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                         从前有家姓关的人家，几辈子都过的是贫日子，当家的两口子就给自己的儿起了个名叫“财”。一年年过去了，关财也长大了。他长得很能，学什么会什么。<br />
+    关财八岁这年，遇上天灾，种
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158332.html" target="_blank">烧书做饭</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　古时候有位家里很穷的孩子，拜当时一位有名的学者为师，学习做学问。　　可是孩子来了几天，学者只教他做一些农活，却不教他怎么做学问，孩子不免有些心急。他看见学者的书房有很
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158328.html" target="_blank">花二乔的传说</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          在曹州牡丹园里，有一种叫‘花二乔”的牡丹，花朵有两种颜色，鲜艳美丽．很受游人喜爱。若说起这花来，还有一段动人的传说呢。<br />
+    很久以前，曹州有—对同胞姐妹，姐姐叫大乔，妹妹叫
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158323.html" target="_blank">谢能舍一漳浦剃头</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　谢能舍是个浪荡子,花钱似流水,经常让他老爸气得一直吹胡须.没办法,谢琏叫他去训示说:&quot;儿啊,你的岁数不小了,虽是官家囝儿,也要学会料理家事,该花的即使一百两银子也该花
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158321.html" target="_blank">吕洞宾戏牡丹</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　俗传八仙之一的吕洞宾，号纯阳子，相传为唐京兆人。会昌中，两举进士不第，浪游江湖，随汉钟离权授于丹诀，点度成仙。他曾隐居终南山修行，后云游各地。关于他的传说中，除江淮斩蛟，岳阳
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158317.html" target="_blank">天鹅大臣</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      智者尊重长辈如顶戴，尊重长辈自己能前迈；妙容只因格外尊护国，后来地位升迁多气派。从前，王子大圣变成一个如意大湖中的一只天鹅王，名叫护国。它的大臣秉性善良，名叫妙容。这一王一
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158315.html" target="_blank">小兔子洛珠</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      从前，在雅鲁藏布江边，有一块绿色的林间草地。草地上，流着叮叮当当的泉水，开着五颜六色的鲜花，长着各式各样的蘑菇。许多小鸟、小野兽，在这里唱歌、跳舞、做游戏，真是快乐极了！ 可是
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158312.html" target="_blank">唐玄宗为何迷恋杨玉环</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          玄宗李隆基和贵妃杨玉环的爱情，经过白居易《长恨歌》的诗词，成为千古传唱。杨玉环是薄州永乐（今山西芮城）人，她是隋梁郡汪氏的四世孙，父亲杨玄琰。长大以后，她被聘为玄宗的儿子
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158310.html" target="_blank">初阳台</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      很早很早以前，在西湖边宝石山脚下，有个小村庄。村里住着一对年轻的夫妻，男的叫刘春，女的叫慧娘，男耕女织，勤勤俭俭，日子过得很甜蜜。前村后村的乡亲们都夸他们是一对好夫妻。有一天
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158307.html" target="_blank">丹炉焰</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          曹州牡丹乡，有一种名品牡丹，叫“丹炉焰”，其花红光闪烁，色泽耀眼．象正在熊熊燃饶着的一团火。说起这名字的来历，还有一段故事呢。<br />
+    相传，牡丹乡有一位花农叫王老汉；祖上几辈
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158306.html" target="_blank">灶王爷的故事</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　据传“灶王”原是浪荡公子张万仓，外号张腊月。其原配丁香女勤俭贤惠、美丽善良，由于张腊月喜新厌旧，后门休出丁香女，前门娶来王海棠。不几年家底被挥霍净光，张腊月后悔莫及哭
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158303.html" target="_blank">凌波仙子</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　漳州城西南的九龙江畔，高高地耸立着一座圆山。这座圆山从前后望去有十二面，景色都不一样。俗话说：“圆山十二面，面面都有宝。”这里单说圆山的东北面山麓，有一块坡地，树林苍郁
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/zhongguo/158295.html" target="_blank">呼猿洞</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      有一年清明，杨柳青，桃花红，正是西湖风景顶好的辰光，游湖踏青的人到处都是，灵隐寺前一片闹盈盈的。那天，杭州知府也出来耍子儿，他鸣锣喝道地到了灵隐寺，看见飞来峰脚下，密密麻麻地围着
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div>
+                <div class="page list_margin">
+                 <i class="no_a"><span>共20页</span></i><a href="http://127.0.0.1/tonghua/zhongguo/index.html"class="wrap"><span>首页</span></a><a href="http://127.0.0.1/tonghua/zhongguo/index_3.html" class="wrap"><span>上一页</span></a><a href="http://127.0.0.1/tonghua/zhongguo/index_2.html "class="wrap"><span>2</span></a><a href="http://127.0.0.1/tonghua/zhongguo/index_3.html "class="wrap"><span>3</span></a><i class='current'><span>4</span></i><a href="http://127.0.0.1/tonghua/zhongguo/index_5.html "class="wrap"><span>5</span></a><a href="http://127.0.0.1/tonghua/zhongguo/index_6.html "class="wrap"><span>6</span></a><a href="http://127.0.0.1/tonghua/zhongguo/index_7.html "class="wrap"><span>7</span></a><a href="http://127.0.0.1/tonghua/zhongguo/index_8.html "class="wrap"><span>8</span></a><a href="http://127.0.0.1/tonghua/zhongguo/index_9.html "class="wrap"><span>9</span></a><a href="http://127.0.0.1/tonghua/zhongguo/index_10.html "class="wrap"><span>10</span></a><a href="http://127.0.0.1/tonghua/zhongguo/index_11.html "class="wrap"><span>11</span></a><a href="http://127.0.0.1/tonghua/zhongguo/index_5.html" class="next_p"><span>下一页</span></a><a href="http://127.0.0.1/tonghua/zhongguo/index_20.html" class="wrap"><span>尾页</span></a>
+                <div class="c"></div>
+             </div>
+            </div>
+        </div>
+        <div id="lesson_right">
+            <div class="ja_list">
+            	<!-- 广告位：[2012]播放页播放器右侧(上)250x250 --><script src="/d/js/acmsd/thea15.js"></script>
+            </div>
+        	<div class="lesson_Tlist">
+            	<div class="list_title">
+                	<h2>幼儿园教案</h2>
+                </div>
+                <div class="ja_top"></div>
+                <div class="ja_mid">
+                	<div class="fl_box">
+                        <h3><a href="/jiaoan/youeryuandabanjiaoan/" target="_blank">幼儿园大班教案</a></h3>
+                        <ul>
+                           <li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/shuxue/">大班数学教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/kexue/">大班科学教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/zhuti/">大班主题教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/yuyan/">大班语言教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/yinle/">大班音乐教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/tiyu/">大班体育教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/yingyu/">大班英语教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/meishu/">大班美术教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/zonghe/">大班综合教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/jiankang/">大班健康教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/youxi/">大班游戏教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/shehui/">大班社会教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/anquan/">大班安全教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/qinzihuodong/">大班亲子活动</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/shuokegao/">大班说课稿</a> </li><li><!--list.var2--></li>                            <div class="c"></div>
+                        </ul>
+                    </div>
+                    <div class="fl_box">
+                        <h3><a href="/jiaoan/youeryuanzhongbanjiaoan/" target="_blank">幼儿园中班教案</a></h3>
+                        <ul>
+                               <li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanshuxuejiaoan/">中班数学教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbankexuejiaoan/">中班科学教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanzhutijiaoan/">中班主题教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanyuyanjiaoan/">中班语言教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanyinlejiaoan/">中班音乐教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbantiyujiaoan/">中班体育教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanyingyujiaoan/">中班英语教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanmeishujiaoan/">中班美术教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanzonghejiaoan/">中班综合教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanjiankangjiaoan/">中班健康教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/youxi/">中班游戏教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/shehui/">中班社会教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/anquan/">中班安全教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/qinzi/">中班亲子活动</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/shuokegao/">中班说课稿</a> </li><li><!--list.var2--></li>                            <div class="c"></div>
+                        </ul>
+                    </div>
+                    <div class="fl_box">
+                        <h3><a href="/jiaoan/youeryuanxiaobanjiaoan/" target="_blank">幼儿园小班教案</a></h3>
+                        <ul>
+                             <li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanshuxuejiaoan/">小班数学教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobankexuejiaoan/">小班科学教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanzhutijiaoan/">小班主题教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanyuyanjiaoan/">小班语言教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanyinlejiaoan/">小班音乐教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobantiyujiaoan/">小班体育教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanyingyujiaoan/">小班英语教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanmeishujiaoan/">小班美术教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanzonghejiaoan/">小班综合教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanjiankangjiaoan/">小班健康教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanyouxijiaoan/">小班游戏教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanshehuijiaoan/">小班社会教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobananquanjiaoan/">小班安全教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanqinzihuodong/">小班亲子活动</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanqitajiaoan/">小班其它教案</a> </li><li><!--list.var2--></li>                            <div class="c"></div>
+                        </ul>
+                    </div>
+                    <div class="fl_box">
+                        <h3><a href="/jiaoan/youeryuantuobanjiaoan/" target="_blank">幼儿园托班教案</a></h3>
+                        <ul>
+                             <li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/">托班数学</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/">托班科学</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/">托班语言</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyinle/">托班音乐</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanmeishu/">托班美术</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshehui/">托班社会</a> </li>                            <div class="c"></div>
+                        </ul>
+                    </div>    
+                </div>
+                <div class="ja_bottom"></div>	
+            </div>
+            <div class="jiaoan_r_box2">
+            	<h2 class="jiaoan_remenjiaoan"><a href="#" target="_blank">热门教案</a></h2>
+            	<ul class="jiaoan_r_box2_ul">
+                      <li><a href="http://127.0.0.1/jiaoan/huanjingbuzhi/qiangmianbuzhi/153671.html"  target="_blank" title="秋の梦—幼儿园图片" >秋の梦—幼儿园图片</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170075.html"  target="_blank" title="幼儿园托班数学教案：认识数字宝宝：1" >幼儿园托班数学教案：认识数字宝宝：1</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbantiyujiaoan/4740.html"  target="_blank" title="好玩的球" >好玩的球</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/1109.html"  target="_blank" title="幼儿园托班数学教案：比大小" >幼儿园托班数学教案：比大小</a></li><li><a href="http://127.0.0.1/jiaoan/huanjingbuzhi/qiangmianbuzhi/153670.html"  target="_blank" title="秋の艳—幼儿园图片" >秋の艳—幼儿园图片</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanyuyanjiaoan/3169.html"  target="_blank" title="小班语言活动：小狗汪汪的生日" >小班语言活动：小狗汪汪的生日</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanqitajiaoan/3617.html"  target="_blank" title="小班安全教育：过马路请走斑马线" >小班安全教育：过马路请走斑马线</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170080.html"  target="_blank" title="幼儿园托班数学教案：复习2以内的点" >幼儿园托班数学教案：复习2以内的点</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/anquan/7201.html"  target="_blank" title="大班安全教案：尖利的东西会伤人" >大班安全教案：尖利的东西会伤人</a></li><li><a href="http://127.0.0.1/jiaoan/huanjingbuzhi/qiangmianbuzhi/153661.html"  target="_blank" title="秋天童话—幼儿园图片" >秋天童话—幼儿园图片</a></li> 
+                </ul>
+            </div>
+            <div class="jiaoan_r_box3">
+            	<h2 class="jiaoan_remenjiaoan"><a href="#" target="_blank">最新教案</a></h2>
+            	<ul class="jiaoan_r_box3_ul">
+                     <li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170080.html"  target="_blank" title="幼儿园托班数学教案：复习2以内的点" >幼儿园托班数学教案：复习2以内的点</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170075.html"  target="_blank" title="幼儿园托班数学教案：认识数字宝宝：1" >幼儿园托班数学教案：认识数字宝宝：1</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170071.html"  target="_blank" title="幼儿园托班数学教案：认识前、后" >幼儿园托班数学教案：认识前、后</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170069.html"  target="_blank" title="托班教案：给数字宝宝送礼物" >托班教案：给数字宝宝送礼物</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170068.html"  target="_blank" title="托班语言教案：小黄鸡看戏" >托班语言教案：小黄鸡看戏</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170067.html"  target="_blank" title="托班数学教案：蚂蚁宝宝的一家" >托班数学教案：蚂蚁宝宝的一家</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170066.html"  target="_blank" title="幼儿园托班数学教案：红黄排排队" >幼儿园托班数学教案：红黄排排队</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyinle/170065.html"  target="_blank" title="托班音乐教案：我的身体" >托班音乐教案：我的身体</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170064.html"  target="_blank" title="托班语言活动：小狗模仿操" >托班语言活动：小狗模仿操</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170063.html"  target="_blank" title="幼儿园托班数学教案：感知2以内数量" >幼儿园托班数学教案：感知2以内数量</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170062.html"  target="_blank" title="托班语言教案：白菜(语言能力)" >托班语言教案：白菜(语言能力)</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170061.html"  target="_blank" title="幼儿园托班数学教案：开汽车" >幼儿园托班数学教案：开汽车</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170060.html"  target="_blank" title="幼儿园托班数学教案：罐子叮当响" >幼儿园托班数学教案：罐子叮当响</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyinle/170059.html"  target="_blank" title="托班音乐教案：小鸭小鸡" >托班音乐教案：小鸭小鸡</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170058.html"  target="_blank" title="托班语言活动：洗小手" >托班语言活动：洗小手</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170057.html"  target="_blank" title="幼儿园托班数学教案：好玩的轮子" >幼儿园托班数学教案：好玩的轮子</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170056.html"  target="_blank" title="幼儿园托班数学活动：小猪住新房" >幼儿园托班数学活动：小猪住新房</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyinle/170055.html"  target="_blank" title="托班音乐教案：妈妈，亲亲我" >托班音乐教案：妈妈，亲亲我</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170054.html"  target="_blank" title="幼儿园托班科学教案：有趣的水宝宝" >幼儿园托班科学教案：有趣的水宝宝</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170053.html"  target="_blank" title="幼儿园托班数学教案：汽车开来了" >幼儿园托班数学教案：汽车开来了</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170052.html"  target="_blank" title="幼儿园托班数学教案：小鸡吃虫" >幼儿园托班数学教案：小鸡吃虫</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170051.html"  target="_blank" title="托班英语体验活动：SUN" >托班英语体验活动：SUN</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170050.html"  target="_blank" title="托班科学教案：纸宝宝朋友" >托班科学教案：纸宝宝朋友</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170049.html"  target="_blank" title="幼儿园托班数学教案：比大小" >幼儿园托班数学教案：比大小</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170048.html"  target="_blank" title="托班数学教案：寻找生活中的数字" >托班数学教案：寻找生活中的数字</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170047.html"  target="_blank" title="让幼儿喜欢说英语的教案" >让幼儿喜欢说英语的教案</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170046.html"  target="_blank" title="托班语言教案：一起玩" >托班语言教案：一起玩</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170045.html"  target="_blank" title="幼儿园托班数学教案：豆宝宝要回家" >幼儿园托班数学教案：豆宝宝要回家</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170044.html"  target="_blank" title="托班科学教案：好吃的水果" >托班科学教案：好吃的水果</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170043.html"  target="_blank" title="托班语言活动设计——“小猫和小朋" >托班语言活动设计——“小猫和小朋</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170042.html"  target="_blank" title="健康知识教案：香蕉的故事" >健康知识教案：香蕉的故事</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170041.html"  target="_blank" title="托班科学教案：小动物过冬" >托班科学教案：小动物过冬</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170040.html"  target="_blank" title="幼儿园托班数学教案：水果配对" >幼儿园托班数学教案：水果配对</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170039.html"  target="_blank" title="托班科学教案：小鸡喜欢吃什么" >托班科学教案：小鸡喜欢吃什么</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170038.html"  target="_blank" title="托班科学教案：小鸭和小鸡" >托班科学教案：小鸭和小鸡</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170037.html"  target="_blank" title="激发幼儿阅读图书的兴趣教案：黑夜" >激发幼儿阅读图书的兴趣教案：黑夜</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170036.html"  target="_blank" title="托班科学教案：各种各样的味道" >托班科学教案：各种各样的味道</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170035.html"  target="_blank" title="托班科学教案：小球躲起来了" >托班科学教案：小球躲起来了</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyinle/170034.html"  target="_blank" title="幼儿园托班音乐教案：猫和老鼠" >幼儿园托班音乐教案：猫和老鼠</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170033.html"  target="_blank" title="托班数学教案：花儿朵朵" >托班数学教案：花儿朵朵</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170032.html"  target="_blank" title="托班语言教案：扑通" >托班语言教案：扑通</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyinle/170031.html"  target="_blank" title="幼儿园托班音乐教案：head shoulder " >幼儿园托班音乐教案：head shoulder </a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170030.html"  target="_blank" title="托班科学教案：自己的影子" >托班科学教案：自己的影子</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170029.html"  target="_blank" title="托班科学教案：我和颜色宝宝做朋友" >托班科学教案：我和颜色宝宝做朋友</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170028.html"  target="_blank" title="教幼儿环保意识的儿歌：留住小鸟" >教幼儿环保意识的儿歌：留住小鸟</a></li>               </ul>
+            </div>
+        </div>
+        <div class="c"></div>
+    </div>
+    
+  </div>
+	<!-- 尾部开始 -->
+     <!-- 尾部开始 --> 
+  <div id="footer_wrapx">
+  	<div id="footer_x">
+  		<div id="footer_content">
+        	<p class="about"><a href="/info/about.html" target="_blank">关于我们</a> | <a href="/info/contact.html" target="_blank">联系我们</a> | <a href="/info/terms.html" target="_blank">服务条款</a> | <a href="/info/privacy.html" target="_blank">隐私保护</a> | <a href="/info/map.html" target="_blank">网站地图</a> | <a href="/info/ad.html" target="_blank">广告服务</a> | <a href="/info/link.html" target="_blank">友情链接</a> | <a href="/info/help.html" target="_blank">网站帮助</a> | <a href="/info/upload.html" target="_blank">作品投稿</a> </p>
+            <p><a href="http://127.0.0.1/">儿歌网</a>专注于提供：<a href="http://127.0.0.1" target="_blank" alt="儿童歌曲大全"><b>儿童歌曲</b></a>、<b><a href="http://127.0.0.1/donghuapian/" target="_blank" alt="儿童动画片">动画片</a></b>、<a href="http://127.0.0.1/wanyouxi/" target="_blank" alt="儿童小游戏大全"><b>儿童小游戏</b></a>力争做最好的儿童网站。<br />
+</p>
+            <p>Copyright&copy; <a href="http://127.0.0.1/">儿歌网</a> cnymk.com All Rights Reserved</p>
+            <p>技术支持:宝贝<b><a href="http://127.0.0.1" target="_blank">儿歌网</a></b>  ICP备案证号:www.cnymk.com</p>
+ <p style="font-size:10px">本站部分资源来自网友上传，如有侵权请邮件通知，我们将在3个工作日内删除。<p> 
+        </div>
+  	</div>
+  </div> 
+<!-- 尾部结束 --> 
+<div style="display:none;">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F855494e4fd05db2e589008845a9e0344' type='text/javascript'%3E%3C/script%3E"));
+</script></div>
+
+</body>
+</html>

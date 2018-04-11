@@ -1,0 +1,982 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>德国寓言-儿歌网 </title>
+<meta name="keywords" content="德国寓言" />
+<meta name="description" content="儿歌网 德国寓言 "/>
+<link rel="stylesheet" href="/css/index.css" type="text/css" />
+<link rel="stylesheet" href="/css/colorbox.css" type="text/css" />
+<script language="javascript" src="/js/jquery-1.7.min.js"></script>
+<script language="javascript" src="/js/func.js"></script>
+<script language="javascript" src="/js/jquery.scrollto.js"></script>
+<script language="javascript" src="/js/jquery.colorbox.js"></script>
+<script language="javascript" src="/js/showbox.js"></script>
+<script language="javascript" src="/js/xqfunc.js"></script>
+</head>
+<body>
+ <!-- 顶部开始 --> 
+<div id="shortcut">
+  <div class="w">
+    <ul>
+      <li><a href="/" target="_blank">儿歌网</a></li>
+      <li><a href="/s/n180.html" target="_blank">最新儿歌</a></li>
+      <li><a href="/s/h180.html" target="_blank">热门儿歌</a></li>
+      <li><a href="/s/t180.html" target="_blank">推荐儿歌</a></li>
+     
+      
+    </ul>
+    <ul class="divLoginBar">
+       
+      <li id="add"><a onclick="AddFavorite('http://127.0.0.1',':儿歌-儿童小游戏-儿歌大全-儿童歌曲-儿童歌曲大全-儿歌视频大全-儿歌童谣-童谣大全-儿歌播放器-儿童资源_127.0.0.1')" style="cursor:hand" href="javascript:;">加入收藏</a></li>
+      <li id="conf"><a onclick="SetHome(this,'')" href="javascript:;">设为首页</a></li>
+    </ul>
+  </div>
+</div>
+<div class="c"></div>
+
+<div id="bb_box"> <div id="header">
+  <div id="bb_logo"><a href="/"><img alt="儿歌网" src="/css/logo.gif"/></a></div>
+  <div id="topgg"> <script src="/d/js/acmsd/thea2.js"></script></div>
+  <div class="c"></div>
+  <div id="bb_nav">
+    <ul>
+      <li id="home" class="current" ><a href="/" >首页</a></li>
+      <li  id="c1"><a href="/tingerge/">听儿歌</a></li>
+      <li id="c2"><a href="/jianggushi/">儿童故事</a></li>
+      <li id="c3"><a href="/xuezhishi/">学知识</a></li>
+      <li id="c4"><a href="/wanyouxi/">儿童游戏</a></li>
+      <li id="c5"><a href="/donghuapian/">动画片</a></li>
+      <li  id="TV"><a href="/fm/">亲宝电台</a></li>
+      <li id="park"><a href="http://www.taohi.cn"  target="_blank" >宝宝乐园</a></li>
+      <li id="c199"><a href="/jiaoan/">幼儿园教案</a> </li>
+    </ul>
+    <div class="nav_search">
+            <div class="seachslect" onmouseout="selectseout('select_tops')" onmouseover="selectseover('select_tops')">
+            	<span class="currcodes">
+                <em id="selectvalue">视频</em>
+                    <div id="select_tops" class="subtop_select" style="display: none;">
+                    	<a onclick="return search_show('1','0',this)" href="javascript:void(0)">视频</a>
+                        <a onclick="return search_show('2','0',this)" href="javascript:void(0)">文章</a>
+                    </div>
+                </span>
+            </div>      
+             <form name="fsearch" method="post" action="/e/search/index.php" target="_blank">
+              <input type="hidden" name="show" value="title">
+              <input id="tempid" type="hidden" name="tempid" value="1">
+              <input id="tbname" type="hidden" name="tbname" value="game">
+                <input type="hidden" name="show" value="title,smalltext,newstext,writer" />
+                <input id="classid" name="classid" type="hidden" value="0" />
+                <input name="keyboard" type="text"  class="nav_box"  value="输入儿歌名称" id="keys"/>
+              <input type="submit" value="搜索" class="nav_btn">
+              <div class="c"></div>
+            </form>
+      </div>
+    <div class="c"></div>
+  </div>
+  <div class="extra">
+   
+    <ul>
+      <li><a href="/tingerge/zhongwenerge/" target="_blank" >中文儿歌</a></li>
+      <li><a href="/tingerge/yingwenerge/" target="_blank">英文儿歌</a></li>
+      <li><a href="/tingerge/tongyao/" target="_blank" >童谣</a></li>
+      <li><a href="/donghuapian/" target="_blank">儿童动画片</a></li>
+      <li><a href="/jianggushi/jingdianxiaogushi/" target="_blank" >儿童故事</a></li>
+      <li><a href="/jianggushi/tonghuagushi/" target="_blank">童话</a> <a href="/jianggushi/yuyangushi/" target="_blank">寓言</a></li>
+      <li><a href="/jianggushi/chengyugushi/" target="_blank">成语故事</a></li>
+      <li><a href="/jianggushi/shenhuachuanshuo/" target="_blank">神话传说</a></li>
+      <li><a href="/wudao/ertongwudao/" target="_blank">儿童舞蹈</a></li>
+      <li><a href="/xuezhishi/tangshisongci/" target="_blank">唐诗宋词</a></li>
+      <li><a href="/xuezhishi/kuailepinyin/" target="_blank">快乐拼音</a></li>
+      <li><a href="/xuezhishi/youerqimeng/" target="_blank">幼儿启蒙</a></li>
+      <li><a href="/xuezhishi/yingyujiaoyu/" target="_blank">英语教育</a></li>
+      <li><a href="/xuezhishi/baikechangshi/" target="_blank">百科常识</a></li>
+      <li><a href="/miyu/" target="_blank">谜语</a></li>
+      <li><a href="/tonghua/" target="_blank">童话故事</a></li>
+
+    </ul>
+  </div>
+</div> 
+</div>
+<script>
+var classid = '38';
+if(classid){
+         $("#c"+classid).addClass("current");
+          $("#home").removeClass("current");
+       }
+</script>
+<div class="adm_960" id="adm"><!-- 广告位banner 960*60 --><script src="/d/js/acmsd/thea4.js"></script></div>
+
+    <div id="content" class="mt10">
+    	<div id="lesson_left">
+        	<div class="artical_list">
+                   <div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15129.html" target="_blank">时世与民族</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      在黎巴嫩山麓，溪水婉如条条银丝在石涧淙淙流动。溪边坐着一位牧羊女，周围是一群骨瘦如柴的羊，在遍地荆棘中啃着干枯的草。姑娘望着天边的晚霞，好像在读着写在苍穹的册卷上的未来
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15123.html" target="_blank">鲸和蝶</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      一天傍晚，一个男人和一个女人发现他们同坐在一辆公共马车上。他们过去见过面。　　男的是个诗人，他坐在女人身旁，便想法讲点故事逗她高兴。讲的故事有的是他自己编的，有的是听来
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15121.html" target="_blank">高高的位置</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      羊站在高高的房顶上，下面走过一只狼。　　羊对狼破口大骂。狼却这样说：　　“别自以为你勇敢得很，骂我的不是你，而是你所占着的高高的位置。”
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15122.html" target="_blank">狐狸和葡萄园</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      有只狐狸来到一座葡萄园前。只见园中葡萄垂挂，琳琅满目。可是葡萄园的四周围着重重的篱笆，狐狸围着葡萄园转来转去，终于在篱笆底下发现了一个洞。它拼命地想朝里钻，可是这个洞实
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15113.html" target="_blank">傲气</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      狗来找狮子，对它说：　　“咱俩打一架吧！”　　狮子连看都不愿看它一眼。于是，狗说：　　“我这就去向荒原上的野兽们宣布：狮子怕我！”　　“让荒原上所有的野兽都责备我胆怯吧，”狮子
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15116.html" target="_blank">对贪婪的惩罚</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      从前有个名叫哈达利的国王。一天，他在第比利亚①城郊的原野上散步，看到一位白发苍苍的老人正在栽一棵无花果树的小树苗。“啊，可怜的老人，”国王对老人说，“你年轻时干这活，等到老
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15117.html" target="_blank">道路</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      山间住着一个妇女和她的孩子。男该是她的头胎，也是她的独子。孩子生热病死了。医生站在一旁。　　妈妈悲痛欲绝，她向医生喊着、求着，说道：“告诉我，请告诉我，什么东西使他生命的抗
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15111.html" target="_blank">往昔之城</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      人生携我仁立在青春的山坡上，并示意我向后张望。于是我见到一座城市，奇形怪状，坐落在一片原野上，那原野香雾空
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15108.html" target="_blank">老头和老太婆</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      从前，在一所小房子里住着一个老头和一个老太婆，他们没有孩子也没有动物，老头惟一的朋友和伙伴是老太婆，老头是老太婆的一切。　　一天下午，老头和老太婆像往常一样坐在阳台上，老太
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15103.html" target="_blank">神灯</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      在国王的首都，有一位叫穆斯塔法的裁缝。他十分贫穷，过着仅能使妻儿糊口的艰难的日子。　　穆斯塔法的儿子阿拉弟诺，在家无所事事，总是与街上游手好闲之徒玩耍嬉闹。虽然父亲想教
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15105.html" target="_blank">结交大人物</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      狐狸抓住骆驼尾巴，骑到它的背上。另外有只狐狸见了，问道：“老朋友，你上哪儿去？”那狐狸回答：“谁跟你是朋友？如今我结交大人物啦！”
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15106.html" target="_blank">买驴与上学</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      某人到学校去求见老师，想送他儿子到学校念书。老师说：“很好，只是你要交十个第纳尔的学费。”“什么？十个第纳尔？这么多呀！我可以用它买一头驴了。”老师回答说：“假如你真用这十个
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15099.html" target="_blank">最好和最坏</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      主人吩咐鲁克曼宰一头羊，把最好的部分煮熟了端上桌子。不多会儿，鲁克曼端来了心和舌头。　　第二天，主人又叫他宰羊，把最坏的部分煮熟了端上桌子。他这次端来的又是心和舌头。　
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15100.html" target="_blank">我是掘墓人</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      在生命之影的山谷，那布满骷髅骸骨的地方，在雾色迷茫、群星隐没、充满疑惧的寂静夜晚，我孤身只影，蹈蹈而行。　　那边，在斗折蛇行，像罪人之梦一般流淌的血泪河畔，我停下脚步，倾听着幽
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15096.html" target="_blank">狗和蛇的故事</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      从前，有一位骑士，他有一个儿子。这孩子还很小，对了，还躺在摇篮里呢。妈妈非常疼爱这宝贝儿子，专为他找了三个保姆：一个保姆喂食，另一个保姆洗衣，第三个保姆摇摇篮。　　这位骑士有一
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15093.html" target="_blank">骨头</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      一条狗在啃骨头。另一条狗跑到跟前，说：“这根骨头不好。”“对，我同意你的看法，”第一条狗回答，“不过我还不至于笨到扔了这根，去找更好的，结果让你把这根叼了去。”
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15094.html" target="_blank">和平的感染</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      一枝绽出花蕾的枝条和他身旁的花枝说道：“今天既沉闷又空虚。”身旁的花枝回答道：“确实既空虚又沉闷。”　　这时，一只麻雀飞落在一根枝条上，旁边又飞来了一只。　　一只麻雀啁
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15087.html" target="_blank">等一分钟</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      有人梦见自己在和安拉对话。“伟大的安拉哟，在你眼里，一千年意味着什么？”“一分钟罢了。　”“哦，至高无上的真主①哇，在你眼里，一万金币意味着什么？”“一个铜板罢了。”“大慈大
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15088.html" target="_blank">奇里村长和魔鬼</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      奇里村长受尽了魔鬼的苦。后来，他决心要找到魔鬼，并亲手除掉它，使村民不再受苦。<br />
+　　有一天，奇里在草原上走，寻找魔鬼。迎面碰到一个人，他们互相问好后，对方问：<br />
+　　&amp;ldquo;你往哪
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15091.html" target="_blank">水手辛巴德</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      在巴格达有一位极其富有的老商人，人们叫他水手辛巴德。许多人羡慕他拥有万贯家产。有一次，他听见一个可怜的听差在抱怨他，就把那个听差让进家里，请他吃了一顿丰盛的酒宴，然后对他
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15083.html" target="_blank">聪明人</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      有一个聪明人，他听说有一个非常慷慨和好客的人。<br />
+　　聪明人穿上一件破破烂烂的衣服，就到这个人家里去作客。主人对这个客人并不太欢迎，甚至都没有招待他吃一顿饭。<br />
+　　聪明人
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15086.html" target="_blank">聪明的美人</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      有一天，一个漂亮的女人在路上走。一个男人紧紧地跟在她身后边。美人回过头来问他：<br />
+　　&amp;ldquo;这位生人，你为什么紧跟着我？&amp;rdquo;<br />
+　　&amp;ldquo;我爱上了你，你真是一位绝代佳人哪！&amp;
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15079.html" target="_blank">狐狸和松鼠是怎样互相</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　一天，小松鼠正快活地从这棵树跳到那棵树玩耍着，树下却有一只狐狸出神地盯看它。过了一会儿，狐狸说，&amp;rdquo;你那么神气活现，跳来跳去，自以为了不起！其实，你的父亲要比你能干得多
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15080.html" target="_blank">感恩的蚂蚁</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　一只渴极了的蚂蚁，小心谨慎地爬下井去，但是正当他要喝水的时候，却掉进了水里。井边有一棵大树，有一只鸽子正栖在上面。鸽子看见蚂蚁躺在水面上，便用嘴从树上折了一根小树枝，扔
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15081.html" target="_blank">摔掉的东西</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　从前，有一个女孩很漂亮，但是又懒惰，又疏忽。如果叫她纺线，她就非常不耐烦，麻里面只要有一个小疙疸，她就连一大堆都抓出来，丢到身边地上。有一个女仆爱劳动，把丢掉的麻拣起来，洗干
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15073.html" target="_blank">不来梅的音乐家</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　从前有一个人，养了一头驴子。它不辞劳苦地把一袋一袋地麦子背到磨坊里去磨，已经有很多年了；但是它的力气渐渐完了，越来越不能工作。主人想把它从栏里牵出去杀掉。驴子听得风
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15074.html" target="_blank">公牛和老鼠</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　有一次，老鼠在公牛的脚上咬了一口，痛得公牛直叫骂，它发誓终生不忘此仇，并到处追捕它。可是，小老鼠早已躲进了它的洞里。公牛只好站在洞口外面气得直喘粗气。那只小老鼠却在洞
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15075.html" target="_blank">家鼠和野鼠</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　一天，家鼠在田野里散步，被一只野鼠邀请到家里作客。野鼠非常客气，拿出橡树果、核桃、大麦以及它储藏室里所有的东西来招待家鼠。家鼠却说：<br />
+　　&amp;ldquo;你真是一只可怜的老鼠
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15069.html" target="_blank">橡树和猪</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　一只贪食的猪在高高的大橡树下，狼吞虎咽地吃着树上掉下来的橡树果。它刚刚咬碎一只，另一只已连核一起吞下去了。<br />
+　　&amp;ldquo;忘恩负义的畜生！&amp;rdquo;橡树对着下面叫道，&amp;ldqu
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15064.html" target="_blank">不孝的儿子</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　有一次，一个丈夫同他的妻子坐在门前面，桌子上放着一只烤鸡，他们要一起吃。丈夫看见他年老的父亲来了，就急忙把鸡藏起来，一点都不给他吃，老人来喝了一口酒就走了，儿子要把烤鸡再
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15066.html" target="_blank">兔和刺猬</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　孩子们，这个故事讲起来好像是撒谎，但是的确是真的，因为向我讲这个故事的祖父，在慢慢讲完之后，老是说：&amp;ldquo;我的孩子们，这一定是真的，否则就没有人讲了。&amp;rdquo;故事是这样的。
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15067.html" target="_blank">猫和老鼠交朋友</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　从前有一只猫结识了一只老鼠。猫一再说它多么爱老鼠，愿意跟它做朋友。老鼠终于同意和它往在一间屋里，共同生活。&amp;ldquo;我们应当准备冬季的食物了；不然，我们会挨饿的。&amp;rdqu
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15058.html" target="_blank">狮子的份额</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　有一回，牛、山羊和绵羊与狮子结伴，一起到森林里去打猎。&amp;rdquo;它们打到一头鹿，便将它分成了四份。狮子说：&amp;ldquo;你们知道，这一份是属于我的，因为我是这个小组的四分之一；第二
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15059.html" target="_blank">骏马和公牛</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　勇敢的男孩骑着一匹火红的骏马，骄傲地奔驰而来。一头粗野的公牛见了冲着马喊：<br />
+　　&amp;ldquo;真可耻！我才不肯让一个孩子驾驭呐！&amp;rdquo;<br />
+　　&amp;ldquo;可我肯，&amp;rdquo;骏马回答。&amp;l
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15061.html" target="_blank">老鼠妈妈和它的孩子</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　小老鼠一天天长大，它觉得窝里太小了，要是能到外面去散散步多好。但老鼠妈妈总担心它会被猫逮去，所以老把它留在家里，放在自己身边。小老鼠却一刻也不肯安宁，总是唠唠叨叨地没
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15053.html" target="_blank">孔雀的抱怨</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                           有一次，孔雀在上帝面前诉苦说： &amp;ldquo;你将我塑造得这样美丽，我的羽毛如此奇异美妙，颈子上和背上花纹斑斑，我的尾巴闪耀着夺目的光彩，开起屏来简直是五彩缤纷，我的头顶上 还点
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15054.html" target="_blank">狐狸和鹳请客</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　有一次，狐狸想装装门面，便请鹳到它家吃饭。等客人坐到桌边，狐狸端上来一只扁平的盘，盘里是很稀的杏仁羹。这杏仁羹里加了许多糖，喷香扑鼻。狐狸将盘子放到鹳的面前，客气地说：&amp;l
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15056.html" target="_blank">蜘蛛和燕子</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　从前，有只毒蜘蛛，它心中对燕子满怀妒忌和憎恨，因为燕子经常吃掉 苍蝇。蜘蛛认为，苍蝇只是属于它一个人的。由于它对此总是耿耿于怀，便 一直存心想害燕子。<br />
+　　有一天，蜘蛛把
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15049.html" target="_blank">狐狸和鹅</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　有一次，狐狸来到草地上，看见那里有一群肥美的鹅，它笑着说：&amp;ldquo;我来得真巧，你们好好地坐在一块儿，我可以一只一只地吃你们。&amp;rdquo;鹅吓得嘎嘎地叫，跳起来哭着请求狐狸饶命，样
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15050.html" target="_blank">鹪鹩和熊</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　鹪鹩（jiāoli&amp;aacute;o），在德语中意为&amp;ldquo;篱笆王&amp;rdquo;。在某些翻译中，也叫做&amp;ldquo;山雀&amp;rdquo;。这则寓言里，鹪鹩虽然由于自命为三而受到嘲笑，但是所有飞禽都帮助他对付
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15046.html" target="_blank">黄鼠狼的建议</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　尽管常说：&amp;ldquo;狐狸聪明狡猾。&amp;rdquo;人们也常常这样写在书里，其实，并非所有的狐狸都如此。<br />
+　　有这么一只狐狸，它实在是饿坏了，瘦得不成样子啦，有一回，它可真危险，差一点叫
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15043.html" target="_blank">跳舞熊</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　有只狗熊长期被迫跳舞卖艺，它逃了出来回到自己的故居。狗熊们用亲吻来向它表示兄弟情谊。森林里响起一片欢腾的声音。<br />
+　　狗熊们互传喜讯：&amp;ldquo;佩茨又回到咱们这里！&amp;rdq
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15044.html" target="_blank">毒蛇之啮</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　某天天气很热，查拉斯图拉在一棵无花果树下熟睡了。他的两臂掩护着面孔。一条蛇来了，在他颈上咬了一口，他痛得喊了一声醒来。他放下他的两臂，注视着这条蛇。于是这条蛇认出了
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15037.html" target="_blank">阶梯</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          有只狡猾的麻雀，捉住了一只 蓝色的蚊子戏弄。<br />
+    &amp;ldquo;饶了我吧， 一只可怜的小虫！&amp;rdquo;蚊子苦苦哀求，&amp;ldquo;啊，先生，饶恕我吧，怜悯我还年轻！&amp;rdquo;<br />
+    &amp;ldquo;不行！&amp;rdqu
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15038.html" target="_blank">纺锤、梭子和缝针</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　从前有一个女孩，她很小的时候，父母都死了。她的干妈单独一个人住在村庄尽头的一座小房子里，靠纺线、织布、缝衣服生活。老太婆把被遗弃的孩子带到家里，督促她工作，教她无论做
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15040.html" target="_blank">狐狸和狼太太</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　狼太太生了一只小狼，便托人请狐狸当教父。&amp;ldquo;它同我们是近亲，&amp;rdquo;狼太太说；&amp;ldquo;又非常聪明能干，它会给我的宝贝儿子上课，帮它增长知识。&amp;rdquo; 狐狸先生十分郑重
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15033.html" target="_blank">狐狸和干妈</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　母狼生了一个小狼，叫人来请狐狸做干爹。狼说：&amp;ldquo;狐狸是我们的近亲，有高的智慧和多方面的才能；它能够教导我的小儿子，并且能够在世界上继续帮助它。&amp;rdquo;狐狸来了，很有礼
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15036.html" target="_blank">谷穗</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　在古代，当上帝还在地上行走的时候，土地的出产比现在大得多；那时一根谷子所结的穗，不是五六十，而是四五百。谷粒从很底一直长到顶上；秆有多长，穗也有多长。但是人类有一种特性，生
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15030.html" target="_blank">列那狐</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　这是欧洲的一个寓言&amp;ldquo;底本&amp;rdquo;。它可以上溯到第十或者第十一世纪，在每个欧洲国家都有不同的版本流传。<br />
+　　五旬节和圣灵降临节期间，森林里枝繁叶茂，一派生气，群花
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15031.html" target="_blank">衰老的狮子</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　从前，有一只狮子，它的一生都在狂妄自大、目空一切中度过的。所有的野兽都在它那残暴的专制统治下，受尽奴役。它只要觉得饿了，从不怜惜或饶恕任何一只野兽，不管野兽怎么苦苦哀
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15028.html" target="_blank">狐狸之死</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　事情发生在很。以前，有一天，猫在树林里碰到一只狐狸。描认为狐狸 非常聪明能干，富有经验，受人器重，于是亲切地对狐狸说：&amp;ldquo;您好，亲爱的狐狸先生，身体好吗？过得怎么样？您是怎样
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15025.html" target="_blank">鹪鹩</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　格林兄弟（雅各布&amp;middot;格林，1785&amp;mdash;1863；威廉&amp;middot;格林，1786&amp;mdash;1859）的 童话，一半是神话&amp;mdash;&amp;mdash;因为翻译了鸟唱的歌，解释了一些鸟类的行为，一半是寓言。下
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15021.html" target="_blank">老祖父和孙子</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　从前，一个很老的人，耳朵聋，眼睛花，膝盖发抖；每逢他坐在桌边吃饭的时候，常常拿不住调匙，总把汤泼在台布上；或者汤从嘴里流出来。他的儿子和媳妇很讨厌他，因此，老祖父只得坐到火炉后
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15022.html" target="_blank">野猪和狼</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　在一座森林里，有只野猪刚刚生过小猪崽，过了三四天，一只母狼也生了小狼。小狼逐渐长大了，母狼想：&amp;ldquo;该给孩子们弄点肉吃吃了。&amp;rdquo;它跑到 野猪那儿，对母野猪说道：&amp;ldquo;
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15018.html" target="_blank">国王和他的猴子</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　古时候，埃及有一位国王，他养着许多许多猴子。国王让人教它们舞蹈、 跳跃、格斗、摔跤等等。这些猴子很聪明，一切都学跟得人一模一样，而且 学得比人还要好。等这些机灵而富有
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15014.html" target="_blank">蚂蚁的感谢</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　在一个非常炎热的夏天，有只蚂蚁来到了一口泉水边。这口清泉位于一 棵梣（ch&amp;eacute;n）树下面。蚂蚁想喝口泉水解解渴。当它刚俯身到水面时，不慎 跌下水去，正好有只鸽子的窝就
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15015.html" target="_blank">思想家和假求教者</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　一个假求教者来到思想家考依纳先生处，对他说：&amp;ldquo;美国发现一头牛犊有五个头。关于这件事你有何见教？&amp;rdquo;考依纳先生说：&amp;ldquo;我无可奉告。&amp;rdquo;于是求教者高兴地说
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15016.html" target="_blank">公鸡战</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　有一回，两只公鸡为了占有母鸡，相互激烈地战斗着。准要是获得了胜利，从此谁就可以毫无疑议地永远占有这群母鸡。这两只公鸡恶斗了好久，直至一只公鸡精疲力竭地逃跑，满脸通红地
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15009.html" target="_blank">老大与寓言</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　一位母亲为教育和引导孩子，让他门读伊索寓言。但他们很快将书还给了母亲。老大还老气横秋地说：&amp;ldquo;这不是我们看的书！太幼稚、太浅薄了。那些狐狸、狼，还有乌鸦，竟然会讲
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15010.html" target="_blank">大神宙斯和马</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　&amp;ldquo;万物之父啊，&amp;rdquo;马走近宙斯神的宝座，这样说着，&amp;ldquo;人家想让我变成您的创造物中最美丽的，以装饰大地，而我自以为，这是可以办到的。难道我身上的各个部分不能改进
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15005.html" target="_blank">三个懒儿子</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　一个懒国王有三个儿子，他同样爱他们，不知道自己死后叫哪一个做国王。他要死的时候喊他们到床前面说：&amp;rdquo;亲爱的孩子们，我想做一件事情，我要向你们说：你们哪个最懒，哪个就在
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15007.html" target="_blank">森林里的房屋</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　从前有一个贫穷的樵夫，他同妻子和三个女儿住在偏僻的森林旁边一间小草屋里。一天早晨，他去干活的时候，向他妻子说：&amp;ldquo;叫大女儿把我的中饭送到森林里去，不然，我的工作做不
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15001.html" target="_blank">比目鱼</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　鱼国里没有秩序，鱼们早已不满意了。没有一条鱼关怀别的鱼，它左右游泳，想怎样就怎样，有些鱼想聚在一起，它从中间闯过去，或者挡着它们的路，力气大的鱼用尾巴打击力气小的鱼，要它游
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/15004.html" target="_blank">老鼠和青蛙</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　有一次，一只老鼠坐在水边，里索着怎么才能到达对岸去。&amp;ldquo;唉，&amp;rdquo;它叹息着说，&amp;ldquo;我肯定是游不了这么远的。&amp;rdquo;这话正好被蹲在附近浅水里的青蛙听见了，它跳过来
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/14995.html" target="_blank">狗与羊</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　有一回，狗突然来找羊，向它讨还一块面包，狗硬说羊曾向它借过。羊不承认有这回事。狗便去找了几个证人来作证。第一位证人是狼，它说：&amp;ldquo;我知道，狗确是借过面包给羊。&amp;rdquo;
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/14998.html" target="_blank">稻草、煤炭和豆子</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　一个村庄里住着一个贫穷的老太婆，她摘了一碗豆子要煮。她在灶里生火，点着了一把稻草，让火烧得快一点。她把豆子倒进罐里的时候，不知不觉地让一颗豆子落到地上的稻草边去。过
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/14999.html" target="_blank">他只跳了这一个冬天</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　有一年夏天，鲜花在微风下摇曳。草丛里有一只蟋蟀在唱歌；不远的森林边上有一只蚂蚁在不停地搬运留备冬用的食物，他就这样整日不停地忙碌着。时间一天天过去了，冬天终于到了。
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/14990.html" target="_blank">考依纳先生和潮水</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　考依纳先生在穿行一道山谷的途中，突然发现自己的双脚浸在水里了。这时，他意识到，那山谷实际是一个海湾，而涨潮的时间已经临近。他立即停下，环顾四周，想找只舢板。他期望着，停留
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/14993.html" target="_blank">狮子、驴子和狐狸打猎</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　有一次，狮子要去打猎，它带上狐狸和驴子，并说道：&amp;ldquo;我们一起去打猎，看看运气如何？&amp;rdquo;它们一起来到树林里，追捕小鹿、兔子和鹿群。它们将杀死的一些野兽并排放在草地上。
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/deguo/14994.html" target="_blank">冷酷的心</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      　　彼得和妈妈一起，住在黑松林里，靠烧炭为生。自从爸爸去世以后，家里的重活都由他一个人干。每逢星期六，他穿着又黑又破的衣服去市镇上卖炭，总是要被别人取笑。<br />
+　　彼得想起爸
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div>
+                <div class="page list_margin">
+                 <i class="no_a"><span>共8页</span></i><a href="http://127.0.0.1/tonghua/deguo/index.html"class="wrap"><span>首页</span></a><a href="http://127.0.0.1/tonghua/deguo/index_6.html" class="wrap"><span>上一页</span></a><a href="http://127.0.0.1/tonghua/deguo/index_5.html "class="wrap"><span>5</span></a><a href="http://127.0.0.1/tonghua/deguo/index_6.html "class="wrap"><span>6</span></a><i class='current'><span>7</span></i><a href="http://127.0.0.1/tonghua/deguo/index_8.html "class="wrap"><span>8</span></a><a href="http://127.0.0.1/tonghua/deguo/index_8.html" class="next_p"><span>下一页</span></a><a href="http://127.0.0.1/tonghua/deguo/index_8.html" class="wrap"><span>尾页</span></a>
+                <div class="c"></div>
+             </div>
+            </div>
+        </div>
+        <div id="lesson_right">
+            <div class="ja_list">
+            	<!-- 广告位：[2012]播放页播放器右侧(上)250x250 --><script src="/d/js/acmsd/thea15.js"></script>
+            </div>
+        	<div class="lesson_Tlist">
+            	<div class="list_title">
+                	<h2>幼儿园教案</h2>
+                </div>
+                <div class="ja_top"></div>
+                <div class="ja_mid">
+                	<div class="fl_box">
+                        <h3><a href="/jiaoan/youeryuandabanjiaoan/" target="_blank">幼儿园大班教案</a></h3>
+                        <ul>
+                           <li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/shuxue/">大班数学教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/kexue/">大班科学教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/zhuti/">大班主题教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/yuyan/">大班语言教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/yinle/">大班音乐教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/tiyu/">大班体育教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/yingyu/">大班英语教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/meishu/">大班美术教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/zonghe/">大班综合教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/jiankang/">大班健康教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/youxi/">大班游戏教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/shehui/">大班社会教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/anquan/">大班安全教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/qinzihuodong/">大班亲子活动</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/shuokegao/">大班说课稿</a> </li><li><!--list.var2--></li>                            <div class="c"></div>
+                        </ul>
+                    </div>
+                    <div class="fl_box">
+                        <h3><a href="/jiaoan/youeryuanzhongbanjiaoan/" target="_blank">幼儿园中班教案</a></h3>
+                        <ul>
+                               <li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanshuxuejiaoan/">中班数学教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbankexuejiaoan/">中班科学教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanzhutijiaoan/">中班主题教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanyuyanjiaoan/">中班语言教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanyinlejiaoan/">中班音乐教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbantiyujiaoan/">中班体育教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanyingyujiaoan/">中班英语教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanmeishujiaoan/">中班美术教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanzonghejiaoan/">中班综合教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanjiankangjiaoan/">中班健康教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/youxi/">中班游戏教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/shehui/">中班社会教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/anquan/">中班安全教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/qinzi/">中班亲子活动</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/shuokegao/">中班说课稿</a> </li><li><!--list.var2--></li>                            <div class="c"></div>
+                        </ul>
+                    </div>
+                    <div class="fl_box">
+                        <h3><a href="/jiaoan/youeryuanxiaobanjiaoan/" target="_blank">幼儿园小班教案</a></h3>
+                        <ul>
+                             <li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanshuxuejiaoan/">小班数学教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobankexuejiaoan/">小班科学教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanzhutijiaoan/">小班主题教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanyuyanjiaoan/">小班语言教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanyinlejiaoan/">小班音乐教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobantiyujiaoan/">小班体育教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanyingyujiaoan/">小班英语教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanmeishujiaoan/">小班美术教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanzonghejiaoan/">小班综合教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanjiankangjiaoan/">小班健康教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanyouxijiaoan/">小班游戏教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanshehuijiaoan/">小班社会教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobananquanjiaoan/">小班安全教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanqinzihuodong/">小班亲子活动</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanqitajiaoan/">小班其它教案</a> </li><li><!--list.var2--></li>                            <div class="c"></div>
+                        </ul>
+                    </div>
+                    <div class="fl_box">
+                        <h3><a href="/jiaoan/youeryuantuobanjiaoan/" target="_blank">幼儿园托班教案</a></h3>
+                        <ul>
+                             <li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/">托班数学</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/">托班科学</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/">托班语言</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyinle/">托班音乐</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanmeishu/">托班美术</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshehui/">托班社会</a> </li>                            <div class="c"></div>
+                        </ul>
+                    </div>    
+                </div>
+                <div class="ja_bottom"></div>	
+            </div>
+            <div class="jiaoan_r_box2">
+            	<h2 class="jiaoan_remenjiaoan"><a href="#" target="_blank">热门教案</a></h2>
+            	<ul class="jiaoan_r_box2_ul">
+                      <li><a href="http://127.0.0.1/jiaoan/huanjingbuzhi/qiangmianbuzhi/153671.html"  target="_blank" title="秋の梦—幼儿园图片" >秋の梦—幼儿园图片</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170075.html"  target="_blank" title="幼儿园托班数学教案：认识数字宝宝：1" >幼儿园托班数学教案：认识数字宝宝：1</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbantiyujiaoan/4740.html"  target="_blank" title="好玩的球" >好玩的球</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/1109.html"  target="_blank" title="幼儿园托班数学教案：比大小" >幼儿园托班数学教案：比大小</a></li><li><a href="http://127.0.0.1/jiaoan/huanjingbuzhi/qiangmianbuzhi/153670.html"  target="_blank" title="秋の艳—幼儿园图片" >秋の艳—幼儿园图片</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanyuyanjiaoan/3169.html"  target="_blank" title="小班语言活动：小狗汪汪的生日" >小班语言活动：小狗汪汪的生日</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanqitajiaoan/3617.html"  target="_blank" title="小班安全教育：过马路请走斑马线" >小班安全教育：过马路请走斑马线</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170080.html"  target="_blank" title="幼儿园托班数学教案：复习2以内的点" >幼儿园托班数学教案：复习2以内的点</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/anquan/7201.html"  target="_blank" title="大班安全教案：尖利的东西会伤人" >大班安全教案：尖利的东西会伤人</a></li><li><a href="http://127.0.0.1/jiaoan/huanjingbuzhi/qiangmianbuzhi/153661.html"  target="_blank" title="秋天童话—幼儿园图片" >秋天童话—幼儿园图片</a></li> 
+                </ul>
+            </div>
+            <div class="jiaoan_r_box3">
+            	<h2 class="jiaoan_remenjiaoan"><a href="#" target="_blank">最新教案</a></h2>
+            	<ul class="jiaoan_r_box3_ul">
+                     <li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170080.html"  target="_blank" title="幼儿园托班数学教案：复习2以内的点" >幼儿园托班数学教案：复习2以内的点</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170075.html"  target="_blank" title="幼儿园托班数学教案：认识数字宝宝：1" >幼儿园托班数学教案：认识数字宝宝：1</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170071.html"  target="_blank" title="幼儿园托班数学教案：认识前、后" >幼儿园托班数学教案：认识前、后</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170069.html"  target="_blank" title="托班教案：给数字宝宝送礼物" >托班教案：给数字宝宝送礼物</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170068.html"  target="_blank" title="托班语言教案：小黄鸡看戏" >托班语言教案：小黄鸡看戏</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170067.html"  target="_blank" title="托班数学教案：蚂蚁宝宝的一家" >托班数学教案：蚂蚁宝宝的一家</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170066.html"  target="_blank" title="幼儿园托班数学教案：红黄排排队" >幼儿园托班数学教案：红黄排排队</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyinle/170065.html"  target="_blank" title="托班音乐教案：我的身体" >托班音乐教案：我的身体</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170064.html"  target="_blank" title="托班语言活动：小狗模仿操" >托班语言活动：小狗模仿操</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170063.html"  target="_blank" title="幼儿园托班数学教案：感知2以内数量" >幼儿园托班数学教案：感知2以内数量</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170062.html"  target="_blank" title="托班语言教案：白菜(语言能力)" >托班语言教案：白菜(语言能力)</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170061.html"  target="_blank" title="幼儿园托班数学教案：开汽车" >幼儿园托班数学教案：开汽车</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170060.html"  target="_blank" title="幼儿园托班数学教案：罐子叮当响" >幼儿园托班数学教案：罐子叮当响</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyinle/170059.html"  target="_blank" title="托班音乐教案：小鸭小鸡" >托班音乐教案：小鸭小鸡</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170058.html"  target="_blank" title="托班语言活动：洗小手" >托班语言活动：洗小手</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170057.html"  target="_blank" title="幼儿园托班数学教案：好玩的轮子" >幼儿园托班数学教案：好玩的轮子</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170056.html"  target="_blank" title="幼儿园托班数学活动：小猪住新房" >幼儿园托班数学活动：小猪住新房</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyinle/170055.html"  target="_blank" title="托班音乐教案：妈妈，亲亲我" >托班音乐教案：妈妈，亲亲我</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170054.html"  target="_blank" title="幼儿园托班科学教案：有趣的水宝宝" >幼儿园托班科学教案：有趣的水宝宝</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170053.html"  target="_blank" title="幼儿园托班数学教案：汽车开来了" >幼儿园托班数学教案：汽车开来了</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170052.html"  target="_blank" title="幼儿园托班数学教案：小鸡吃虫" >幼儿园托班数学教案：小鸡吃虫</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170051.html"  target="_blank" title="托班英语体验活动：SUN" >托班英语体验活动：SUN</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170050.html"  target="_blank" title="托班科学教案：纸宝宝朋友" >托班科学教案：纸宝宝朋友</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170049.html"  target="_blank" title="幼儿园托班数学教案：比大小" >幼儿园托班数学教案：比大小</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170048.html"  target="_blank" title="托班数学教案：寻找生活中的数字" >托班数学教案：寻找生活中的数字</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170047.html"  target="_blank" title="让幼儿喜欢说英语的教案" >让幼儿喜欢说英语的教案</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170046.html"  target="_blank" title="托班语言教案：一起玩" >托班语言教案：一起玩</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170045.html"  target="_blank" title="幼儿园托班数学教案：豆宝宝要回家" >幼儿园托班数学教案：豆宝宝要回家</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170044.html"  target="_blank" title="托班科学教案：好吃的水果" >托班科学教案：好吃的水果</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170043.html"  target="_blank" title="托班语言活动设计——“小猫和小朋" >托班语言活动设计——“小猫和小朋</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170042.html"  target="_blank" title="健康知识教案：香蕉的故事" >健康知识教案：香蕉的故事</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170041.html"  target="_blank" title="托班科学教案：小动物过冬" >托班科学教案：小动物过冬</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170040.html"  target="_blank" title="幼儿园托班数学教案：水果配对" >幼儿园托班数学教案：水果配对</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170039.html"  target="_blank" title="托班科学教案：小鸡喜欢吃什么" >托班科学教案：小鸡喜欢吃什么</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170038.html"  target="_blank" title="托班科学教案：小鸭和小鸡" >托班科学教案：小鸭和小鸡</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170037.html"  target="_blank" title="激发幼儿阅读图书的兴趣教案：黑夜" >激发幼儿阅读图书的兴趣教案：黑夜</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170036.html"  target="_blank" title="托班科学教案：各种各样的味道" >托班科学教案：各种各样的味道</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170035.html"  target="_blank" title="托班科学教案：小球躲起来了" >托班科学教案：小球躲起来了</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyinle/170034.html"  target="_blank" title="幼儿园托班音乐教案：猫和老鼠" >幼儿园托班音乐教案：猫和老鼠</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170033.html"  target="_blank" title="托班数学教案：花儿朵朵" >托班数学教案：花儿朵朵</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170032.html"  target="_blank" title="托班语言教案：扑通" >托班语言教案：扑通</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyinle/170031.html"  target="_blank" title="幼儿园托班音乐教案：head shoulder " >幼儿园托班音乐教案：head shoulder </a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170030.html"  target="_blank" title="托班科学教案：自己的影子" >托班科学教案：自己的影子</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170029.html"  target="_blank" title="托班科学教案：我和颜色宝宝做朋友" >托班科学教案：我和颜色宝宝做朋友</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170028.html"  target="_blank" title="教幼儿环保意识的儿歌：留住小鸟" >教幼儿环保意识的儿歌：留住小鸟</a></li>               </ul>
+            </div>
+        </div>
+        <div class="c"></div>
+    </div>
+    
+  </div>
+	<!-- 尾部开始 -->
+     <!-- 尾部开始 --> 
+  <div id="footer_wrapx">
+  	<div id="footer_x">
+  		<div id="footer_content">
+        	<p class="about"><a href="/info/about.html" target="_blank">关于我们</a> | <a href="/info/contact.html" target="_blank">联系我们</a> | <a href="/info/terms.html" target="_blank">服务条款</a> | <a href="/info/privacy.html" target="_blank">隐私保护</a> | <a href="/info/map.html" target="_blank">网站地图</a> | <a href="/info/ad.html" target="_blank">广告服务</a> | <a href="/info/link.html" target="_blank">友情链接</a> | <a href="/info/help.html" target="_blank">网站帮助</a> | <a href="/info/upload.html" target="_blank">作品投稿</a> </p>
+            <p><a href="http://127.0.0.1/">儿歌网</a>专注于提供：<a href="http://127.0.0.1" target="_blank" alt="儿童歌曲大全"><b>儿童歌曲</b></a>、<b><a href="http://127.0.0.1/donghuapian/" target="_blank" alt="儿童动画片">动画片</a></b>、<a href="http://127.0.0.1/wanyouxi/" target="_blank" alt="儿童小游戏大全"><b>儿童小游戏</b></a>力争做最好的儿童网站。<br />
+</p>
+            <p>Copyright&copy; <a href="http://127.0.0.1/">儿歌网</a> cnymk.com All Rights Reserved</p>
+            <p>技术支持:宝贝<b><a href="http://127.0.0.1" target="_blank">儿歌网</a></b>  ICP备案证号:www.cnymk.com</p>
+ <p style="font-size:10px">本站部分资源来自网友上传，如有侵权请邮件通知，我们将在3个工作日内删除。<p> 
+        </div>
+  	</div>
+  </div> 
+<!-- 尾部结束 --> 
+<div style="display:none;">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F855494e4fd05db2e589008845a9e0344' type='text/javascript'%3E%3C/script%3E"));
+</script></div>
+
+</body>
+</html>

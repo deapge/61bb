@@ -1,0 +1,63 @@
+@charset "gb2312";.lwz_t{width:960px;height:5px;background:url(integrated.png) 0 -195px;overflow:hidden}
+.lwz_m{width:958px;height:20px;overflow:hidden;border-left:solid 1px #a8d7ab;border-right:solid 1px #a8d7ab;background-color:#f0fbec;line-height:1.8}
+.lwz_b{width:960px;height:4px;background:url(integrated.png) 0 -200px;overflow:hidden}
+.wz_l{float:left;padding-left:12px;color:#417500;font-weight:bold}
+.wz_l a{color:#417500}
+.wz_r{float:right;padding-right:12px;padding-left:20px}
+.list_l{width:252px;overflow:hidden;float:left}
+.list_r{width:700px;overflow:hidden;float:right}
+.ll_t{width:252px;height:5px;background:url(integrated.png) 0 -210px;overflow:hidden}
+.ll_m{width:250px;overflow:hidden;border-left:solid 1px #ccc;border-right:solid 1px #ccc;background-color:#f6f6f6}
+.ll_b{width:252px;height:5px;background:url(integrated.png) 0 -215px;overflow:hidden}
+.ll_rt{padding:5px 12px;font-weight:bold}
+.ll_dlist{margin:0}
+.ll_dlist dl{width:75px;height:80px;float:left;text-align:center;margin-left:8px;display:inline;margin-top:9px;overflow:hidden}
+.ll_dlist dl dd{width:60px;height:60px;overflow:hidden;margin-left:5px}
+.ll_dlist dl dd img{height:76px}
+.ll_dlist dl dt{padding-top:6px}
+.liz_t{width:700px;height:5px;background:url(integrated.png) -260px -210px;overflow:hidden}
+.liz_m{width:698px;overflow:hidden;border-left:solid 1px #97c3e5;border-right:solid 1px #97c3e5;background-color:#f0f7fb}
+.liz_b{width:700px;height:5px;background:url(integrated.png) -260px -215px;overflow:hidden}
+.liz_mb{width:670px;padding:6px;border:solid 1px #cee3f2;background-color:#fff;border-top:none 0;margin-left:7px;overflow:hidden}
+.liz_rt1,.liz_rt2{cursor:pointer;width:90px;height:31px;overflow:hidden;text-align:center;font-size:14px;color:#009cca;font-weight:bold;line-height:32px;background:url(integrated.png) 0 -225px;float:left;margin-left:10px;display:inline}
+.liz_rt2{background:url(integrated.png) -90px -225px}
+.liz_rt1 a{color:#009cca}
+.liz_rt2 a{color:#666}
+.liz_pg{text-align:center;padding:6px;padding-bottom:0}
+.liz_pg{border:solid 1px #f0aaaa;background-color:#fbecec;padding:6px}
+.liz_dlist{margin:0}
+.liz_dlist dl{width:95px;height:100px;float:left;text-align:center;margin-left:15px;display:inline;margin-top:15px;overflow:hidden}
+.liz_dlist dl dd{width:76px;height:76px;overflow:hidden;margin-left:9px}
+.liz_dlist dl dd img{height:76px}
+.liz_dlist dl dt{padding-top:10px}
+.huds_t{width:960px;height:5px;background:url(integrated.png) 0 -180px;overflow:hidden}
+.huds_m{width:958px;overflow:hidden;border-left:solid 1px #ccc;border-right:solid 1px #ccc;background-color:#fafafa}
+.huds_b{width:960px;height:5px;background:url(integrated.png) 0 -185px;overflow:hidden}
+.huds_li a{float:left;display:block;width:116px;margin:6px 10px 5px 10px;display:inline;overflow:hidden;height:13px;line-height:1.2}
+.slist_t{width:960px;height:5px;background:url(integrated.png) 0 -150px;overflow:hidden}
+.slist_m{width:958px;overflow:hidden;border-left:solid 1px #97c3e5;border-right:solid 1px #97c3e5;background-color:#FFF}
+.slist_b{width:960px;height:5px;background:url(integrated.png) 0 -155px;overflow:hidden}
+.slist_pg{margin:10px;line-height:1.6;text-align:center;font-weight:bold}
+.slist_pg a{padding:4px 5px 1px 5px;border:solid 1px #CCC;background-color:#efefef}
+.slist_pg a:hover{background-color:#23a6d8;color:#FFF}
+.slist_m dl{width:95px;height:95px;float:left;text-align:center;margin-left:10px;display:inline;margin-top:8px;overflow:hidden}
+.slist_m dl dd{width:76px;height:76px;overflow:hidden;margin-left:9px}
+.slist_m dl dd img{height:76px}
+.slist_m dl dt{padding-top:5px}
+.sj_rmph{line-height:1.2;padding-bottom:6px}
+.sj_rmph ul li{height:14px;overflow:hidden;float:left;width:114px;margin-top:8px;margin-left:10px;display:inline}
+
+
+.liz_ztlist dl{
+	margin:10px;
+}
+.liz_ztlist dl dt{
+	float:left;
+	width:98px;
+	height:98px;
+	overflow:hidden;
+	margin:6px 20px 0px 0px;
+}.liz_ztlist dl dt img{ height:92px; width:92px; border:solid 1px #CCC; padding:2px;}
+.liz_ztlist dl dd{ line-height:1.8; color:#999; float:left; width:500px;overflow:hidden;
+}
+.liz_ztlist dl dd b{ font-size:14px;}.liz_ztlist dl dd a{ color:#176988;}

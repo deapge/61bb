@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>隐私保护-源码库儿歌网</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="隐私保护erge,儿歌，mp3,儿歌下载,英语儿歌,英文儿歌,儿歌童谣,儿歌flash,幼儿儿歌,儿歌大全,宝宝的源码库儿歌网" />
+<meta name="description" content="源码库儿歌网提供最新儿歌视听和儿歌下载，包括经典的童谣，儿童FLASH，为儿童打造一个优良是视听环境。"/>
+<link rel="stylesheet" type="text/css" href="/css/index.css"/>
+<script language="javascript" src="/js/jquery-1.7.min.js"></script>
+<script language="javascript" src="/js/func.js"></script>
+<link rel="stylesheet" href="/css/colorbox.css" type="text/css" />
+<script language="javascript" src="/js/jquery.colorbox.js"></script>
+<script language="javascript" src="/js/xqfunc.js"></script>
+</head>
+<body>
+<div id="shortcut">
+  <div class="w">
+    <ul>
+      <li><a href="/" target="_blank">儿歌网</a></li>
+      <li><a href="/s/n180.html" target="_blank">最新儿歌</a></li>
+      <li><a href="/s/h180.html" target="_blank">热门儿歌</a></li>
+      <li><a href="/s/t180.html" target="_blank">推荐儿歌</a></li>
+     
+      
+    </ul>
+    <ul class="divLoginBar">
+       
+      <li id="add"><a onclick="AddFavorite('http://127.0.0.1',':儿歌-儿童小游戏-儿歌大全-儿童歌曲-儿童歌曲大全-儿歌视频大全-儿歌童谣-童谣大全-儿歌播放器-儿童资源_127.0.0.1')" style="cursor:hand" href="javascript:;">加入收藏</a></li>
+      <li id="conf"><a onclick="SetHome(this,'')" href="javascript:;">设为首页</a></li>
+    </ul>
+  </div>
+</div>
+<div class="c"></div>
+
+<div id="bb_box"> <div id="header">
+  <div id="bb_logo"><a href="/"><img alt="儿歌网" src="/css/logo.gif"/></a></div>
+  <div id="topgg"> <script src="/d/js/acmsd/thea2.js"></script></div>
+  <div class="c"></div>
+  <div id="bb_nav">
+    <ul>
+      <li id="home" class="current" ><a href="/" >首页</a></li>
+      <li  id="c1"><a href="/tingerge/">听儿歌</a></li>
+      <li id="c2"><a href="/jianggushi/">儿童故事</a></li>
+      <li id="c3"><a href="/xuezhishi/">学知识</a></li>
+      <li id="c4"><a href="/wanyouxi/">儿童游戏</a></li>
+      <li id="c5"><a href="/donghuapian/">动画片</a></li>
+      <li  id="TV"><a href="/fm/">亲宝电台</a></li>
+      <li id="park"><a href="http://www.taohi.cn"  target="_blank" >宝宝乐园</a></li>
+      <li id="c199"><a href="/jiaoan/">幼儿园教案</a> </li>
+    </ul>
+    <div class="nav_search">
+            <div class="seachslect" onmouseout="selectseout('select_tops')" onmouseover="selectseover('select_tops')">
+            	<span class="currcodes">
+                <em id="selectvalue">视频</em>
+                    <div id="select_tops" class="subtop_select" style="display: none;">
+                    	<a onclick="return search_show('1','0',this)" href="javascript:void(0)">视频</a>
+                        <a onclick="return search_show('2','0',this)" href="javascript:void(0)">文章</a>
+                    </div>
+                </span>
+            </div>      
+             <form name="fsearch" method="post" action="/e/search/index.php" target="_blank">
+              <input type="hidden" name="show" value="title">
+              <input id="tempid" type="hidden" name="tempid" value="1">
+              <input id="tbname" type="hidden" name="tbname" value="game">
+                <input type="hidden" name="show" value="title,smalltext,newstext,writer" />
+                <input id="classid" name="classid" type="hidden" value="0" />
+                <input name="keyboard" type="text"  class="nav_box"  value="输入儿歌名称" id="keys"/>
+              <input type="submit" value="搜索" class="nav_btn">
+              <div class="c"></div>
+            </form>
+      </div>
+    <div class="c"></div>
+  </div>
+  <div class="extra">
+   
+    <ul>
+      <li><a href="/tingerge/zhongwenerge/" target="_blank" >中文儿歌</a></li>
+      <li><a href="/tingerge/yingwenerge/" target="_blank">英文儿歌</a></li>
+      <li><a href="/tingerge/tongyao/" target="_blank" >童谣</a></li>
+      <li><a href="/donghuapian/" target="_blank">儿童动画片</a></li>
+      <li><a href="/jianggushi/jingdianxiaogushi/" target="_blank" >儿童故事</a></li>
+      <li><a href="/jianggushi/tonghuagushi/" target="_blank">童话</a> <a href="/jianggushi/yuyangushi/" target="_blank">寓言</a></li>
+      <li><a href="/jianggushi/chengyugushi/" target="_blank">成语故事</a></li>
+      <li><a href="/jianggushi/shenhuachuanshuo/" target="_blank">神话传说</a></li>
+      <li><a href="/wudao/ertongwudao/" target="_blank">儿童舞蹈</a></li>
+      <li><a href="/xuezhishi/tangshisongci/" target="_blank">唐诗宋词</a></li>
+      <li><a href="/xuezhishi/kuailepinyin/" target="_blank">快乐拼音</a></li>
+      <li><a href="/xuezhishi/youerqimeng/" target="_blank">幼儿启蒙</a></li>
+      <li><a href="/xuezhishi/yingyujiaoyu/" target="_blank">英语教育</a></li>
+      <li><a href="/xuezhishi/baikechangshi/" target="_blank">百科常识</a></li>
+      <li><a href="/miyu/" target="_blank">谜语</a></li>
+      <li><a href="/tonghua/" target="_blank">童话故事</a></li>
+
+    </ul>
+  </div>
+</div> 
+</div>
+
+<div class="adm_960" id="adm"><script src="/d/js/acmsd/thea4.js"></script></div>
+
+ <div id="content">
+		<div id="about_us">
+        	<div class="about_top"></div>
+            <div class="about_mid">
+            	<div class="about_left">
+                	<ul>
+                    	<li ><a href="about.html">关于我们</a></li>
+                        <li><a href="contact.html">联系我们</a></li>
+                        <li ><a href="job.html">招聘信息</a></li>
+                        <li><a href="terms.html">服务条款</a></li>
+                        <li  class="current">隐私保护</li>
+                        <li><a href="ad.html">广告服务</a></li>
+                        
+                        <li><a href="help.html">网站帮助</a></li>
+                        <li><a href="map.html">网站地图</a></li>
+                        <li><a href="link.html">友情链接</a></li>
+                        <li><a href="upload.html">作品投稿</a></li>
+                    </ul>
+                </div>
+                <div class="about_right">
+                	<h1>隐私保护</h1> 
+                    <p> 关于非个人化信息</p>
+  <p> 第一条   本站将通过用户的IP地址来收集非个人化的信息，例如浏览器和操作系统的种类、提供接入服务的ISP名称等，以优化在您计算机屏幕上显示的页面；并通过收集上述信息，进行访客流量统计。 </p>
+  <p> 这些无关个人身份的信息能帮助本站辨别内容喜好的地区性分布，并保证本站进行推广活动的有效性。此外，本站也可能将这些信息披露给相关广告客户，使其知晓点击其广告的人数。</p>
+  <p> 关于个人资料</p>
+  <p>第二条   当您在本网站进行用户注册登记、发表文章、参与公共论坛讨论等活动时，在您的同意及确认下，本网站将通过注册表格、订单等形式要求您提供一些个人资料。这些个人资料包括：</p>
+  <p>1、个人识别资料：如姓名、性别、年龄、出生日期、身份证号码（或护照号码）、电话、通信地址、住址、电子邮件地址等。</p>
+  <p>2、个人背景：   职业、教育程度、收入状况、婚姻、家庭状况等。</p>
+  <p>3、子女信息：   如孩子姓名、年龄、出生日期、教育状况等</p>
+  <p>本站收集此类个人身份信息，主要是为保证注册用户能够更容易和更满意地使用本站提供的服务。</p>
+  <p>在未经您同意及确认之前，本网站不会将您为参加本网站之特定活动所提供的资料利用于其他目的。按照以下第六条的规定则不在此限。</p>
+  <p>同时，本站的注册用户及访问者应该知晓，当您在私人博客网页、公共论坛或其他网上公开场合披露其个人身份信息时，此类信息可能会被他人收集并用来发送垃圾邮件或用于其他用途。</p>
+  <p>关于信息安全</p>
+  <p>第三条   本网站将对您所提供的资料进行严格的管理及保护，本网站将使用相应的技术，防止您的个人资料丢失、被盗用或遭篡改。</p>
+  <p>关于用户权利 </p>
+  <p>第四条   1、您对于自己的个人资料享有以下权利：</p>
+  <p>a. 随时查询及请求阅览；</p>
+  <p>b. 随时请求补充或更正；</p>
+  <p>c.   随时请求删除；</p>
+  <p>d.   请求停止电脑处理及利用。</p>
+  <p>2、用户是唯一对自己的口令及其他帐户信息负有保密责任的人。当您在线时，请小心和负责。</p>
+  <p>    关于用户信息限制利用原则</p>
+  <p>第五条   本网站惟在符合下列条件之一，方对收集之个人资料进行必要范围以外之利用：</p>
+  <p>1、已取得您的书面同意 </p>
+  <p>2、为免除您在生命、身体或财产方面之急迫危险；</p>
+  <p>3、为防止他人权益之重大危害；</p>
+  <p>4、为增进公共利益，且无害于您的重大利益 </p>
+  <p>关于个人资料披露之原则</p>
+  <p>第六条   当政府机关依照法定程序要求本网站披露个人资料时，本网站将根据执法单位之要求或为公共安全之目的提供个人资料。在此情况下之任何披露，本网站均得免责。</p>
+  <p>关于公共论坛</p>
+  <p>第七条   本网站为您提供博客免费托管、聊天室、公告牌等服务。在这些区域内，您公布的任何信息都会成为公开的信息。因此，本站郑重提醒并请您慎重考虑是否有必要在这些区域公开您的个人信息。</p>
+  <p>关于未成年人隐私权的保护</p>
+  <p>第八条</p>
+  <p>1、本网站将建立和维持一合理的程序，以保护未成年人个人资料的保密性及安全性。本网站郑重声明：任何16岁以下的未成年人参加网上活动应事先得到家长或其法定监护人（以下统称为"监护人"）的可经查证的同意 </p>
+  <p>2、监护人应承担保护未成年人在网络环境下的隐私权的首要责任。</p>
+  <p>3、本网站收集未成年人的个人资料，仅为回覆未成人特定要求的目的，一俟回复完毕即从记录中删除，而不会保留这些资料做进一步的利用。</p>
+  <p>4、未经监护人之同意，本网站将不会使用未成年人之个人资料，亦不会向任何第三方披露或传送可识别该未成人的个人资料。本网站如收集监护人或未成年人的姓名或其他网络通讯资料之目的仅是为获得监护人同意，则在经过一段合理时间仍未获得同意时，将主动从记录中删除此类资料。</p>
+  <p>5、若经未成人之监护人同意，本网站可对未成年人之个人资料进行收集，本网站将向监护人提供： </p>
+  <p>（1）审视自其子女或被监护人收集之资料的机会； </p>
+  <p>（2）拒绝其子女或被监护人的个人资料被进一步的收集或利用的机会； </p>
+  <p>（3）变更或删除其子女或被监护人个人资料的方式。 </p>
+  <p>6、监护人有权拒绝本网站与其子女或被监护人做进一步的联络。</p>
+  <p> 7、本网站收集未成年人的个人资料，这些资料只是单纯作为保护未成年人参与网络活动时的安全，而非作为其它目的之利用。本网站保证不会要求未成年人提供额外的个人资料，以作为允许其参与网上活动的条件。 </p>
+  <p>关于Cookies </p>
+  <p>第九条 </p>
+  <p>1、Cookies是指一种技术，当使用者访问设有Cookies装置的本网站时，本网站之服务器会自动发送Cookies至使用者浏览器内，并储存到电脑硬盘内，此Cookies便负责记录日后您到访本网站的种种活动、个人资料、浏览习惯、消费习惯甚至信用记录。</p>
+  <p> 2、运用Cookies技术，本网站能够为您提供更加周到的个性化服务。本网站将会运用Cookies追访用户的内容浏览习惯，从而向您提供符合您喜好的内容，节省您的时间；另外，本站亦将会采用Cookies技术帮助您储存密码，以便您造访本网站时不必每次重复输入密码。 </p>
+  <p>隐私保护方面的免责条款</p>
+  <p>第十条 除上述（六）之规定属免责外，下列情况时本网站亦毋需承担任何责任：</p>
+  <p>1、由于您将用户密码告知他人或与他人共享注册帐户，由此导致的任何个人资料泄露。</p>
+  <p>2、任何由于计算机问题、黑客政击、计算机病毒侵入或发作、因政府管制而造成的暂时性关闭等影响网络正常经营之不可抗力而造成的个人资料泄露、丢失、被盗用或被窜改等。</p>
+  <p>关于本声明的修改权与更新权 </p>
+  <p>第十一条   此隐私声明的修改及更新权均属于本站所有。 </p>
+
+
+                </div>
+                <div class="c"></div>
+            </div>
+            <div class="about_bottom"></div>
+        </div>
+    </div>    
+  </div>
+
+                
+<!-- 尾部开始 --> 
+<!-- 尾部开始 --> 
+  <div id="footer_wrapx">
+  	<div id="footer_x">
+  		<div id="footer_content">
+        	<p class="about"><a href="/info/about.html" target="_blank">关于我们</a> | <a href="/info/contact.html" target="_blank">联系我们</a> | <a href="/info/terms.html" target="_blank">服务条款</a> | <a href="/info/privacy.html" target="_blank">隐私保护</a> | <a href="/info/map.html" target="_blank">网站地图</a> | <a href="/info/ad.html" target="_blank">广告服务</a> | <a href="/info/link.html" target="_blank">友情链接</a> | <a href="/info/help.html" target="_blank">网站帮助</a> | <a href="/info/upload.html" target="_blank">作品投稿</a> </p>
+            <p><a href="http://127.0.0.1/">儿歌网</a>专注于提供：<a href="http://127.0.0.1" target="_blank" alt="儿童歌曲大全"><b>儿童歌曲</b></a>、<b><a href="http://127.0.0.1/donghuapian/" target="_blank" alt="儿童动画片">动画片</a></b>、<a href="http://127.0.0.1/wanyouxi/" target="_blank" alt="儿童小游戏大全"><b>儿童小游戏</b></a>力争做最好的儿童网站。<br />
+</p>
+            <p>Copyright&copy; <a href="http://127.0.0.1/">儿歌网</a> cnymk.com All Rights Reserved</p>
+            <p>技术支持:宝贝<b><a href="http://127.0.0.1" target="_blank">儿歌网</a></b>  ICP备案证号:www.cnymk.com</p>
+ <p style="font-size:10px">本站部分资源来自网友上传，如有侵权请邮件通知，我们将在3个工作日内删除。<p> 
+        </div>
+  	</div>
+  </div> 
+<!-- 尾部结束 --> 
+<div style="display:none;">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F855494e4fd05db2e589008845a9e0344' type='text/javascript'%3E%3C/script%3E"));
+</script></div>
+ 
+<!-- 尾部结束 -->
+</body>
+</html>

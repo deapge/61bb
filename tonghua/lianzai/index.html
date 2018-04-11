@@ -1,0 +1,959 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>童话故事连载-儿歌网 </title>
+<meta name="keywords" content="童话故事连载" />
+<meta name="description" content="儿歌网 童话故事连载 "/>
+<link rel="stylesheet" href="/css/index.css" type="text/css" />
+<link rel="stylesheet" href="/css/colorbox.css" type="text/css" />
+<script language="javascript" src="/js/jquery-1.7.min.js"></script>
+<script language="javascript" src="/js/func.js"></script>
+<script language="javascript" src="/js/jquery.scrollto.js"></script>
+<script language="javascript" src="/js/jquery.colorbox.js"></script>
+<script language="javascript" src="/js/showbox.js"></script>
+<script language="javascript" src="/js/xqfunc.js"></script>
+</head>
+<body>
+ <!-- 顶部开始 --> 
+<div id="shortcut">
+  <div class="w">
+    <ul>
+      <li><a href="/" target="_blank">儿歌网</a></li>
+      <li><a href="/s/n180.html" target="_blank">最新儿歌</a></li>
+      <li><a href="/s/h180.html" target="_blank">热门儿歌</a></li>
+      <li><a href="/s/t180.html" target="_blank">推荐儿歌</a></li>
+     
+      
+    </ul>
+    <ul class="divLoginBar">
+       
+      <li id="add"><a onclick="AddFavorite('http://127.0.0.1',':儿歌-儿童小游戏-儿歌大全-儿童歌曲-儿童歌曲大全-儿歌视频大全-儿歌童谣-童谣大全-儿歌播放器-儿童资源_127.0.0.1')" style="cursor:hand" href="javascript:;">加入收藏</a></li>
+      <li id="conf"><a onclick="SetHome(this,'')" href="javascript:;">设为首页</a></li>
+    </ul>
+  </div>
+</div>
+<div class="c"></div>
+
+<div id="bb_box"> <div id="header">
+  <div id="bb_logo"><a href="/"><img alt="儿歌网" src="/css/logo.gif"/></a></div>
+  <div id="topgg"> <script src="/d/js/acmsd/thea2.js"></script></div>
+  <div class="c"></div>
+  <div id="bb_nav">
+    <ul>
+      <li id="home" class="current" ><a href="/" >首页</a></li>
+      <li  id="c1"><a href="/tingerge/">听儿歌</a></li>
+      <li id="c2"><a href="/jianggushi/">儿童故事</a></li>
+      <li id="c3"><a href="/xuezhishi/">学知识</a></li>
+      <li id="c4"><a href="/wanyouxi/">儿童游戏</a></li>
+      <li id="c5"><a href="/donghuapian/">动画片</a></li>
+      <li  id="TV"><a href="/fm/">亲宝电台</a></li>
+      <li id="park"><a href="http://www.taohi.cn"  target="_blank" >宝宝乐园</a></li>
+      <li id="c199"><a href="/jiaoan/">幼儿园教案</a> </li>
+    </ul>
+    <div class="nav_search">
+            <div class="seachslect" onmouseout="selectseout('select_tops')" onmouseover="selectseover('select_tops')">
+            	<span class="currcodes">
+                <em id="selectvalue">视频</em>
+                    <div id="select_tops" class="subtop_select" style="display: none;">
+                    	<a onclick="return search_show('1','0',this)" href="javascript:void(0)">视频</a>
+                        <a onclick="return search_show('2','0',this)" href="javascript:void(0)">文章</a>
+                    </div>
+                </span>
+            </div>      
+             <form name="fsearch" method="post" action="/e/search/index.php" target="_blank">
+              <input type="hidden" name="show" value="title">
+              <input id="tempid" type="hidden" name="tempid" value="1">
+              <input id="tbname" type="hidden" name="tbname" value="game">
+                <input type="hidden" name="show" value="title,smalltext,newstext,writer" />
+                <input id="classid" name="classid" type="hidden" value="0" />
+                <input name="keyboard" type="text"  class="nav_box"  value="输入儿歌名称" id="keys"/>
+              <input type="submit" value="搜索" class="nav_btn">
+              <div class="c"></div>
+            </form>
+      </div>
+    <div class="c"></div>
+  </div>
+  <div class="extra">
+   
+    <ul>
+      <li><a href="/tingerge/zhongwenerge/" target="_blank" >中文儿歌</a></li>
+      <li><a href="/tingerge/yingwenerge/" target="_blank">英文儿歌</a></li>
+      <li><a href="/tingerge/tongyao/" target="_blank" >童谣</a></li>
+      <li><a href="/donghuapian/" target="_blank">儿童动画片</a></li>
+      <li><a href="/jianggushi/jingdianxiaogushi/" target="_blank" >儿童故事</a></li>
+      <li><a href="/jianggushi/tonghuagushi/" target="_blank">童话</a> <a href="/jianggushi/yuyangushi/" target="_blank">寓言</a></li>
+      <li><a href="/jianggushi/chengyugushi/" target="_blank">成语故事</a></li>
+      <li><a href="/jianggushi/shenhuachuanshuo/" target="_blank">神话传说</a></li>
+      <li><a href="/wudao/ertongwudao/" target="_blank">儿童舞蹈</a></li>
+      <li><a href="/xuezhishi/tangshisongci/" target="_blank">唐诗宋词</a></li>
+      <li><a href="/xuezhishi/kuailepinyin/" target="_blank">快乐拼音</a></li>
+      <li><a href="/xuezhishi/youerqimeng/" target="_blank">幼儿启蒙</a></li>
+      <li><a href="/xuezhishi/yingyujiaoyu/" target="_blank">英语教育</a></li>
+      <li><a href="/xuezhishi/baikechangshi/" target="_blank">百科常识</a></li>
+      <li><a href="/miyu/" target="_blank">谜语</a></li>
+      <li><a href="/tonghua/" target="_blank">童话故事</a></li>
+
+    </ul>
+  </div>
+</div> 
+</div>
+<script>
+var classid = '38';
+if(classid){
+         $("#c"+classid).addClass("current");
+          $("#home").removeClass("current");
+       }
+</script>
+<div class="adm_960" id="adm"><!-- 广告位banner 960*60 --><script src="/d/js/acmsd/thea4.js"></script></div>
+
+    <div id="content" class="mt10">
+    	<div id="lesson_left">
+        	<div class="artical_list">
+                   <div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155500.html" target="_blank">缤纷夏日 二十三、带</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+今天是星期五，明天就要进行足球比赛了。<br />
+<br />
+麦丽和米佳早早起床，蹑手蹑脚地去卫生间洗漱，平时她们会先把布丁和滑头叫醒的，可今天她们没有，下午丁丁哥哥就要离开她们入住雅溪专
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155499.html" target="_blank">童话故事:缤纷夏日简</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      童话故事:缤纷夏日简介<br />
+《缤纷夏日》&amp;mdash;&amp;mdash;讲的是居住在森林深处雅溪谷、向往外面世界的小蚂蚁姐妹麦丽和米佳，在暑假时，驾驶小帆船，智过百丈崖、战胜大水泥石流&amp;helli
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155497.html" target="_blank">缤纷夏日 十一、“相</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+    在去客福来的浓密林荫道上，麦丽和米佳分别从自己的背包里取出刚买的滑板，她们两个踩上滑板，布丁他们在后面追逐着，麦丽还时不时做个高难动作，就这样，他们走走停停，一路欢笑
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155492.html" target="_blank">缤纷夏日 二十五、时</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      离开雅溪专修学院，唐华叔叔用小面包载着麦丽、米佳和滑头向街心公园而去。<br />
+<br />
+在车上，唐华叔叔还打电话说马上就到了，麦丽就问：&amp;ldquo;不会是要有欢迎仪式吧？&amp;rdquo;唐华叔叔只是笑
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155493.html" target="_blank">缤纷夏日 二十四、客</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+参赛队员在两名营员的带领下来到了二楼的一个大教室，大家自觉按参赛队排成四排，背着大背包垂手站着，一会教室门开了，又走进两男两女四个身穿红色体恤的营员，布丁一看更是一惊，
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155487.html" target="_blank">缤纷夏日 二十六、今</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+一个傍晚，米佳和麦丽从快乐基地的办公室走出来，麦丽对外屋正在看动画片的一群小朋友说：&amp;ldquo;朋友们，我现在告诉大家一个消息，也是我们的时利和成立以来组织的第一个活动，活动
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155481.html" target="_blank">缤纷夏日 十七、接布</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+这一天临近中午，滑头带着麦丽和米佳又来学校接布丁。<br />
+<br />
+不一会，下课了，奔下教学楼的同学们互相打着招呼，四散离开了学校，布丁还把背着画架的长头发男老师介绍麦丽和米佳，介绍时
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155476.html" target="_blank">缤纷夏日 二十八、多</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+自从麦丽有将快乐基地搬到泰华乐园的想法后，每次见到唐华叔叔，麦丽总是问：&amp;ldquo;唐叔叔，有好消息告诉我吗？&amp;rdquo;<br />
+<br />
+每当得到否定的回答，麦丽就会故意表现出一幅神情沮丧的样
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155475.html" target="_blank">缤纷夏日 三、开办网</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      来到雅溪谷，从滑板上下来，麦丽和米佳把滑板放入双肩包，徒步向自己的时利和走去。<br />
+<br />
+    雅溪谷当然要比池塘边繁华的多，咿咿和呀呀的两只眼都不够用得了，东瞧瞧西看看，走到一幢建筑
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155473.html" target="_blank">缤纷夏日 十五、谁没</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+    这一天傍晚，布丁和麦丽他们急急回家，踢了一下午球，麦丽和布丁都成了大花脸，米佳和滑头虽没踢整场，可这么热的天她们身上也早粘糊糊的了，四个一刻不停地来到了家门口。<br />
+<br />
+
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155471.html" target="_blank">缤纷夏日 二十、素食</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      从这个暑假一开始，电视里的&amp;ldquo;客福来饮食天地&amp;rdquo;就推出了一个名为&amp;ldquo;我行我素&amp;rdquo;的活动，客福来想通过这个活动，让人们有意识地多吃一些素食，因为现在人们的经济
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155466.html" target="_blank">缤纷夏日 九、做客布</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          走在街上的麦丽和米佳满眼都是新奇，不住问这问那，布丁和滑头就忙着给她们解释，滑头还告诉麦丽和米佳他们的家在医院里，离街心公园很近，她们边走边说，不时和路边的行人打着招呼
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155465.html" target="_blank">缤纷夏日 二十二、戒</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+商业街抽奖米佳想出帮叔叔戒烟的办法后，布丁他们经过商量，决定立刻实施戒烟行动，这不，你看这天清晨，布丁爸妈刚上班离开，布丁就将自己平时积攒的零用钱拿出来，布丁还有些舍不得，
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155459.html" target="_blank">缤纷夏日 二十一、我</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+今天是星期二，也是布丁家的第一个素食日，布丁妈妈早早起床，布丁还要进行足球集训，他今天特殊，布丁妈妈先为布丁热上牛肉小蒸包，焖上稀饭，然后去附近的&amp;ldquo;五星家园&amp;rdquo;买
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155457.html" target="_blank">缤纷夏日 六、小帆船</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      六、小帆船漂流记（一）途遇横树<br />
+小帆船离开了雅溪谷慢慢前行，太阳出来了，在朝阳中，小帆船向着池塘驶过来，池塘附近的动物们早知道今天是麦丽和米佳外出的日子，她们早早来到池塘边，等
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155452.html" target="_blank">缤纷夏日 十四、愉快</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+    今天是星期天，布丁爸爸休息，布丁也没补习课，吃早饭时布丁爸爸问布丁今天有什么打算？布丁说上午玩，下午还是去踢足球。<br />
+<br />
+    吃了早饭，布丁带着滑头、麦丽和米佳在楼下和很
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155449.html" target="_blank">缤纷夏日 一、池塘踏</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      阳春三月，春回大地，万物复苏，大地披上了绿衣，森林的动物们也换上了春装，森林深处的雅溪谷又热闹起来了。<br />
+<br />
+    话说雅溪谷的一对双胞胎蚂蚁，蚂蚁姐姐叫麦丽，蚂蚁妹妹叫米佳，别小看这
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155445.html" target="_blank">缤纷夏日 十三、别开</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+    一觉醒来，米佳起床出了房间，四下看一下，没发现一个人，来到客厅，看到茶几上布丁留下的纸条，知道叔叔阿姨上班去了，布丁也到学校补习功课了，米佳把麦丽和滑头叫起，三个吃罢早饭，
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155442.html" target="_blank">缤纷夏日 十八、当模</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+一大早，布丁妈妈就将睡梦中的麦丽和米佳叫醒，麦丽和米佳昨晚睡得晚，一开始两个还赖着不起，当布丁妈妈说：&amp;ldquo;你们再不起，阿姨上班可就没人给你们化妆了。&amp;rdquo;<br />
+<br />
+一听这话，
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155439.html" target="_blank">缤纷夏日 十、穿上新</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          走在去商业街的林荫路上，麦丽、米佳和滑头、布丁他们唧唧咋咋吵吵闹闹,一行显得浩浩荡荡，不知让多少人投来羡慕的眼光。<br />
+<br />
+    商业街离医院很近，没几分钟就到了，布丁妈妈带
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155434.html" target="_blank">缤纷夏日 五、制造小</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      天气越来越热了，马上就要放暑假了，放假前的这些天，麦丽和米佳忙着为咿咿和呀呀安排暑期作业。<br />
+<br />
+    在一个明丽的清晨，麦丽终于说出了压在心底很久的渴望&amp;mdash;&amp;mdash;放暑假后
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155430.html" target="_blank">缤纷夏日 七、小帆船</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      七、小帆船来到雅溪镇<br />
+    太阳都老高了，麦丽和米佳才醒来，她们解开缆绳，将小帆船划出游乐园，麦丽和米佳深情地回望一眼，挥挥手，&amp;ldquo;泰华游乐园，再见了！&amp;rdquo; &amp;ldquo;泰华游乐
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155428.html" target="_blank">缤纷夏日 二十七、野</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+幸福的时光总是过得很快，在时利和开展的&amp;ldquo;今天我做主&amp;rdquo;营造的快乐气氛里不知不觉几天又过去了，麦丽和米佳还和不断开展&amp;ldquo;今天我做主&amp;rdquo;活动的小朋友在
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155424.html" target="_blank">缤纷夏日 二、拜师学</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      麦丽和米佳从背包拿出滑板准备回雅溪谷，这时不远处两只正在玩耍的两只小蚂蚁突然发现了麦丽和米佳，其中一只还晃一下头，眨一下眼睛说：&amp;ldquo;是麦丽姐姐和米佳姐姐&amp;rdquo;，说完，向
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155419.html" target="_blank">缤纷夏日 十九、客福</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+今天是星期六，明天就要举行神风足球队队员选拔赛了，吃过晚饭，电视新闻里也播出了明天比赛的消息，并说市民参加的长跑比赛有丰厚的奖品&amp;hellip;&amp;hellip;<br />
+<br />
+当然这些消息雅溪镇
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155414.html" target="_blank">缤纷夏日 四、网络学</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      经过一段时间准备，时利和讲学堂也进行了几次排练，一切都在有条不紊地进行中。<br />
+<br />
+    这一天，时利和讲学堂就要开课了，爱林早早到来了，大家又是一阵紧张的准备，和着清凉的晨风，沐浴着
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155411.html" target="_blank">缤纷夏日 二十九、缤</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+明天就要开学了，今晚上就要举行缤纷夏日晚会了，一大早街心公园就热闹起来了，唐叔叔指挥着很多工人叔叔在快乐基地门前搭建舞台，麦丽、米佳、滑头还有很多小朋友就为大家送冰
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155406.html" target="_blank">缤纷夏日 十六、解难</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+新的一周开始了，这周布丁上午有一个美术培训，没什么课业负担，仅作为一种爱好。<br />
+<br />
+这天上午，布丁去参加美术培训了，滑头带着麦丽和米佳在自家楼下和许多小朋友玩一会，麦丽建议到
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155407.html" target="_blank">缤纷夏日 八、在客福</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      八、在客福来，小蚂蚁变成了大蚂蚁<br />
+    （一）<br />
+    布丁慢慢走几步，已将麦丽和米佳她们落在后面，麦丽和米佳大声对前面的布丁喊：&amp;ldquo;慢一点，等等我们&amp;rdquo;布丁又停下来，看着麦丽和
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/155402.html" target="_blank">缤纷夏日 十二、与布</a></h2>
+                        <p>2012-08-28 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+    出了客福来，小伙伴们说一声&amp;ldquo;明天见！&amp;rdquo;四散开来，各自向自己的家走去。布丁也带着小猴子滑头还有麦丽和米佳向家走去。<br />
+<br />
+    在路上，麦丽还不时做一个踢球的动
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15896.html" target="_blank">缤纷夏日 十六、解难</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+新的一周开始了，这周布丁上午有一个美术培训，没什么课业负担，仅作为一种爱好。<br />
+<br />
+这天上午，布丁去参加美术培训了，滑头带着麦丽和米佳在自家楼下和许多小朋友玩一会，麦丽建议到
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15898.html" target="_blank">缤纷夏日 四、网络学</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      经过一段时间准备，时利和讲学堂也进行了几次排练，一切都在有条不紊地进行中。<br />
+<br />
+    这一天，时利和讲学堂就要开课了，爱林早早到来了，大家又是一阵紧张的准备，和着清凉的晨风，沐浴着
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15892.html" target="_blank">缤纷夏日 二十七、野</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+幸福的时光总是过得很快，在时利和开展的&amp;ldquo;今天我做主&amp;rdquo;营造的快乐气氛里不知不觉几天又过去了，麦丽和米佳还和不断开展&amp;ldquo;今天我做主&amp;rdquo;活动的小朋友在
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15893.html" target="_blank">缤纷夏日 十二、与布</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+    出了客福来，小伙伴们说一声&amp;ldquo;明天见！&amp;rdquo;四散开来，各自向自己的家走去。布丁也带着小猴子滑头还有麦丽和米佳向家走去。<br />
+<br />
+    在路上，麦丽还不时做一个踢球的动
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15889.html" target="_blank">缤纷夏日 二十九、缤</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+明天就要开学了，今晚上就要举行缤纷夏日晚会了，一大早街心公园就热闹起来了，唐叔叔指挥着很多工人叔叔在快乐基地门前搭建舞台，麦丽、米佳、滑头还有很多小朋友就为大家送冰
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15884.html" target="_blank">缤纷夏日 八、在客福</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      八、在客福来，小蚂蚁变成了大蚂蚁<br />
+    （一）<br />
+    布丁慢慢走几步，已将麦丽和米佳她们落在后面，麦丽和米佳大声对前面的布丁喊：&amp;ldquo;慢一点，等等我们&amp;rdquo;布丁又停下来，看着麦丽和
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15886.html" target="_blank">缤纷夏日 五、制造小</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      天气越来越热了，马上就要放暑假了，放假前的这些天，麦丽和米佳忙着为咿咿和呀呀安排暑期作业。<br />
+<br />
+    在一个明丽的清晨，麦丽终于说出了压在心底很久的渴望&amp;mdash;&amp;mdash;放暑假后
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15878.html" target="_blank">缤纷夏日 十八、当模</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+一大早，布丁妈妈就将睡梦中的麦丽和米佳叫醒，麦丽和米佳昨晚睡得晚，一开始两个还赖着不起，当布丁妈妈说：&amp;ldquo;你们再不起，阿姨上班可就没人给你们化妆了。&amp;rdquo;<br />
+<br />
+一听这话，
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15879.html" target="_blank">缤纷夏日 十九、客福</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+今天是星期六，明天就要举行神风足球队队员选拔赛了，吃过晚饭，电视新闻里也播出了明天比赛的消息，并说市民参加的长跑比赛有丰厚的奖品&amp;hellip;&amp;hellip;<br />
+<br />
+当然这些消息雅溪镇
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15881.html" target="_blank">缤纷夏日 二、拜师学</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      麦丽和米佳从背包拿出滑板准备回雅溪谷，这时不远处两只正在玩耍的两只小蚂蚁突然发现了麦丽和米佳，其中一只还晃一下头，眨一下眼睛说：&amp;ldquo;是麦丽姐姐和米佳姐姐&amp;rdquo;，说完，向
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15872.html" target="_blank">缤纷夏日 十四、愉快</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+    今天是星期天，布丁爸爸休息，布丁也没补习课，吃早饭时布丁爸爸问布丁今天有什么打算？布丁说上午玩，下午还是去踢足球。<br />
+<br />
+    吃了早饭，布丁带着滑头、麦丽和米佳在楼下和很
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15873.html" target="_blank">缤纷夏日 十、穿上新</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          走在去商业街的林荫路上，麦丽、米佳和滑头、布丁他们唧唧咋咋吵吵闹闹,一行显得浩浩荡荡，不知让多少人投来羡慕的眼光。<br />
+<br />
+    商业街离医院很近，没几分钟就到了，布丁妈妈带
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15875.html" target="_blank">缤纷夏日 七、小帆船</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      七、小帆船来到雅溪镇<br />
+    太阳都老高了，麦丽和米佳才醒来，她们解开缆绳，将小帆船划出游乐园，麦丽和米佳深情地回望一眼，挥挥手，&amp;ldquo;泰华游乐园，再见了！&amp;rdquo; &amp;ldquo;泰华游乐
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15869.html" target="_blank">缤纷夏日 十三、别开</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+    一觉醒来，米佳起床出了房间，四下看一下，没发现一个人，来到客厅，看到茶几上布丁留下的纸条，知道叔叔阿姨上班去了，布丁也到学校补习功课了，米佳把麦丽和滑头叫起，三个吃罢早饭，
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15866.html" target="_blank">缤纷夏日 二十八、多</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+自从麦丽有将快乐基地搬到泰华乐园的想法后，每次见到唐华叔叔，麦丽总是问：&amp;ldquo;唐叔叔，有好消息告诉我吗？&amp;rdquo;<br />
+<br />
+每当得到否定的回答，麦丽就会故意表现出一幅神情沮丧的样
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15868.html" target="_blank">缤纷夏日 一、池塘踏</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      阳春三月，春回大地，万物复苏，大地披上了绿衣，森林的动物们也换上了春装，森林深处的雅溪谷又热闹起来了。<br />
+<br />
+    话说雅溪谷的一对双胞胎蚂蚁，蚂蚁姐姐叫麦丽，蚂蚁妹妹叫米佳，别小看这
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15861.html" target="_blank">缤纷夏日 十七、接布</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+这一天临近中午，滑头带着麦丽和米佳又来学校接布丁。<br />
+<br />
+不一会，下课了，奔下教学楼的同学们互相打着招呼，四散离开了学校，布丁还把背着画架的长头发男老师介绍麦丽和米佳，介绍时
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15863.html" target="_blank">缤纷夏日 六、小帆船</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      六、小帆船漂流记（一）途遇横树<br />
+小帆船离开了雅溪谷慢慢前行，太阳出来了，在朝阳中，小帆船向着池塘驶过来，池塘附近的动物们早知道今天是麦丽和米佳外出的日子，她们早早来到池塘边，等
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15858.html" target="_blank">缤纷夏日 二十二、戒</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+商业街抽奖米佳想出帮叔叔戒烟的办法后，布丁他们经过商量，决定立刻实施戒烟行动，这不，你看这天清晨，布丁爸妈刚上班离开，布丁就将自己平时积攒的零用钱拿出来，布丁还有些舍不得，
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15860.html" target="_blank">缤纷夏日 二十一、我</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+今天是星期二，也是布丁家的第一个素食日，布丁妈妈早早起床，布丁还要进行足球集训，他今天特殊，布丁妈妈先为布丁热上牛肉小蒸包，焖上稀饭，然后去附近的&amp;ldquo;五星家园&amp;rdquo;买
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15854.html" target="_blank">缤纷夏日 九、做客布</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                          走在街上的麦丽和米佳满眼都是新奇，不住问这问那，布丁和滑头就忙着给她们解释，滑头还告诉麦丽和米佳他们的家在医院里，离街心公园很近，她们边走边说，不时和路边的行人打着招呼
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15856.html" target="_blank">缤纷夏日 二十六、今</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+一个傍晚，米佳和麦丽从快乐基地的办公室走出来，麦丽对外屋正在看动画片的一群小朋友说：&amp;ldquo;朋友们，我现在告诉大家一个消息，也是我们的时利和成立以来组织的第一个活动，活动
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15852.html" target="_blank">缤纷夏日 十五、谁没</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+    这一天傍晚，布丁和麦丽他们急急回家，踢了一下午球，麦丽和布丁都成了大花脸，米佳和滑头虽没踢整场，可这么热的天她们身上也早粘糊糊的了，四个一刻不停地来到了家门口。<br />
+<br />
+
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15848.html" target="_blank">缤纷夏日 二十、素食</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      从这个暑假一开始，电视里的&amp;ldquo;客福来饮食天地&amp;rdquo;就推出了一个名为&amp;ldquo;我行我素&amp;rdquo;的活动，客福来想通过这个活动，让人们有意识地多吃一些素食，因为现在人们的经济
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15849.html" target="_blank">缤纷夏日 二十四、客</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+参赛队员在两名营员的带领下来到了二楼的一个大教室，大家自觉按参赛队排成四排，背着大背包垂手站着，一会教室门开了，又走进两男两女四个身穿红色体恤的营员，布丁一看更是一惊，
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15842.html" target="_blank">缤纷夏日 三、开办网</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      来到雅溪谷，从滑板上下来，麦丽和米佳把滑板放入双肩包，徒步向自己的时利和走去。<br />
+<br />
+    雅溪谷当然要比池塘边繁华的多，咿咿和呀呀的两只眼都不够用得了，东瞧瞧西看看，走到一幢建筑
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15843.html" target="_blank">缤纷夏日 二十三、带</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+今天是星期五，明天就要进行足球比赛了。<br />
+<br />
+麦丽和米佳早早起床，蹑手蹑脚地去卫生间洗漱，平时她们会先把布丁和滑头叫醒的，可今天她们没有，下午丁丁哥哥就要离开她们入住雅溪专
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15845.html" target="_blank">缤纷夏日 二十五、时</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      离开雅溪专修学院，唐华叔叔用小面包载着麦丽、米佳和滑头向街心公园而去。<br />
+<br />
+在车上，唐华叔叔还打电话说马上就到了，麦丽就问：&amp;ldquo;不会是要有欢迎仪式吧？&amp;rdquo;唐华叔叔只是笑
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15837.html" target="_blank">缤纷夏日 十一、“相</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      （一）<br />
+    在去客福来的浓密林荫道上，麦丽和米佳分别从自己的背包里取出刚买的滑板，她们两个踩上滑板，布丁他们在后面追逐着，麦丽还时不时做个高难动作，就这样，他们走走停停，一路欢笑
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div><div class="artical_box">
+                	<div class="title_info">
+                    	<h2><a href="http://127.0.0.1/tonghua/lianzai/15838.html" target="_blank">童话故事:缤纷夏日简</a></h2>
+                        <p>2012-07-14 | 阅读：0</p>
+                    </div>
+                    <div class="artical_content">
+                      <div> 	
+                      童话故事:缤纷夏日简介<br />
+《缤纷夏日》&amp;mdash;&amp;mdash;讲的是居住在森林深处雅溪谷、向往外面世界的小蚂蚁姐妹麦丽和米佳，在暑假时，驾驶小帆船，智过百丈崖、战胜大水泥石流&amp;helli
+                      </div>
+                      <div class="c"></div> 
+                    </div>
+                </div>
+                <div class="page list_margin">
+                 
+                <div class="c"></div>
+             </div>
+            </div>
+        </div>
+        <div id="lesson_right">
+            <div class="ja_list">
+            	<!-- 广告位：[2012]播放页播放器右侧(上)250x250 --><script src="/d/js/acmsd/thea15.js"></script>
+            </div>
+        	<div class="lesson_Tlist">
+            	<div class="list_title">
+                	<h2>幼儿园教案</h2>
+                </div>
+                <div class="ja_top"></div>
+                <div class="ja_mid">
+                	<div class="fl_box">
+                        <h3><a href="/jiaoan/youeryuandabanjiaoan/" target="_blank">幼儿园大班教案</a></h3>
+                        <ul>
+                           <li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/shuxue/">大班数学教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/kexue/">大班科学教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/zhuti/">大班主题教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/yuyan/">大班语言教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/yinle/">大班音乐教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/tiyu/">大班体育教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/yingyu/">大班英语教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/meishu/">大班美术教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/zonghe/">大班综合教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/jiankang/">大班健康教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/youxi/">大班游戏教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/shehui/">大班社会教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/anquan/">大班安全教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/qinzihuodong/">大班亲子活动</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/shuokegao/">大班说课稿</a> </li><li><!--list.var2--></li>                            <div class="c"></div>
+                        </ul>
+                    </div>
+                    <div class="fl_box">
+                        <h3><a href="/jiaoan/youeryuanzhongbanjiaoan/" target="_blank">幼儿园中班教案</a></h3>
+                        <ul>
+                               <li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanshuxuejiaoan/">中班数学教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbankexuejiaoan/">中班科学教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanzhutijiaoan/">中班主题教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanyuyanjiaoan/">中班语言教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanyinlejiaoan/">中班音乐教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbantiyujiaoan/">中班体育教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanyingyujiaoan/">中班英语教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanmeishujiaoan/">中班美术教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanzonghejiaoan/">中班综合教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbanjiankangjiaoan/">中班健康教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/youxi/">中班游戏教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/shehui/">中班社会教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/anquan/">中班安全教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/qinzi/">中班亲子活动</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/shuokegao/">中班说课稿</a> </li><li><!--list.var2--></li>                            <div class="c"></div>
+                        </ul>
+                    </div>
+                    <div class="fl_box">
+                        <h3><a href="/jiaoan/youeryuanxiaobanjiaoan/" target="_blank">幼儿园小班教案</a></h3>
+                        <ul>
+                             <li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanshuxuejiaoan/">小班数学教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobankexuejiaoan/">小班科学教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanzhutijiaoan/">小班主题教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanyuyanjiaoan/">小班语言教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanyinlejiaoan/">小班音乐教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobantiyujiaoan/">小班体育教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanyingyujiaoan/">小班英语教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanmeishujiaoan/">小班美术教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanzonghejiaoan/">小班综合教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanjiankangjiaoan/">小班健康教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanyouxijiaoan/">小班游戏教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanshehuijiaoan/">小班社会教案</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobananquanjiaoan/">小班安全教案</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanqinzihuodong/">小班亲子活动</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanqitajiaoan/">小班其它教案</a> </li><li><!--list.var2--></li>                            <div class="c"></div>
+                        </ul>
+                    </div>
+                    <div class="fl_box">
+                        <h3><a href="/jiaoan/youeryuantuobanjiaoan/" target="_blank">幼儿园托班教案</a></h3>
+                        <ul>
+                             <li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/">托班数学</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/">托班科学</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/">托班语言</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyinle/">托班音乐</a> </li><li  class="Listbg"><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanmeishu/">托班美术</a> </li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshehui/">托班社会</a> </li>                            <div class="c"></div>
+                        </ul>
+                    </div>    
+                </div>
+                <div class="ja_bottom"></div>	
+            </div>
+            <div class="jiaoan_r_box2">
+            	<h2 class="jiaoan_remenjiaoan"><a href="#" target="_blank">热门教案</a></h2>
+            	<ul class="jiaoan_r_box2_ul">
+                      <li><a href="http://127.0.0.1/jiaoan/huanjingbuzhi/qiangmianbuzhi/153671.html"  target="_blank" title="秋の梦—幼儿园图片" >秋の梦—幼儿园图片</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170075.html"  target="_blank" title="幼儿园托班数学教案：认识数字宝宝：1" >幼儿园托班数学教案：认识数字宝宝：1</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuanzhongbanjiaoan/zhongbantiyujiaoan/4740.html"  target="_blank" title="好玩的球" >好玩的球</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/1109.html"  target="_blank" title="幼儿园托班数学教案：比大小" >幼儿园托班数学教案：比大小</a></li><li><a href="http://127.0.0.1/jiaoan/huanjingbuzhi/qiangmianbuzhi/153670.html"  target="_blank" title="秋の艳—幼儿园图片" >秋の艳—幼儿园图片</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanyuyanjiaoan/3169.html"  target="_blank" title="小班语言活动：小狗汪汪的生日" >小班语言活动：小狗汪汪的生日</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuanxiaobanjiaoan/xiaobanqitajiaoan/3617.html"  target="_blank" title="小班安全教育：过马路请走斑马线" >小班安全教育：过马路请走斑马线</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170080.html"  target="_blank" title="幼儿园托班数学教案：复习2以内的点" >幼儿园托班数学教案：复习2以内的点</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuandabanjiaoan/anquan/7201.html"  target="_blank" title="大班安全教案：尖利的东西会伤人" >大班安全教案：尖利的东西会伤人</a></li><li><a href="http://127.0.0.1/jiaoan/huanjingbuzhi/qiangmianbuzhi/153661.html"  target="_blank" title="秋天童话—幼儿园图片" >秋天童话—幼儿园图片</a></li> 
+                </ul>
+            </div>
+            <div class="jiaoan_r_box3">
+            	<h2 class="jiaoan_remenjiaoan"><a href="#" target="_blank">最新教案</a></h2>
+            	<ul class="jiaoan_r_box3_ul">
+                     <li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170080.html"  target="_blank" title="幼儿园托班数学教案：复习2以内的点" >幼儿园托班数学教案：复习2以内的点</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170075.html"  target="_blank" title="幼儿园托班数学教案：认识数字宝宝：1" >幼儿园托班数学教案：认识数字宝宝：1</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170071.html"  target="_blank" title="幼儿园托班数学教案：认识前、后" >幼儿园托班数学教案：认识前、后</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170069.html"  target="_blank" title="托班教案：给数字宝宝送礼物" >托班教案：给数字宝宝送礼物</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170068.html"  target="_blank" title="托班语言教案：小黄鸡看戏" >托班语言教案：小黄鸡看戏</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170067.html"  target="_blank" title="托班数学教案：蚂蚁宝宝的一家" >托班数学教案：蚂蚁宝宝的一家</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170066.html"  target="_blank" title="幼儿园托班数学教案：红黄排排队" >幼儿园托班数学教案：红黄排排队</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyinle/170065.html"  target="_blank" title="托班音乐教案：我的身体" >托班音乐教案：我的身体</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170064.html"  target="_blank" title="托班语言活动：小狗模仿操" >托班语言活动：小狗模仿操</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170063.html"  target="_blank" title="幼儿园托班数学教案：感知2以内数量" >幼儿园托班数学教案：感知2以内数量</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170062.html"  target="_blank" title="托班语言教案：白菜(语言能力)" >托班语言教案：白菜(语言能力)</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170061.html"  target="_blank" title="幼儿园托班数学教案：开汽车" >幼儿园托班数学教案：开汽车</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170060.html"  target="_blank" title="幼儿园托班数学教案：罐子叮当响" >幼儿园托班数学教案：罐子叮当响</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyinle/170059.html"  target="_blank" title="托班音乐教案：小鸭小鸡" >托班音乐教案：小鸭小鸡</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170058.html"  target="_blank" title="托班语言活动：洗小手" >托班语言活动：洗小手</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170057.html"  target="_blank" title="幼儿园托班数学教案：好玩的轮子" >幼儿园托班数学教案：好玩的轮子</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170056.html"  target="_blank" title="幼儿园托班数学活动：小猪住新房" >幼儿园托班数学活动：小猪住新房</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyinle/170055.html"  target="_blank" title="托班音乐教案：妈妈，亲亲我" >托班音乐教案：妈妈，亲亲我</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170054.html"  target="_blank" title="幼儿园托班科学教案：有趣的水宝宝" >幼儿园托班科学教案：有趣的水宝宝</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170053.html"  target="_blank" title="幼儿园托班数学教案：汽车开来了" >幼儿园托班数学教案：汽车开来了</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170052.html"  target="_blank" title="幼儿园托班数学教案：小鸡吃虫" >幼儿园托班数学教案：小鸡吃虫</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170051.html"  target="_blank" title="托班英语体验活动：SUN" >托班英语体验活动：SUN</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170050.html"  target="_blank" title="托班科学教案：纸宝宝朋友" >托班科学教案：纸宝宝朋友</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170049.html"  target="_blank" title="幼儿园托班数学教案：比大小" >幼儿园托班数学教案：比大小</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170048.html"  target="_blank" title="托班数学教案：寻找生活中的数字" >托班数学教案：寻找生活中的数字</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170047.html"  target="_blank" title="让幼儿喜欢说英语的教案" >让幼儿喜欢说英语的教案</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170046.html"  target="_blank" title="托班语言教案：一起玩" >托班语言教案：一起玩</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170045.html"  target="_blank" title="幼儿园托班数学教案：豆宝宝要回家" >幼儿园托班数学教案：豆宝宝要回家</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170044.html"  target="_blank" title="托班科学教案：好吃的水果" >托班科学教案：好吃的水果</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170043.html"  target="_blank" title="托班语言活动设计——“小猫和小朋" >托班语言活动设计——“小猫和小朋</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170042.html"  target="_blank" title="健康知识教案：香蕉的故事" >健康知识教案：香蕉的故事</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170041.html"  target="_blank" title="托班科学教案：小动物过冬" >托班科学教案：小动物过冬</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170040.html"  target="_blank" title="幼儿园托班数学教案：水果配对" >幼儿园托班数学教案：水果配对</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170039.html"  target="_blank" title="托班科学教案：小鸡喜欢吃什么" >托班科学教案：小鸡喜欢吃什么</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170038.html"  target="_blank" title="托班科学教案：小鸭和小鸡" >托班科学教案：小鸭和小鸡</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170037.html"  target="_blank" title="激发幼儿阅读图书的兴趣教案：黑夜" >激发幼儿阅读图书的兴趣教案：黑夜</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170036.html"  target="_blank" title="托班科学教案：各种各样的味道" >托班科学教案：各种各样的味道</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170035.html"  target="_blank" title="托班科学教案：小球躲起来了" >托班科学教案：小球躲起来了</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyinle/170034.html"  target="_blank" title="幼儿园托班音乐教案：猫和老鼠" >幼儿园托班音乐教案：猫和老鼠</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanshuxue/170033.html"  target="_blank" title="托班数学教案：花儿朵朵" >托班数学教案：花儿朵朵</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170032.html"  target="_blank" title="托班语言教案：扑通" >托班语言教案：扑通</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyinle/170031.html"  target="_blank" title="幼儿园托班音乐教案：head shoulder " >幼儿园托班音乐教案：head shoulder </a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170030.html"  target="_blank" title="托班科学教案：自己的影子" >托班科学教案：自己的影子</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobankexue/170029.html"  target="_blank" title="托班科学教案：我和颜色宝宝做朋友" >托班科学教案：我和颜色宝宝做朋友</a></li><li><a href="http://127.0.0.1/jiaoan/youeryuantuobanjiaoan/tuobanyuyan/170028.html"  target="_blank" title="教幼儿环保意识的儿歌：留住小鸟" >教幼儿环保意识的儿歌：留住小鸟</a></li>               </ul>
+            </div>
+        </div>
+        <div class="c"></div>
+    </div>
+    
+  </div>
+	<!-- 尾部开始 -->
+     <!-- 尾部开始 --> 
+  <div id="footer_wrapx">
+  	<div id="footer_x">
+  		<div id="footer_content">
+        	<p class="about"><a href="/info/about.html" target="_blank">关于我们</a> | <a href="/info/contact.html" target="_blank">联系我们</a> | <a href="/info/terms.html" target="_blank">服务条款</a> | <a href="/info/privacy.html" target="_blank">隐私保护</a> | <a href="/info/map.html" target="_blank">网站地图</a> | <a href="/info/ad.html" target="_blank">广告服务</a> | <a href="/info/link.html" target="_blank">友情链接</a> | <a href="/info/help.html" target="_blank">网站帮助</a> | <a href="/info/upload.html" target="_blank">作品投稿</a> </p>
+            <p><a href="http://127.0.0.1/">儿歌网</a>专注于提供：<a href="http://127.0.0.1" target="_blank" alt="儿童歌曲大全"><b>儿童歌曲</b></a>、<b><a href="http://127.0.0.1/donghuapian/" target="_blank" alt="儿童动画片">动画片</a></b>、<a href="http://127.0.0.1/wanyouxi/" target="_blank" alt="儿童小游戏大全"><b>儿童小游戏</b></a>力争做最好的儿童网站。<br />
+</p>
+            <p>Copyright&copy; <a href="http://127.0.0.1/">儿歌网</a> cnymk.com All Rights Reserved</p>
+            <p>技术支持:宝贝<b><a href="http://127.0.0.1" target="_blank">儿歌网</a></b>  ICP备案证号:www.cnymk.com</p>
+ <p style="font-size:10px">本站部分资源来自网友上传，如有侵权请邮件通知，我们将在3个工作日内删除。<p> 
+        </div>
+  	</div>
+  </div> 
+<!-- 尾部结束 --> 
+<div style="display:none;">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F855494e4fd05db2e589008845a9e0344' type='text/javascript'%3E%3C/script%3E"));
+</script></div>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+document.write("网页游戏左侧")

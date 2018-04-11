@@ -1,0 +1,1 @@
+document.write("介绍页通栏中(广告位ID：7)")

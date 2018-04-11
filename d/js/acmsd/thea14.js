@@ -1,0 +1,1 @@
+document.write("顶部横幅728 （ID：14）")

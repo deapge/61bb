@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>儿童小游戏-儿童歌曲-儿歌大全--源码库儿歌网</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="儿童小游戏erge,儿歌，mp3,儿歌下载,英语儿歌,英文儿歌,儿歌童谣,儿歌flash,幼儿儿歌,儿歌大全,宝宝的源码库儿歌网" />
+<meta name="description" content="源码库儿歌网提供最新儿歌视听和儿歌下载，包括经典的童谣，儿童FLASH，为儿童打造一个优良是视听环境。"/>
+<link rel="stylesheet" type="text/css" href="/css/index.css"/>
+<link rel="stylesheet" type="text/css" href="/css/list.css"/>
+<script language="javascript" src="/js/jquery-1.7.min.js"></script>
+<script language="javascript" src="/js/func.js"></script>
+<link rel="stylesheet" href="/css/colorbox.css" type="text/css" />
+<script language="javascript" src="/js/jquery.colorbox.js"></script>
+<script language="javascript" src="/js/xqfunc.js"></script>
+
+</head>
+<body>
+<div id="shortcut">
+  <div class="w">
+    <ul>
+      <li><a href="/" target="_blank">儿歌网</a></li>
+      <li><a href="/s/n180.html" target="_blank">最新儿歌</a></li>
+      <li><a href="/s/h180.html" target="_blank">热门儿歌</a></li>
+      <li><a href="/s/t180.html" target="_blank">推荐儿歌</a></li>
+     
+      
+    </ul>
+    <ul class="divLoginBar">
+       
+      <li id="add"><a onclick="AddFavorite('http://127.0.0.1',':儿歌-儿童小游戏-儿歌大全-儿童歌曲-儿童歌曲大全-儿歌视频大全-儿歌童谣-童谣大全-儿歌播放器-儿童资源_127.0.0.1')" style="cursor:hand" href="javascript:;">加入收藏</a></li>
+      <li id="conf"><a onclick="SetHome(this,'')" href="javascript:;">设为首页</a></li>
+    </ul>
+  </div>
+</div>
+<div class="c"></div>
+
+<div id="bb_box"> <div id="header">
+  <div id="bb_logo"><a href="/"><img alt="儿歌网" src="/css/logo.gif"/></a></div>
+  <div id="topgg"> <script src="/d/js/acmsd/thea2.js"></script></div>
+  <div class="c"></div>
+  <div id="bb_nav">
+    <ul>
+      <li id="home" class="current" ><a href="/" >首页</a></li>
+      <li  id="c1"><a href="/tingerge/">听儿歌</a></li>
+      <li id="c2"><a href="/jianggushi/">儿童故事</a></li>
+      <li id="c3"><a href="/xuezhishi/">学知识</a></li>
+      <li id="c4"><a href="/wanyouxi/">儿童游戏</a></li>
+      <li id="c5"><a href="/donghuapian/">动画片</a></li>
+      <li  id="TV"><a href="/fm/">亲宝电台</a></li>
+      <li id="park"><a href="http://www.taohi.cn"  target="_blank" >宝宝乐园</a></li>
+      <li id="c199"><a href="/jiaoan/">幼儿园教案</a> </li>
+    </ul>
+    <div class="nav_search">
+            <div class="seachslect" onmouseout="selectseout('select_tops')" onmouseover="selectseover('select_tops')">
+            	<span class="currcodes">
+                <em id="selectvalue">视频</em>
+                    <div id="select_tops" class="subtop_select" style="display: none;">
+                    	<a onclick="return search_show('1','0',this)" href="javascript:void(0)">视频</a>
+                        <a onclick="return search_show('2','0',this)" href="javascript:void(0)">文章</a>
+                    </div>
+                </span>
+            </div>      
+             <form name="fsearch" method="post" action="/e/search/index.php" target="_blank">
+              <input type="hidden" name="show" value="title">
+              <input id="tempid" type="hidden" name="tempid" value="1">
+              <input id="tbname" type="hidden" name="tbname" value="game">
+                <input type="hidden" name="show" value="title,smalltext,newstext,writer" />
+                <input id="classid" name="classid" type="hidden" value="0" />
+                <input name="keyboard" type="text"  class="nav_box"  value="输入儿歌名称" id="keys"/>
+              <input type="submit" value="搜索" class="nav_btn">
+              <div class="c"></div>
+            </form>
+      </div>
+    <div class="c"></div>
+  </div>
+  <div class="extra">
+   
+    <ul>
+      <li><a href="/tingerge/zhongwenerge/" target="_blank" >中文儿歌</a></li>
+      <li><a href="/tingerge/yingwenerge/" target="_blank">英文儿歌</a></li>
+      <li><a href="/tingerge/tongyao/" target="_blank" >童谣</a></li>
+      <li><a href="/donghuapian/" target="_blank">儿童动画片</a></li>
+      <li><a href="/jianggushi/jingdianxiaogushi/" target="_blank" >儿童故事</a></li>
+      <li><a href="/jianggushi/tonghuagushi/" target="_blank">童话</a> <a href="/jianggushi/yuyangushi/" target="_blank">寓言</a></li>
+      <li><a href="/jianggushi/chengyugushi/" target="_blank">成语故事</a></li>
+      <li><a href="/jianggushi/shenhuachuanshuo/" target="_blank">神话传说</a></li>
+      <li><a href="/wudao/ertongwudao/" target="_blank">儿童舞蹈</a></li>
+      <li><a href="/xuezhishi/tangshisongci/" target="_blank">唐诗宋词</a></li>
+      <li><a href="/xuezhishi/kuailepinyin/" target="_blank">快乐拼音</a></li>
+      <li><a href="/xuezhishi/youerqimeng/" target="_blank">幼儿启蒙</a></li>
+      <li><a href="/xuezhishi/yingyujiaoyu/" target="_blank">英语教育</a></li>
+      <li><a href="/xuezhishi/baikechangshi/" target="_blank">百科常识</a></li>
+      <li><a href="/miyu/" target="_blank">谜语</a></li>
+      <li><a href="/tonghua/" target="_blank">童话故事</a></li>
+
+    </ul>
+  </div>
+</div> 
+</div>
+
+<div class="adm_960" id="adm"><script src="/d/js/acmsd/thea4.js"></script></div>
+
+<div class="clr zf8"></div>
+    <div class="content_mid">
+       <div class="list_left">
+          <div class="list_boxs">
+            <div class="list_top"></div>
+            <div class="list_mid">
+              <h2 class="recommend_list">专题推荐</h2>
+              <div class="zt_img_p"><img width="200" src='/d/file/p/ertongxiaoyouxi.jpg' onerror="this.onerror=null;this.style.display='none';" />
+                             </div>
+              <h3 class="red_h3">儿童小游戏</h3>
+              <p class="zt_text_p"><span class="ztjs">专题介绍：</span>现在的宝宝，1岁就能自己操作电脑了，常听论坛里的妈妈们说，宝宝会自己打开桌面上的亲宝儿歌播放器听儿歌。爱玩是宝宝的天性，1-2岁的宝宝，已经会自己玩小游戏了哦，哪些小游戏是最适合宝宝玩并能增长宝宝智力的呢？我们精心挑选了准备给妈妈们。</p>
+<div style="margin:5px;text-align:center">
+<!-- Baidu Button BEGIN -->
+    <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+        <span class="bds_more">分享到：</span>
+        <a class="bds_qzone"></a>
+        <a class="bds_tsina"></a>
+        <a class="bds_tqq"></a>
+        <a class="bds_renren"></a>
+		<a class="shareCount"></a>
+    </div>
+<script type="text/javascript" id="bdshare_js" data="type=tools" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+	document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+</script>
+<!-- Baidu Button END -->
+</div>
+            </div>
+            <div class="list_bottom"></div>
+          </div>
+        </div>
+        <div class="list_right">
+          <div class="select_title">
+          </div>
+          <div class="change fl"> 
+            <span class="new"> 
+             <dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9363.html" target="_blank" title="阿猫赛跑"><img src="/spic/20120726/7849.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9363.html" target="_blank"  title="阿猫赛跑">阿猫赛跑</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9359.html" target="_blank" title="迪斯尼贝儿公主"><img src="/spic/20120726/7867.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9359.html" target="_blank"  title="迪斯尼贝儿公主">迪斯尼贝儿公主</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9360.html" target="_blank" title="蘑菇家园拼图"><img src="/spic/20120726/7814.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9360.html" target="_blank"  title="蘑菇家园拼图">蘑菇家园拼图</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9356.html" target="_blank" title="奥特曼救美"><img src="/spic/20120726/7843.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9356.html" target="_blank"  title="奥特曼救美">奥特曼救美</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9349.html" target="_blank" title="钓鱼实习生"><img src="/spic/20120726/7837.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9349.html" target="_blank"  title="钓鱼实习生">钓鱼实习生</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/pintutianse/9351.html" target="_blank" title="可爱米奇拼图"><img src="/spic/20120726/7861.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/pintutianse/9351.html" target="_blank"  title="可爱米奇拼图">可爱米奇拼图</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9346.html" target="_blank" title="闪电狗救援运动"><img src="/spic/20120726/7889.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9346.html" target="_blank"  title="闪电狗救援运动">闪电狗救援运动</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9347.html" target="_blank" title="三种拼图游戏"><img src="/spic/20120726/7793.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9347.html" target="_blank"  title="三种拼图游戏">三种拼图游戏</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9344.html" target="_blank" title="钓鱼专家"><img src="/spic/20120726/7821.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9344.html" target="_blank"  title="钓鱼专家">钓鱼专家</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9340.html" target="_blank" title="水果快刀"><img src="/spic/20120726/7779.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9340.html" target="_blank"  title="水果快刀">水果快刀</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9338.html" target="_blank" title="角斗士的任务"><img src="/spic/20120726/7813.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9338.html" target="_blank"  title="角斗士的任务">角斗士的任务</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9334.html" target="_blank" title="偷偷吸烟"><img src="/spic/20120726/7765.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9334.html" target="_blank"  title="偷偷吸烟">偷偷吸烟</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9335.html" target="_blank" title="完美鸡尾酒"><img src="/spic/20120726/7875.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9335.html" target="_blank"  title="完美鸡尾酒">完美鸡尾酒</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9333.html" target="_blank" title="恐龙独轮车"><img src="/spic/20120726/7863.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9333.html" target="_blank"  title="恐龙独轮车">恐龙独轮车</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9326.html" target="_blank" title="四帅男赛跑"><img src="/spic/20120726/7855.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9326.html" target="_blank"  title="四帅男赛跑">四帅男赛跑</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9327.html" target="_blank" title="龟与好友"><img src="/spic/20120726/7819.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9327.html" target="_blank"  title="龟与好友">龟与好友</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9329.html" target="_blank" title="足球宝贝"><img src="/spic/20120726/7847.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9329.html" target="_blank"  title="足球宝贝">足球宝贝</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9323.html" target="_blank" title="美女抢男友"><img src="/spic/20120726/7841.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9323.html" target="_blank"  title="美女抢男友">美女抢男友</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9321.html" target="_blank" title="qq宠物"><img src="/spic/20120726/7845.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9321.html" target="_blank"  title="qq宠物">qq宠物</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9322.html" target="_blank" title="吹气泡"><img src="/spic/20120726/7807.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9322.html" target="_blank"  title="吹气泡">吹气泡</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9316.html" target="_blank" title="记忆胡子变色的顺序"><img src="/spic/20120726/7749.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9316.html" target="_blank"  title="记忆胡子变色的顺序">记忆胡子变色的顺序</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9317.html" target="_blank" title="教你做肉桂卷"><img src="/spic/20120726/7799.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9317.html" target="_blank"  title="教你做肉桂卷">教你做肉桂卷</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/pintutianse/9313.html" target="_blank" title="复活节的女孩"><img src="/spic/20120726/7780.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/pintutianse/9313.html" target="_blank"  title="复活节的女孩">复活节的女孩</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9315.html" target="_blank" title="大厨快餐厅"><img src="/spic/20120726/7831.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9315.html" target="_blank"  title="大厨快餐厅">大厨快餐厅</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9310.html" target="_blank" title="接水管"><img src="/spic/20120726/7671.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9310.html" target="_blank"  title="接水管">接水管</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9306.html" target="_blank" title="求福"><img src="/spic/20120726/7757.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9306.html" target="_blank"  title="求福">求福</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9309.html" target="_blank" title="过沼泽地"><img src="/spic/20120726/7705.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9309.html" target="_blank"  title="过沼泽地">过沼泽地</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9303.html" target="_blank" title="记忆走迷宫"><img src="/spic/20120726/7691.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9303.html" target="_blank"  title="记忆走迷宫">记忆走迷宫</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9305.html" target="_blank" title="变色方块"><img src="/spic/20120726/7655.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9305.html" target="_blank"  title="变色方块">变色方块</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9299.html" target="_blank" title="捕鱼"><img src="/spic/20120726/7713.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9299.html" target="_blank"  title="捕鱼">捕鱼</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9298.html" target="_blank" title="高难度迷宫足球"><img src="/spic/20120726/7643.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9298.html" target="_blank"  title="高难度迷宫足球">高难度迷宫足球</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9294.html" target="_blank" title="接水果"><img src="/spic/20120726/7695.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9294.html" target="_blank"  title="接水果">接水果</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9296.html" target="_blank" title="记忆翻牌"><img src="/spic/20120726/7675.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9296.html" target="_blank"  title="记忆翻牌">记忆翻牌</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9289.html" target="_blank" title="魔术帽"><img src="/spic/20120726/7661.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9289.html" target="_blank"  title="魔术帽">魔术帽</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9287.html" target="_blank" title="翻牌配对"><img src="/spic/20120726/7619.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9287.html" target="_blank"  title="翻牌配对">翻牌配对</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9288.html" target="_blank" title="月球降落"><img src="/spic/20120726/7803.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9288.html" target="_blank"  title="月球降落">月球降落</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9282.html" target="_blank" title="海底探险"><img src="/spic/20120726/7787.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9282.html" target="_blank"  title="海底探险">海底探险</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9283.html" target="_blank" title="猜姿势"><img src="/spic/20120726/7647.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9283.html" target="_blank"  title="猜姿势">猜姿势</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9281.html" target="_blank" title="草莓公主音乐屋"><img src="/spic/20120726/7607.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9281.html" target="_blank"  title="草莓公主音乐屋">草莓公主音乐屋</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/pintutianse/9275.html" target="_blank" title="添色游戏15"><img src="/spic/20120726/7585.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/pintutianse/9275.html" target="_blank"  title="添色游戏15">添色游戏15</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9276.html" target="_blank" title="放风筝"><img src="/spic/20120726/7773.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9276.html" target="_blank"  title="放风筝">放风筝</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9277.html" target="_blank" title="音乐记忆点击"><img src="/spic/20120726/7635.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9277.html" target="_blank"  title="音乐记忆点击">音乐记忆点击</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/pintutianse/9269.html" target="_blank" title="添色游戏14"><img src="/spic/20120726/7681.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/pintutianse/9269.html" target="_blank"  title="添色游戏14">添色游戏14</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/pintutianse/9270.html" target="_blank" title="添色游戏1"><img src="/spic/20120726/7575.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/pintutianse/9270.html" target="_blank"  title="添色游戏1">添色游戏1</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9271.html" target="_blank" title="别让我看见"><img src="/spic/20120726/7745.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9271.html" target="_blank"  title="别让我看见">别让我看见</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/pintutianse/9263.html" target="_blank" title="添色游戏13"><img src="/spic/20120726/7665.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/pintutianse/9263.html" target="_blank"  title="添色游戏13">添色游戏13</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/pintutianse/9264.html" target="_blank" title="填色-小男孩一家人"><img src="/spic/20120726/7563.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/pintutianse/9264.html" target="_blank"  title="填色-小男孩一家人">填色-小男孩一家人</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9265.html" target="_blank" title="找不同"><img src="/spic/20120726/7701.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9265.html" target="_blank"  title="找不同">找不同</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9258.html" target="_blank" title="选择？"><img src="/spic/20120726/7685.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/yizhiyouxi/9258.html" target="_blank"  title="选择？">选择？</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9259.html" target="_blank" title="理发大师"><img src="/spic/20120726/7551.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9259.html" target="_blank"  title="理发大师">理发大师</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/pintutianse/9257.html" target="_blank" title="添色游戏12"><img src="/spic/20120726/7651.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/pintutianse/9257.html" target="_blank"  title="添色游戏12">添色游戏12</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9252.html" target="_blank" title="勇攀齐云山"><img src="/spic/20120726/7539.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9252.html" target="_blank"  title="勇攀齐云山">勇攀齐云山</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9253.html" target="_blank" title="萤火虫找灯笼"><img src="/spic/20120726/7536.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9253.html" target="_blank"  title="萤火虫找灯笼">萤火虫找灯笼</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/pintutianse/9250.html" target="_blank" title="添色游戏11"><img src="/spic/20120726/7639.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/pintutianse/9250.html" target="_blank"  title="添色游戏11">添色游戏11</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9246.html" target="_blank" title="灌篮牛牛"><img src="/spic/20120726/7533.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9246.html" target="_blank"  title="灌篮牛牛">灌篮牛牛</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9247.html" target="_blank" title="星空大战"><img src="/spic/20120726/7530.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9247.html" target="_blank"  title="星空大战">星空大战</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/pintutianse/9244.html" target="_blank" title="添色游戏10"><img src="/spic/20120726/7627.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/pintutianse/9244.html" target="_blank"  title="添色游戏10">添色游戏10</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9240.html" target="_blank" title="小马识途"><img src="/spic/20120726/7518.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9240.html" target="_blank"  title="小马识途">小马识途</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/pintutianse/9241.html" target="_blank" title="添色游戏9"><img src="/spic/20120726/7617.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/pintutianse/9241.html" target="_blank"  title="添色游戏9">添色游戏9</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9237.html" target="_blank" title="智取礼物"><img src="/spic/20120726/7513.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9237.html" target="_blank"  title="智取礼物">智取礼物</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/pintutianse/9238.html" target="_blank" title="添色游戏8"><img src="/spic/20120726/7601.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/pintutianse/9238.html" target="_blank"  title="添色游戏8">添色游戏8</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9234.html" target="_blank" title="神枪手"><img src="/spic/20120726/7521.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9234.html" target="_blank"  title="神枪手">神枪手</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/pintutianse/9233.html" target="_blank" title="添色游戏7"><img src="/spic/20120726/7583.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/pintutianse/9233.html" target="_blank"  title="添色游戏7">添色游戏7</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/pintutianse/9227.html" target="_blank" title="添色游戏6"><img src="/spic/20120726/7567.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/pintutianse/9227.html" target="_blank"  title="添色游戏6">添色游戏6</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9228.html" target="_blank" title="警察训练营"><img src="/spic/20120726/7515.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9228.html" target="_blank"  title="警察训练营">警察训练营</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9229.html" target="_blank" title="洞中探险"><img src="/spic/20120726/7507.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9229.html" target="_blank"  title="洞中探险">洞中探险</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9223.html" target="_blank" title="砌墙高手"><img src="/spic/20120726/7501.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9223.html" target="_blank"  title="砌墙高手">砌墙高手</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9221.html" target="_blank" title="魔力汽车"><img src="/spic/20120726/7571.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/shuxueyouxi/9221.html" target="_blank"  title="魔力汽车">魔力汽车</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/pintutianse/9222.html" target="_blank" title="添色游戏5"><img src="/spic/20120726/7557.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/pintutianse/9222.html" target="_blank"  title="添色游戏5">添色游戏5</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/wanyouxi/pintutianse/9218.html" target="_blank" title="添色游戏4"><img src="/spic/20120726/7623.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/wanyouxi/pintutianse/9218.html" target="_blank"  title="添色游戏4">添色游戏4</a><p><i class="starAll star3"></i></p></dt></dl>
+              <div class="c"></div>
+               
+            </span> 
+          </div>
+
+
+
+          <div class="page list_margin">
+   					<i class="no_a"><span>共20页</span></i><a href="http://127.0.0.1/s/xiaoyouxi/index.html"class="wrap"><span>首页</span></a><a href="http://127.0.0.1/s/xiaoyouxi/index_10.html" class="wrap"><span>上一页</span></a><a href="http://127.0.0.1/s/xiaoyouxi/index_9.html "class="wrap"><span>9</span></a><a href="http://127.0.0.1/s/xiaoyouxi/index_10.html "class="wrap"><span>10</span></a><i class='current'><span>11</span></i><a href="http://127.0.0.1/s/xiaoyouxi/index_12.html "class="wrap"><span>12</span></a><a href="http://127.0.0.1/s/xiaoyouxi/index_13.html "class="wrap"><span>13</span></a><a href="http://127.0.0.1/s/xiaoyouxi/index_14.html "class="wrap"><span>14</span></a><a href="http://127.0.0.1/s/xiaoyouxi/index_15.html "class="wrap"><span>15</span></a><a href="http://127.0.0.1/s/xiaoyouxi/index_16.html "class="wrap"><span>16</span></a><a href="http://127.0.0.1/s/xiaoyouxi/index_17.html "class="wrap"><span>17</span></a><a href="http://127.0.0.1/s/xiaoyouxi/index_18.html "class="wrap"><span>18</span></a><a href="http://127.0.0.1/s/xiaoyouxi/index_12.html" class="next_p"><span>下一页</span></a><a href="http://127.0.0.1/s/xiaoyouxi/index_20.html" class="wrap"><span>尾页</span></a>
+		<div class="c"></div>
+                </div>
+           <div class="clr zf10"></div>
+
+
+        </div>
+    </div>
+    <div class="clr zf10"></div>
+
+
+ 
+  
+<div class="main">
+    <div class="yl_top">
+      <h3 class="classic"><span class="zs">推荐精品</span></h3>
+      <i class="more"><a href="/s/t180.html" target="_blank">更多</a></i>
+      <div class="c"></div>
+    </div>
+    <div class="yl_mid">
+      <div class="list_yl remove">
+        <ul>
+           <li><a href="http://127.0.0.1/wudao/ertongwudao/13020.html"  target="_blank" title="最牛现代舞蹈" >最牛现代舞蹈</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/13019.html"  target="_blank" title="《open  your dream" >《open  your dream</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/13004.html"  target="_blank" title="伤不起" >伤不起</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12992.html"  target="_blank" title="《BB健美操》" >《BB健美操》</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12991.html"  target="_blank" title="我们都来做运动" >我们都来做运动</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12979.html"  target="_blank" title="茉莉花" >茉莉花</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12978.html"  target="_blank" title="小伞花" >小伞花</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12964.html"  target="_blank" title="好日子" >好日子</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12963.html"  target="_blank" title="我的麦克风" >我的麦克风</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12962.html"  target="_blank" title="种太阳" >种太阳</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/jiandangjie/12954.html"  target="_blank" title="少儿拉丁舞" >少儿拉丁舞</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12945.html"  target="_blank" title="加油歌" >加油歌</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12944.html"  target="_blank" title="天竺少女" >天竺少女</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuanxiaojie/12943.html"  target="_blank" title="铃鼓舞" >铃鼓舞</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuanxiaojie/12940.html"  target="_blank" title="拨浪鼓" >拨浪鼓</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/jiandangjie/12937.html"  target="_blank" title="一二三四歌" >一二三四歌</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12928.html"  target="_blank" title="向前冲" >向前冲</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12927.html"  target="_blank" title="疯狂青蛙" >疯狂青蛙</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12926.html"  target="_blank" title="叮叮当" >叮叮当</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12909.html"  target="_blank" title="水果拳" >水果拳</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12820.html"  target="_blank" title="12朝天蹬-少儿部分" >12朝天蹬-少儿部分</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12819.html"  target="_blank" title="跪下腰-幼儿部分5" >跪下腰-幼儿部分5</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12816.html"  target="_blank" title="开胯练习-幼儿部分3" >开胯练习-幼儿部分3</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12812.html"  target="_blank" title="18东北秧歌手绢花练" >18东北秧歌手绢花练</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12809.html"  target="_blank" title="17指法练习-少儿部" >17指法练习-少儿部</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12788.html"  target="_blank" title="绿光" >绿光</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12783.html"  target="_blank" title="北京小妞" >北京小妞</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12781.html"  target="_blank" title="红星歌" >红星歌</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12765.html"  target="_blank" title="快乐崇拜" >快乐崇拜</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12764.html"  target="_blank" title="萤火虫" >萤火虫</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12679.html"  target="_blank" title="大西瓜" >大西瓜</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12674.html"  target="_blank" title="凯啼猫" >凯啼猫</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12672.html"  target="_blank" title="小蜜蜂" >小蜜蜂</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12660.html"  target="_blank" title="印度舞" >印度舞</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12659.html"  target="_blank" title="洋娃娃的舞会" >洋娃娃的舞会</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12542.html"  target="_blank" title="和哆啦A梦一起跳舞" >和哆啦A梦一起跳舞</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12537.html"  target="_blank" title="蔡依林《日不落》舞" >蔡依林《日不落》舞</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12535.html"  target="_blank" title="小白马,飞起来" >小白马,飞起来</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuandan/12484.html"  target="_blank" title="菠萝菠萝蜜" >菠萝菠萝蜜</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuandan/12481.html"  target="_blank" title="红炮仗" >红炮仗</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuandan/12478.html"  target="_blank" title="找个朋友碰一碰" >找个朋友碰一碰</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuandan/12475.html"  target="_blank" title="笑哈哈" >笑哈哈</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuandan/12472.html"  target="_blank" title="花儿红" >花儿红</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuandan/12469.html"  target="_blank" title="踏雪欢歌" >踏雪欢歌</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuandan/12467.html"  target="_blank" title="小水滴" >小水滴</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuandan/12466.html"  target="_blank" title="紫丁香" >紫丁香</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuandan/12465.html"  target="_blank" title="神奇" >神奇</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuandan/12464.html"  target="_blank" title="我是一只小青龙" >我是一只小青龙</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuandan/12462.html"  target="_blank" title="喜洋洋" >喜洋洋</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuandan/12460.html"  target="_blank" title="过河" >过河</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuandan/12459.html"  target="_blank" title="儿童艺术舞蹈" >儿童艺术舞蹈</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/chunjie/12457.html"  target="_blank" title="新年倒计时" >新年倒计时</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuandan/12456.html"  target="_blank" title="灯儿红" >灯儿红</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuandan/12455.html"  target="_blank" title="向前冲" >向前冲</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/chunjie/12454.html"  target="_blank" title="贴窗花" >贴窗花</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuandan/12453.html"  target="_blank" title="儿童艺术舞蹈" >儿童艺术舞蹈</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/chunjie/12452.html"  target="_blank" title="伞儿红" >伞儿红</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/chunjie/12451.html"  target="_blank" title="舞狮童谣" >舞狮童谣</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/yuandan/12450.html"  target="_blank" title="大公鸡" >大公鸡</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/chunjie/12449.html"  target="_blank" title="《火花》" >《火花》</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/chunjie/12448.html"  target="_blank" title="春芽" >春芽</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/chunjie/12446.html"  target="_blank" title="快乐喜洋洋" >快乐喜洋洋</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/chunjie/12445.html"  target="_blank" title="欢天喜地" >欢天喜地</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/chunjie/12443.html"  target="_blank" title="春天在哪里" >春天在哪里</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/chunjie/12442.html"  target="_blank" title="嘀哩哩" >嘀哩哩</a></li><li><a href="http://127.0.0.1/wudao/ertongwudao/12441.html"  target="_blank" title="叮叮当" >叮叮当</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/chunjie/12440.html"  target="_blank" title="贺新春" >贺新春</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/chunjie/12439.html"  target="_blank" title="春天的孩子" >春天的孩子</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/chunjie/12438.html"  target="_blank" title="过新年" >过新年</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/chunjie/12437.html"  target="_blank" title="开门红" >开门红</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/chunjie/12436.html"  target="_blank" title="中国芭比" >中国芭比</a></li><li><a href="http://127.0.0.1/wudao/jieriwudao/chunjie/12435.html"  target="_blank" title="小兔乖乖" >小兔乖乖</a></li><div class="c"></div>
+        </ul>
+      </div>
+    </div>
+    <div class="yl_bottom"></div>
+  </div>
+<div class="clr zf10"></div>
+</div>
+</div>
+</div>
+
+<!-- 尾部开始 --> 
+<!-- 尾部开始 --> 
+  <div id="footer_wrapx">
+  	<div id="footer_x">
+  		<div id="footer_content">
+        	<p class="about"><a href="/info/about.html" target="_blank">关于我们</a> | <a href="/info/contact.html" target="_blank">联系我们</a> | <a href="/info/terms.html" target="_blank">服务条款</a> | <a href="/info/privacy.html" target="_blank">隐私保护</a> | <a href="/info/map.html" target="_blank">网站地图</a> | <a href="/info/ad.html" target="_blank">广告服务</a> | <a href="/info/link.html" target="_blank">友情链接</a> | <a href="/info/help.html" target="_blank">网站帮助</a> | <a href="/info/upload.html" target="_blank">作品投稿</a> </p>
+            <p><a href="http://127.0.0.1/">儿歌网</a>专注于提供：<a href="http://127.0.0.1" target="_blank" alt="儿童歌曲大全"><b>儿童歌曲</b></a>、<b><a href="http://127.0.0.1/donghuapian/" target="_blank" alt="儿童动画片">动画片</a></b>、<a href="http://127.0.0.1/wanyouxi/" target="_blank" alt="儿童小游戏大全"><b>儿童小游戏</b></a>力争做最好的儿童网站。<br />
+</p>
+            <p>Copyright&copy; <a href="http://127.0.0.1/">儿歌网</a> cnymk.com All Rights Reserved</p>
+            <p>技术支持:宝贝<b><a href="http://127.0.0.1" target="_blank">儿歌网</a></b>  ICP备案证号:www.cnymk.com</p>
+ <p style="font-size:10px">本站部分资源来自网友上传，如有侵权请邮件通知，我们将在3个工作日内删除。<p> 
+        </div>
+  	</div>
+  </div> 
+<!-- 尾部结束 --> 
+<div style="display:none;">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F855494e4fd05db2e589008845a9e0344' type='text/javascript'%3E%3C/script%3E"));
+</script></div>
+ 
+<!-- 尾部结束 -->
+</body>
+</html>

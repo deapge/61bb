@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>404页面</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="/style/2012/61baby.css" type="text/css" />
+<script language="javascript" src="/js/2012/jquery-1.7.min.js"></script>
+<script language="javascript" src="/js/2012/func.js"></script>
+</head>
+<body>
+     <!-- 顶部开始 -->
+  <link rel="stylesheet" href="/style/2012/colorbox.css" type="text/css" />
+<script language="javascript" src="/js/2012/jquery.colorbox.js"></script>
+<script language="javascript" src="/js/2012/xqfunc.js"></script>
+<div id="shortcut">
+  <div class="w">
+    <ul>
+      <li><a href="http://www.61baobao.com/" target="_blank">儿歌</a></li>
+      <li><a href="http://home.qqbaobao.com/" target="_blank">宝宝乐园</a></li>
+      <li><a href="http://www.61baobao.com/s/n180.html" target="_blank">最新儿歌</a></li>
+      <li><a href="http://www.61baobao.com/s/h180.html" target="_blank">热门儿歌</a></li>
+      <li><a href="http://www.61baobao.com/s/t180.html" target="_blank">推荐儿歌</a></li>
+      <li>
+		<div id="txWB_W1"></div><script type="text/javascript">var tencent_wb_name = "QB520_baobao";var tencent_wb_sign = "81458665db011c66c5de9e323435e28e65457b7c";var tencent_wb_style = "3";</script><script type="text/javascript" src="http://v.t.qq.com/follow/widget.js" charset="utf-8"/></script>      	
+      </li>
+      <li>
+        <iframe src="http://open.qzone.qq.com/like?url=http%3A%2F%2Fuser.qzone.qq.com%2F1515535999&type=button&width=60&height=24&style=2" allowtransparency="true" scrolling="no" border="0" frameborder="0" style="width:60px;height:24px;border:none;overflow:hidden;padding:3px 0 0 0;"></iframe>      
+        <iframe width="115" height="24" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" scrolling="no" frameborder="No" border="0" src="http://widget.weibo.com/relationship/followbutton.php?width=136&height=24&uid=2089213381&style=2&btn=light&dpc=1"></iframe>
+      </li>
+    </ul>
+    <ul class="divLoginBar">
+         <li id="L"> <script type="text/javascript">document.write('<a class="Blue" id="login_box" href="/login/login_box.htm?referer='+window.location.href+'">登录</a>');</script></li>
+      <li id="R"> <a href="http://www.61baobao.com/p/reg.php" target="_blank">注册</a></li>
+      <li id="add"><a onclick="AddFavorite('http://www.61baobao.com/','六一宝宝网:儿歌-儿歌大全-儿童歌曲-儿童歌曲大全-儿歌视频大全-最好的儿童网站_61baobao.com')" style="cursor:hand" href="javascript:;">加入收藏</a></li>
+      <li id="conf"><a onclick="SetHome(this,'http://www.61baobao.com')" href="javascript:;">设为首页</a></li>
+    </ul>
+  </div>
+</div>
+<div class="c"></div> 
+    <!-- 顶部结束 -->
+   <div id="bb_box">
+	<div id="header" class="error">
+    	<div class="errArea">
+        	<div class="backHome">
+            	<span>您可以返回 <a href="">61宝宝首页！</a></span>
+                <a href="" class="back_btn">立即返回</a>
+            </div>
+        </div>
+    </div>
+    <!-- 主体内容开始 -->
+    <div id="content">
+		<div class="box_content">
+        <!-- 排名开始 -->
+        	<div class="rank">
+            	<div class="rank_top"></div>
+                <div class="rank_mid">
+                	<h3><span class="zs">排行榜</span></h3>
+                    <div class="top10"></div>
+                    <ul>
+                    <li><a href="http://www.61baobao.com/tingerge/zhongwenerge/20120330/11259.html" class="blue" target="_blank">马兰花</a><a href="http://www.61baobao.com/tingerge/zhongwenerge/" class="fl"  target="_blank">[中文儿歌]</a><div class="c"></div></li><li><a href="http://www.61baobao.com/tingerge/zhongwenerge/20120322/11258.html" class="blue" target="_blank">丢手绢</a><a href="http://www.61baobao.com/tingerge/zhongwenerge/" class="fl"  target="_blank">[中文儿歌]</a><div class="c"></div></li><li><a href="http://www.61baobao.com/tingerge/zhongwenerge/20120314/11159.html" class="blue" target="_blank">哆来咪</a><a href="http://www.61baobao.com/tingerge/zhongwenerge/" class="fl"  target="_blank">[中文儿歌]</a><div class="c"></div></li><li><a href="http://www.61baobao.com/tingerge/zhongwenerge/20120314/11158.html" class="blue" target="_blank">小喇叭</a><a href="http://www.61baobao.com/tingerge/zhongwenerge/" class="fl"  target="_blank">[中文儿歌]</a><div class="c"></div></li><li><a href="http://www.61baobao.com/tingerge/zhongwenerge/20120305/11157.html" class="blue" target="_blank">英文字母歌</a><a href="http://www.61baobao.com/tingerge/zhongwenerge/" class="fl"  target="_blank">[中文儿歌]</a><div class="c"></div></li><li><a href="http://www.61baobao.com/tingerge/zhongwenerge/20120305/11156.html" class="blue" target="_blank">泥娃娃英文</a><a href="http://www.61baobao.com/tingerge/zhongwenerge/" class="fl"  target="_blank">[中文儿歌]</a><div class="c"></div></li><li><a href="http://www.61baobao.com/tingerge/zhongwenerge/20120302/11154.html" class="blue" target="_blank">学习雷锋好</a><a href="http://www.61baobao.com/tingerge/zhongwenerge/" class="fl"  target="_blank">[中文儿歌]</a><div class="c"></div></li><li><a href="http://www.61baobao.com/tingerge/zhongwenerge/20120302/11153.html" class="blue" target="_blank">泥娃娃</a><a href="http://www.61baobao.com/tingerge/zhongwenerge/" class="fl"  target="_blank">[中文儿歌]</a><div class="c"></div></li><li><a href="http://www.61baobao.com/tingerge/zhongwenerge/20120302/11152.html" class="blue" target="_blank">童年</a><a href="http://www.61baobao.com/tingerge/zhongwenerge/" class="fl"  target="_blank">[中文儿歌]</a><div class="c"></div></li><li><a href="http://www.61baobao.com/tingerge/zhongwenerge/20120217/11068.html" class="blue" target="_blank">找朋友</a><a href="http://www.61baobao.com/tingerge/zhongwenerge/" class="fl"  target="_blank">[中文儿歌]</a><div class="c"></div></li>                        <div class="c"></div>
+                    </ul>	
+                    <div class="c"></div>
+                </div>
+                <div class="rank_bottom"></div>
+            </div>
+        <!-- 排名结束 -->
+        <!-- 推荐开始 -->
+        	<div class="recommend">
+            	<div class="recommend_top">
+                	<h3><span class="zs">推荐专题</span></h3>
+                    <span class="update">今日更新<a href="">12</a>款新专题</span>
+                    <p onclick=""><img src="/images/sc1.gif"/>请记得我们的网站61baobao.com 点此收藏<img src="/images/sc2.gif"/></p>
+                    <div class="c"></div>
+                </div>
+                <div class="recommend_mid">
+                	<dl>
+            <dd> <a href="http://www.61baobao.com/s/youergequ/" target="_blank" ><img border="0" src="http://www.61baobao.com/common/flash/pic/24.jpg"  alt="幼儿歌曲大全" /></a> </dd>
+            <dt> <a href="http://www.61baobao.com/s/youergequ/" target="_blank">幼儿歌曲大全</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="http://www.61baobao.com/s/qiaohuyouxi/" target="_blank" ><img border="0" src="http://www.61baobao.com/common/flash/pic/12.jpg"  alt="巧虎快乐版2011"/></a> </dd>
+            <dt> <a href="http://www.61baobao.com/s/qiaohuyouxi/" target="_blank">巧虎快乐版2011</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="http://www.61baobao.com/s/qinbaoshici/" target="_blank" ><img border="0" src="http://www.61baobao.com/common/flash/pic/13.jpg" alt="亲宝诗词" /></a> </dd>
+            <dt> <a href="http://www.61baobao.com/s/qinbaoshici/" target="_blank">亲宝诗词</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="http://www.61baobao.com/s/ertongshuiqiangushi/" target="_blank" ><img border="0" src="http://www.61baobao.com/common/flash/pic/14.jpg" alt="睡前故事" /></a> </dd>
+            <dt> <a href="http://www.61baobao.com/s/ertongshuiqiangushi/" target="_blank">睡前故事</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="http://www.61baobao.com/s/lianliankan/" target="_blank" ><img border="0" src="http://www.61baobao.com/common/flash/pic/15.jpg"  alt="连连看"/></a> </dd>
+            <dt> <a href="http://www.61baobao.com/s/lianliankan/" target="_blank">连连看</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="http://www.61baobao.com/s/h50.html" target="_blank" ><img border="0" src="http://www.61baobao.com/common/flash/pic/16.jpg"  alt="儿歌串烧50首" /></a> </dd>
+            <dt> <a href="http://www.61baobao.com/s/h50.html" target="_blank">儿歌串烧50首</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="http://www.61baobao.com/s/haotingdeerge.html" target="_blank" ><img border="0" src="http://www.61baobao.com/common/flash/pic/17.jpg" alt="好听的儿歌"  /></a> </dd>
+            <dt> <a href="http://www.61baobao.com/s/haotingdeerge.html" target="_blank">好听的儿歌</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="http://www.61baobao.com/s/jingdian/" target="_blank" ><img border="0" src="http://www.61baobao.com/common/flash/pic/18.jpg"  alt="经典儿歌" /></a> </dd>
+            <dt> <a href="http://www.61baobao.com/s/jingdian/" target="_blank">经典儿歌</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="http://www.61baobao.com/s/mingren/" target="_blank" ><img border="0" src="http://www.61baobao.com/common/flash/pic/19.jpg"  alt="名人故事" /></a> </dd>
+            <dt> <a href="http://www.61baobao.com/s/mingren/" target="_blank">名人故事</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="http://www.61baobao.com/s/sanzijing/" target="_blank" ><img border="0" src="http://www.61baobao.com/common/flash/pic/20.jpg"  alt="三字经" /></a> </dd>
+            <dt> <a href="http://www.61baobao.com/s/sanzijing/" target="_blank">三字经</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="http://www.61baobao.com/s/bbxuehanzi/" target="_blank" ><img border="0" src="http://www.61baobao.com/common/flash/pic/21.jpg" alt="宝宝学汉字" /></a> </dd>
+            <dt> <a href="http://www.61baobao.com/s/bbxuehanzi/" target="_blank">宝宝学汉字</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="http://www.61baobao.com/s/qinbao/" target="_blank" ><img border="0" src="http://www.61baobao.com/common/flash/pic/22.jpg"  alt="亲宝儿歌经典系列" /></a> </dd>
+            <dt> <a href="http://www.61baobao.com/s/qinbao/" target="_blank">亲宝儿歌经典系列</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="http://www.61baobao.com/s/youergushi/" target="_blank" ><img border="0" src="http://www.61baobao.com/common/flash/pic/23.jpg" alt="幼儿故事大全"  /></a> </dd>
+            <dt> <a href="http://www.61baobao.com/s/youergushi/" target="_blank">幼儿故事大全</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="http://www.61baobao.com/s/katongban/" target="_blank" ><img border="0" src="http://www.61baobao.com/common/flash/pic/11.jpg" alt="亲宝儿歌" /></a> </dd>
+            <dt> <a href="http://www.61baobao.com/s/katongban/" target="_blank">亲宝儿歌</a> </dt>
+          </dl>                                                                                                                                                                                                     
+                </div>
+            	<div class="recommend_bottom"></div>
+            </div>
+        <!-- 推荐结束 -->  
+        <div class="c"></div>  
+        </div>
+    </div>
+    <!-- 主体内容结束 -->
+  </div>
+  <!-- 尾部开始 -->
+  <div class="copyRight">
+  	<span>Copyright&copy; 六一宝宝网 61baobao.com All Rights Reserved</span>
+  </div>
+  <!-- 尾部结束 -->   
+</body>
+</html>

@@ -1,0 +1,1 @@
+document.write("<script type=\"text/javascript\">alimama_pid=\"mm_15386456_2296953_10892645\";alimama_width=250;alimama_height=250;</script><script src=\"http://a.alimama.cn/inf.js\" type=\"text/javascript\"></script>")

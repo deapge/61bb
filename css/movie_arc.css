@@ -1,0 +1,120 @@
+@charset "gb2312";
+/* CSS Document */
+.minfo{
+	border:solid 1px #A0D0F3;
+	background-color:#F0F8FD;
+	width:958px;
+	overflow:hidden;
+}
+.minfo_l{float:left;width:290px;height:242px;padding-top:8px;overflow:hidden; font-size:14px; margin-left:10px; display:inline;color:#1E66B7;}
+.minfo_c{float:left;width:380px;height:240px;overflow:hidden; margin-left:10px; display:inline; line-height:1.82; font-size:13px; color:#555; padding-top:10px;}
+.minfo_r{float:right;width:250px;height:250px;overflow:hidden;}
+
+.minfo_l a{ color:#1E66B7;}
+
+.minfo_c img{ float:left; padding:8px; width:120px;}
+
+.mostar1,.mostar2,.mostar3,.mostar4,.mostar5{
+	width:92px;
+	padding:0px;
+	border:none 0px;
+	background:url(mint.png) 0px 0px no-repeat;
+	height:14px;
+	margin-bottom:-2px;
+}
+.mostar2{ background-position:0px -14px;}
+.mostar3{ background-position:0px -28px;}
+.mostar4{ background-position:0px -42px;}
+.mostar5{ background-position:0px -56px;}
+
+.woerr{ display:block; width:90px; height:24px; background:url(mint.png) -100px 0px; float:left; margin-right:6px; display:inline;}
+.woshouc{ display:block; width:90px; height:24px; background:url(mint.png) -190px 0px;float:left; margin-right:6px; display:inline;}
+.wofuz{ display:block; width:90px; height:24px; background:url(mint.png) -280px 0px;float:left;margin-right:6px; display:inline;}
+.woguand{ display:block; width:90px; height:24px; background:url(mint.png) -550px 0px;float:left;margin-right:6px; display:inline;}
+.next-style{ display:block; width:90px; height:24px; background:url(mint.png) -460px 0px;float:left;margin-right:6px; display:inline; text-indent:-1000px;}
+.pre-style{ display:block; width:90px; height:24px; background:url(mint.png) -370px 0px;float:left;margin-right:6px; display:inline; text-indent:-1000px;}
+
+.mokjmn{
+	width:680px;
+	border:solid 1px #CCCCCC;
+	height:30px;
+	padding-top:6px;
+	overflow:hidden;
+	background-color:#F3F3F3;
+	padding-left:14px;
+	
+}
+
+.movlist_t{
+	background:url(mint.png) 0px -70px;
+	height:30px;
+	text-align:right;
+	line-height:30px;
+	overflow:hidden;
+}
+
+
+.movlist_m{
+	border:solid 1px #1C8BCE;
+	border-top:none 0px;
+	width:958px;
+	overflow:hidden;
+}
+.movlist_m a{
+	width:170px;
+	height:22px;
+	float:left;
+	background-color:#CCC;
+	text-align:center;
+	margin-left:17px;
+	color:#143950;
+	margin-top:5px;
+	overflow:hidden;
+	display:inline;
+	line-height:22px;
+	font-family:Verdana, Geneva, sans-serif;
+	background:url(mint.png) -260px -105px;
+}.movlist_m a:hover{ background-position:-260px -135px; color:#FFF;}
+
+.movlist_m2{
+	border:solid 1px #1C8BCE;
+	border-top:none 0px;
+	width:958px;
+	overflow:hidden;
+}
+
+.movlist_m2 a{
+	width:170px;
+	height:22px;
+	float:left;
+	background-color:#CCC;
+	text-align:center;
+	margin-left:17px;
+	color:#143950;
+	margin-top:5px;
+	overflow:hidden;
+	display:inline;
+	line-height:22px;
+	font-family:Verdana, Geneva, sans-serif;
+	background:url(mint.png) -260px -105px;
+}.movlist_m2 a:hover{ background-position:-260px -135px; color:#FFF;}
+
+.status_n{
+	text-align:center;
+	color:#CCC;
+	width:694px;
+	font-weight:bold;
+	background-color:#000;
+	height:24px;
+	line-height:1.8;
+	font-size:14px;
+	overflow:hidden;
+}
+.moviesad{
+	width:694px;
+	text-align:center;
+	height:496px;
+	overflow:hidden;
+	background-color:#000;
+	text-align:center;
+}

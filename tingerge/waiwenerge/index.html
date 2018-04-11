@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>外文儿歌-儿童歌曲-儿歌大全--源码库儿歌网</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="外文儿歌erge,儿歌，mp3,儿歌下载,英语儿歌,英文儿歌,儿歌童谣,儿歌flash,幼儿儿歌,儿歌大全,宝宝的源码库儿歌网" />
+<meta name="description" content="源码库儿歌网提供最新儿歌视听和儿歌下载，包括经典的童谣，儿童FLASH，为儿童打造一个优良是视听环境。"/>
+<link rel="stylesheet" type="text/css" href="/css/index.css"/>
+<script language="javascript" src="/js/jquery-1.7.min.js"></script>
+<script language="javascript" src="/js/func.js"></script>
+<script type="text/javascript" src="http://cbjs.baidu.com/js/m.js"></script>
+<link rel="stylesheet" href="/css/colorbox.css" type="text/css" />
+<script language="javascript" src="/js/jquery.colorbox.js"></script>
+<script language="javascript" src="/js/xqfunc.js"></script>
+</head>
+<body>
+<div id="shortcut">
+  <div class="w">
+    <ul>
+      <li><a href="/" target="_blank">儿歌网</a></li>
+      <li><a href="/s/n180.html" target="_blank">最新儿歌</a></li>
+      <li><a href="/s/h180.html" target="_blank">热门儿歌</a></li>
+      <li><a href="/s/t180.html" target="_blank">推荐儿歌</a></li>
+     
+      
+    </ul>
+    <ul class="divLoginBar">
+       
+      <li id="add"><a onclick="AddFavorite('http://127.0.0.1',':儿歌-儿童小游戏-儿歌大全-儿童歌曲-儿童歌曲大全-儿歌视频大全-儿歌童谣-童谣大全-儿歌播放器-儿童资源_127.0.0.1')" style="cursor:hand" href="javascript:;">加入收藏</a></li>
+      <li id="conf"><a onclick="SetHome(this,'')" href="javascript:;">设为首页</a></li>
+    </ul>
+  </div>
+</div>
+<div class="c"></div>
+
+<div id="bb_box"> <div id="header">
+  <div id="bb_logo"><a href="/"><img alt="儿歌网" src="/css/logo.gif"/></a></div>
+  <div id="topgg"> <script src="/d/js/acmsd/thea2.js"></script></div>
+  <div class="c"></div>
+  <div id="bb_nav">
+    <ul>
+      <li id="home" class="current" ><a href="/" >首页</a></li>
+      <li  id="c1"><a href="/tingerge/">听儿歌</a></li>
+      <li id="c2"><a href="/jianggushi/">儿童故事</a></li>
+      <li id="c3"><a href="/xuezhishi/">学知识</a></li>
+      <li id="c4"><a href="/wanyouxi/">儿童游戏</a></li>
+      <li id="c5"><a href="/donghuapian/">动画片</a></li>
+      <li  id="TV"><a href="/fm/">亲宝电台</a></li>
+      <li id="park"><a href="http://www.taohi.cn"  target="_blank" >宝宝乐园</a></li>
+      <li id="c199"><a href="/jiaoan/">幼儿园教案</a> </li>
+    </ul>
+    <div class="nav_search">
+            <div class="seachslect" onmouseout="selectseout('select_tops')" onmouseover="selectseover('select_tops')">
+            	<span class="currcodes">
+                <em id="selectvalue">视频</em>
+                    <div id="select_tops" class="subtop_select" style="display: none;">
+                    	<a onclick="return search_show('1','0',this)" href="javascript:void(0)">视频</a>
+                        <a onclick="return search_show('2','0',this)" href="javascript:void(0)">文章</a>
+                    </div>
+                </span>
+            </div>      
+             <form name="fsearch" method="post" action="/e/search/index.php" target="_blank">
+              <input type="hidden" name="show" value="title">
+              <input id="tempid" type="hidden" name="tempid" value="1">
+              <input id="tbname" type="hidden" name="tbname" value="game">
+                <input type="hidden" name="show" value="title,smalltext,newstext,writer" />
+                <input id="classid" name="classid" type="hidden" value="0" />
+                <input name="keyboard" type="text"  class="nav_box"  value="输入儿歌名称" id="keys"/>
+              <input type="submit" value="搜索" class="nav_btn">
+              <div class="c"></div>
+            </form>
+      </div>
+    <div class="c"></div>
+  </div>
+  <div class="extra">
+   
+    <ul>
+      <li><a href="/tingerge/zhongwenerge/" target="_blank" >中文儿歌</a></li>
+      <li><a href="/tingerge/yingwenerge/" target="_blank">英文儿歌</a></li>
+      <li><a href="/tingerge/tongyao/" target="_blank" >童谣</a></li>
+      <li><a href="/donghuapian/" target="_blank">儿童动画片</a></li>
+      <li><a href="/jianggushi/jingdianxiaogushi/" target="_blank" >儿童故事</a></li>
+      <li><a href="/jianggushi/tonghuagushi/" target="_blank">童话</a> <a href="/jianggushi/yuyangushi/" target="_blank">寓言</a></li>
+      <li><a href="/jianggushi/chengyugushi/" target="_blank">成语故事</a></li>
+      <li><a href="/jianggushi/shenhuachuanshuo/" target="_blank">神话传说</a></li>
+      <li><a href="/wudao/ertongwudao/" target="_blank">儿童舞蹈</a></li>
+      <li><a href="/xuezhishi/tangshisongci/" target="_blank">唐诗宋词</a></li>
+      <li><a href="/xuezhishi/kuailepinyin/" target="_blank">快乐拼音</a></li>
+      <li><a href="/xuezhishi/youerqimeng/" target="_blank">幼儿启蒙</a></li>
+      <li><a href="/xuezhishi/yingyujiaoyu/" target="_blank">英语教育</a></li>
+      <li><a href="/xuezhishi/baikechangshi/" target="_blank">百科常识</a></li>
+      <li><a href="/miyu/" target="_blank">谜语</a></li>
+      <li><a href="/tonghua/" target="_blank">童话故事</a></li>
+
+    </ul>
+  </div>
+</div> 
+</div>
+<script>
+var classid = '1';
+if(classid==0)classid='17';
+if(classid){$("#c"+classid).addClass("current");$("#home").removeClass("current");}
+</script>
+<div class="adm_960" id="adm"><script src="/d/js/acmsd/thea4.js"></script></div>
+
+<div id="content"> 
+	<!-- 导航指南开始 -->
+	<div class="content_mid"> 
+		<!--中部内容左栏开始-->
+		<div class="list_left">
+			<div class="list_boxs">
+				<div class="adm_250"> 
+					<script src="/d/js/acmsd/thea15.js"></script>
+				</div>
+				<div class="list_top"></div>
+				<div class="list_mid">
+					<h2 class="recommend_list">推荐专题</h2>
+					<dl>
+            <dd> <a href="/s/youergequ/" target="_blank" ><img border="0" src="/images/zt/24.jpg" width="57" alt="幼儿歌曲大全" /></a> </dd>
+            <dt> <a href="/s/youergequ/" target="_blank">幼儿歌曲大全</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="/s/qiaohuyouxi/" target="_blank" ><img border="0" src="/images/zt/12.jpg" width="57" alt="巧虎快乐版2011"/></a> </dd>
+            <dt> <a href="/s/qiaohuyouxi/" target="_blank">巧虎快乐版2011</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="/s/qinbaoshici/" target="_blank" ><img border="0" src="/images/zt/13.jpg" width="57" alt="亲宝诗词" /></a> </dd>
+            <dt> <a href="/s/qinbaoshici/" target="_blank">亲宝诗词</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="/s/ertongshuiqiangushi/" target="_blank" ><img border="0" src="/images/zt/14.jpg" width="57" alt="睡前故事" /></a> </dd>
+            <dt> <a href="/s/ertongshuiqiangushi/" target="_blank">睡前故事</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="/s/lianliankan/" target="_blank" ><img border="0" src="/images/zt/15.jpg" width="57" alt="连连看"/></a> </dd>
+            <dt> <a href="/s/lianliankan/" target="_blank">连连看</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="/s/h50.html" target="_blank" ><img border="0" src="/images/zt/16.jpg" width="57" alt="儿歌串烧50首" /></a> </dd>
+            <dt> <a href="/s/h50.html" target="_blank">儿歌串烧50首</a> </dt>
+          </dl>
+				</div>
+				<div class="list_bottom"></div>
+			</div>
+			<div class="list_boxs no_margin">
+				<div class="list_top"></div>
+				<div class="list_mid">
+					<h2 class="like_list">宝宝们爱看</h2>
+					<ul>
+						<li><span><a href="http://127.0.0.1/tingerge/waiwenerge/4641.html" target="_blank"><img src="/spic/20120725/6367.jpg" width="81"></a></span><p><b><a href="http://127.0.0.1/tingerge/waiwenerge/4641.html" target="_blank" title="剪刀石头布(">剪刀石头布(</a></b><s class="starAll star3 mb10"></s><a class="look" href="http://127.0.0.1/tingerge/waiwenerge/4641.html" target="_blank">马上观看</a></p></li><li><span><a href="http://127.0.0.1/tingerge/waiwenerge/4688.html" target="_blank"><img src="/spic/20120725/6485.jpg" width="81"></a></span><p><b><a href="http://127.0.0.1/tingerge/waiwenerge/4688.html" target="_blank" title="草甸小路">草甸小路</a></b><s class="starAll star3 mb10"></s><a class="look" href="http://127.0.0.1/tingerge/waiwenerge/4688.html" target="_blank">马上观看</a></p></li><li><span><a href="http://127.0.0.1/tingerge/waiwenerge/4668.html" target="_blank"><img src="/spic/20120725/6463.jpg" width="81"></a></span><p><b><a href="http://127.0.0.1/tingerge/waiwenerge/4668.html" target="_blank" title="猴子(韩语儿">猴子(韩语儿</a></b><s class="starAll star3 mb10"></s><a class="look" href="http://127.0.0.1/tingerge/waiwenerge/4668.html" target="_blank">马上观看</a></p></li><li><span><a href="http://127.0.0.1/tingerge/waiwenerge/3767.html" target="_blank"><img src="/spic/20120725/2248.jpg" width="81"></a></span><p><b><a href="http://127.0.0.1/tingerge/waiwenerge/3767.html" target="_blank" title="韩国圣诞儿歌">韩国圣诞儿歌</a></b><s class="starAll star3 mb10"></s><a class="look" href="http://127.0.0.1/tingerge/waiwenerge/3767.html" target="_blank">马上观看</a></p></li><li><span><a href="http://127.0.0.1/tingerge/waiwenerge/4638.html" target="_blank"><img src="/spic/20120725/6379.jpg" width="81"></a></span><p><b><a href="http://127.0.0.1/tingerge/waiwenerge/4638.html" target="_blank" title="杉树(韩语儿">杉树(韩语儿</a></b><s class="starAll star3 mb10"></s><a class="look" href="http://127.0.0.1/tingerge/waiwenerge/4638.html" target="_blank">马上观看</a></p></li><li><span><a href="http://127.0.0.1/tingerge/waiwenerge/4651.html" target="_blank"><img src="/spic/20120725/6401.jpg" width="81"></a></span><p><b><a href="http://127.0.0.1/tingerge/waiwenerge/4651.html" target="_blank" title="针线活(韩语">针线活(韩语</a></b><s class="starAll star3 mb10"></s><a class="look" href="http://127.0.0.1/tingerge/waiwenerge/4651.html" target="_blank">马上观看</a></p></li><li><span><a href="http://127.0.0.1/tingerge/waiwenerge/4665.html" target="_blank"><img src="/spic/20120725/6415.jpg" width="81"></a></span><p><b><a href="http://127.0.0.1/tingerge/waiwenerge/4665.html" target="_blank" title="月宫(韩语儿">月宫(韩语儿</a></b><s class="starAll star3 mb10"></s><a class="look" href="http://127.0.0.1/tingerge/waiwenerge/4665.html" target="_blank">马上观看</a></p></li>						<div class="c"></div>
+					</ul>
+				</div>
+				<div class="list_bottom"></div>
+			</div>
+		</div>
+		<!--中部内容左栏结束--> 
+    <!--中部内容右栏开始-->
+    <div class="list_right">
+      <div class="select_title"> <em>请按条件选择!</em> <i>您在</i>
+        <h1>外文儿歌</h1>
+        <a onclick="AddFavorite('',document.title)" style="cursor:hand" href="javascript:;">收藏此栏目</a>
+        <div class="c"></div>
+      </div>
+      <div class="language"> <b>听儿歌分类：</b> 
+       <div class="fl_a"><a href="../" class="current" id="flhome">全部</a><a href="http://127.0.0.1/tingerge/zhongwenerge/" id=fl14>中文儿歌</a><a href="http://127.0.0.1/tingerge/yingwenerge/" id=fl15>英文儿歌</a><a href="http://127.0.0.1/tingerge/tongyao/" id=fl16>童谣</a><a href="http://127.0.0.1/tingerge/waiwenerge/" id=fl17>外文儿歌</a> </div>
+      </div>
+    <script>
+	var navclassid =17;
+	if(navclassid){
+			 $("#fl"+navclassid).addClass("current");
+                         if($("#fl"+navclassid).length > 0) $("#flhome").removeClass("current");
+		   }
+	</script> 
+      <div class="best_fl">
+        <ul>
+          <li class="current"><span>最新发布</span></li>
+          <li ><span>最多人听</span></li>
+          <li ><span>评分最高</span></li>
+          <div class="c"></div>
+        </ul>
+      </div>
+      <div class="change">
+       <span class="new"> 
+	   <dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4709.html" target="_blank" title="试着数数字"><img src="/spic/20120725/6450.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4709.html" target="_blank"  title="试着数数字">试着数数字</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4699.html" target="_blank" title="头，肩，膝盖和脚趾"><img src="/spic/20120725/6507.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4699.html" target="_blank"  title="头，肩，膝盖和脚趾">头，肩，膝盖和脚趾</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4689.html" target="_blank" title="我们的兄弟(韩语儿歌)"><img src="/spic/20120725/6431.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4689.html" target="_blank"  title="我们的兄弟(韩语儿歌)">我们的兄弟(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4693.html" target="_blank" title="一个水瓶"><img src="/spic/20120725/6501.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4693.html" target="_blank"  title="一个水瓶">一个水瓶</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4694.html" target="_blank" title="[草地]美国歌"><img src="/spic/20120725/6499.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4694.html" target="_blank"  title="[草地]美国歌">[草地]美国歌</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4682.html" target="_blank" title="困困了"><img src="/spic/20120725/6475.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4682.html" target="_blank"  title="困困了">困困了</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4683.html" target="_blank" title="五只小黄鹂(韩语儿歌)"><img src="/spic/20120725/6469.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4683.html" target="_blank"  title="五只小黄鹂(韩语儿歌)">五只小黄鹂(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4688.html" target="_blank" title="草甸小路"><img src="/spic/20120725/6485.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4688.html" target="_blank"  title="草甸小路">草甸小路</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4677.html" target="_blank" title="野餐(韩语儿歌)"><img src="/spic/20120725/6465.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4677.html" target="_blank"  title="野餐(韩语儿歌)">野餐(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4680.html" target="_blank" title="灯塔(韩语儿歌)"><img src="/spic/20120725/6481.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4680.html" target="_blank"  title="灯塔(韩语儿歌)">灯塔(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4670.html" target="_blank" title="夜风(韩语儿歌)"><img src="/spic/20120725/6439.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4670.html" target="_blank"  title="夜风(韩语儿歌)">夜风(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4673.html" target="_blank" title="哈密瓜声音(韩语儿歌)"><img src="/spic/20120725/6472.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4673.html" target="_blank"  title="哈密瓜声音(韩语儿歌)">哈密瓜声音(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4675.html" target="_blank" title="时间"><img src="/spic/20120725/6457.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4675.html" target="_blank"  title="时间">时间</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4665.html" target="_blank" title="月宫(韩语儿歌)"><img src="/spic/20120725/6415.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4665.html" target="_blank"  title="月宫(韩语儿歌)">月宫(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4667.html" target="_blank" title="难对付(韩语儿歌)"><img src="/spic/20120725/6347.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4667.html" target="_blank"  title="难对付(韩语儿歌)">难对付(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4668.html" target="_blank" title="猴子(韩语儿歌)"><img src="/spic/20120725/6463.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4668.html" target="_blank"  title="猴子(韩语儿歌)">猴子(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4659.html" target="_blank" title="kosen(韩语儿歌)"><img src="/spic/20120725/6407.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4659.html" target="_blank"  title="kosen(韩语儿歌)">kosen(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4661.html" target="_blank" title="我的身体(韩语儿歌)"><img src="/spic/20120725/6419.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4661.html" target="_blank"  title="我的身体(韩语儿歌)">我的身体(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4663.html" target="_blank" title="狐狸啊干啥呢(韩语儿"><img src="/spic/20120725/6453.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4663.html" target="_blank"  title="狐狸啊干啥呢(韩语儿">狐狸啊干啥呢(韩语儿</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4654.html" target="_blank" title="su和ni歌曲(韩语儿歌)"><img src="/spic/20120725/6398.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4654.html" target="_blank"  title="su和ni歌曲(韩语儿歌)">su和ni歌曲(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4656.html" target="_blank" title="小蕃茄(韩语儿歌)"><img src="/spic/20120725/6406.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4656.html" target="_blank"  title="小蕃茄(韩语儿歌)">小蕃茄(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4658.html" target="_blank" title="森林里的村庄(韩语儿"><img src="/spic/20120725/6441.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4658.html" target="_blank"  title="森林里的村庄(韩语儿">森林里的村庄(韩语儿</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4651.html" target="_blank" title="针线活(韩语儿歌)"><img src="/spic/20120725/6401.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4651.html" target="_blank"  title="针线活(韩语儿歌)">针线活(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4644.html" target="_blank" title="做梦的孩子(韩语儿歌)"><img src="/spic/20120725/6390.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4644.html" target="_blank"  title="做梦的孩子(韩语儿歌)">做梦的孩子(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4647.html" target="_blank" title="黄色蝴蝶(韩语儿歌)"><img src="/spic/20120725/6386.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4647.html" target="_blank"  title="黄色蝴蝶(韩语儿歌)">黄色蝴蝶(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4638.html" target="_blank" title="杉树(韩语儿歌)"><img src="/spic/20120725/6379.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4638.html" target="_blank"  title="杉树(韩语儿歌)">杉树(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4640.html" target="_blank" title="爱(韩语儿歌)"><img src="/spic/20120725/6433.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4640.html" target="_blank"  title="爱(韩语儿歌)">爱(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4641.html" target="_blank" title="剪刀石头布(韩语儿歌)"><img src="/spic/20120725/6367.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4641.html" target="_blank"  title="剪刀石头布(韩语儿歌)">剪刀石头布(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4637.html" target="_blank" title="看窗外(韩语儿歌)"><img src="/spic/20120725/6355.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4637.html" target="_blank"  title="看窗外(韩语儿歌)">看窗外(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4620.html" target="_blank" title="小乌龟(韩语儿歌)"><img src="/spic/20120725/6357.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4620.html" target="_blank"  title="小乌龟(韩语儿歌)">小乌龟(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4626.html" target="_blank" title="为什么来我家(韩语儿"><img src="/spic/20120725/6361.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4626.html" target="_blank"  title="为什么来我家(韩语儿">为什么来我家(韩语儿</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4613.html" target="_blank" title="写字(韩语儿歌)"><img src="/spic/20120725/6351.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4613.html" target="_blank"  title="写字(韩语儿歌)">写字(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/3767.html" target="_blank" title="韩国圣诞儿歌"><img src="/spic/20120725/2248.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/3767.html" target="_blank"  title="韩国圣诞儿歌">韩国圣诞儿歌</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/3617.html" target="_blank" title="蜗牛房子"><img src="/spic/20120725/2094.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/3617.html" target="_blank"  title="蜗牛房子">蜗牛房子</a><p><i class="starAll star3"></i></p></dt></dl>
+		<div class="l_dash"></div> 
+                 <div class="c"></div>
+        </span>
+        <span class="much"> 
+           <dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4641.html" target="_blank" title="剪刀石头布(韩语儿歌)"><img src="/spic/20120725/6367.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4641.html" target="_blank"  title="剪刀石头布(韩语儿歌)">剪刀石头布(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4688.html" target="_blank" title="草甸小路"><img src="/spic/20120725/6485.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4688.html" target="_blank"  title="草甸小路">草甸小路</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4668.html" target="_blank" title="猴子(韩语儿歌)"><img src="/spic/20120725/6463.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4668.html" target="_blank"  title="猴子(韩语儿歌)">猴子(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/3767.html" target="_blank" title="韩国圣诞儿歌"><img src="/spic/20120725/2248.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/3767.html" target="_blank"  title="韩国圣诞儿歌">韩国圣诞儿歌</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4638.html" target="_blank" title="杉树(韩语儿歌)"><img src="/spic/20120725/6379.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4638.html" target="_blank"  title="杉树(韩语儿歌)">杉树(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4651.html" target="_blank" title="针线活(韩语儿歌)"><img src="/spic/20120725/6401.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4651.html" target="_blank"  title="针线活(韩语儿歌)">针线活(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4665.html" target="_blank" title="月宫(韩语儿歌)"><img src="/spic/20120725/6415.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4665.html" target="_blank"  title="月宫(韩语儿歌)">月宫(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4673.html" target="_blank" title="哈密瓜声音(韩语儿歌)"><img src="/spic/20120725/6472.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4673.html" target="_blank"  title="哈密瓜声音(韩语儿歌)">哈密瓜声音(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4677.html" target="_blank" title="野餐(韩语儿歌)"><img src="/spic/20120725/6465.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4677.html" target="_blank"  title="野餐(韩语儿歌)">野餐(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/3617.html" target="_blank" title="蜗牛房子"><img src="/spic/20120725/2094.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/3617.html" target="_blank"  title="蜗牛房子">蜗牛房子</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4613.html" target="_blank" title="写字(韩语儿歌)"><img src="/spic/20120725/6351.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4613.html" target="_blank"  title="写字(韩语儿歌)">写字(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4620.html" target="_blank" title="小乌龟(韩语儿歌)"><img src="/spic/20120725/6357.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4620.html" target="_blank"  title="小乌龟(韩语儿歌)">小乌龟(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4626.html" target="_blank" title="为什么来我家(韩语儿歌)"><img src="/spic/20120725/6361.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4626.html" target="_blank"  title="为什么来我家(韩语儿歌)">为什么来我家(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4637.html" target="_blank" title="看窗外(韩语儿歌)"><img src="/spic/20120725/6355.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4637.html" target="_blank"  title="看窗外(韩语儿歌)">看窗外(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4640.html" target="_blank" title="爱(韩语儿歌)"><img src="/spic/20120725/6433.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4640.html" target="_blank"  title="爱(韩语儿歌)">爱(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4644.html" target="_blank" title="做梦的孩子(韩语儿歌)"><img src="/spic/20120725/6390.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4644.html" target="_blank"  title="做梦的孩子(韩语儿歌)">做梦的孩子(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4647.html" target="_blank" title="黄色蝴蝶(韩语儿歌)"><img src="/spic/20120725/6386.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4647.html" target="_blank"  title="黄色蝴蝶(韩语儿歌)">黄色蝴蝶(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4654.html" target="_blank" title="su和ni歌曲(韩语儿歌)"><img src="/spic/20120725/6398.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4654.html" target="_blank"  title="su和ni歌曲(韩语儿歌)">su和ni歌曲(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4656.html" target="_blank" title="小蕃茄(韩语儿歌)"><img src="/spic/20120725/6406.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4656.html" target="_blank"  title="小蕃茄(韩语儿歌)">小蕃茄(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4658.html" target="_blank" title="森林里的村庄(韩语儿歌)"><img src="/spic/20120725/6441.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4658.html" target="_blank"  title="森林里的村庄(韩语儿歌)">森林里的村庄(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4659.html" target="_blank" title="kosen(韩语儿歌)"><img src="/spic/20120725/6407.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4659.html" target="_blank"  title="kosen(韩语儿歌)">kosen(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4661.html" target="_blank" title="我的身体(韩语儿歌)"><img src="/spic/20120725/6419.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4661.html" target="_blank"  title="我的身体(韩语儿歌)">我的身体(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4663.html" target="_blank" title="狐狸啊干啥呢(韩语儿歌)"><img src="/spic/20120725/6453.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4663.html" target="_blank"  title="狐狸啊干啥呢(韩语儿歌)">狐狸啊干啥呢(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4667.html" target="_blank" title="难对付(韩语儿歌)"><img src="/spic/20120725/6347.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4667.html" target="_blank"  title="难对付(韩语儿歌)">难对付(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4670.html" target="_blank" title="夜风(韩语儿歌)"><img src="/spic/20120725/6439.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4670.html" target="_blank"  title="夜风(韩语儿歌)">夜风(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4675.html" target="_blank" title="时间"><img src="/spic/20120725/6457.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4675.html" target="_blank"  title="时间">时间</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4680.html" target="_blank" title="灯塔(韩语儿歌)"><img src="/spic/20120725/6481.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4680.html" target="_blank"  title="灯塔(韩语儿歌)">灯塔(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4682.html" target="_blank" title="困困了"><img src="/spic/20120725/6475.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4682.html" target="_blank"  title="困困了">困困了</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4683.html" target="_blank" title="五只小黄鹂(韩语儿歌)"><img src="/spic/20120725/6469.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4683.html" target="_blank"  title="五只小黄鹂(韩语儿歌)">五只小黄鹂(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4689.html" target="_blank" title="我们的兄弟(韩语儿歌)"><img src="/spic/20120725/6431.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4689.html" target="_blank"  title="我们的兄弟(韩语儿歌)">我们的兄弟(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4693.html" target="_blank" title="一个水瓶"><img src="/spic/20120725/6501.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4693.html" target="_blank"  title="一个水瓶">一个水瓶</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4694.html" target="_blank" title="[草地]美国歌"><img src="/spic/20120725/6499.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4694.html" target="_blank"  title="[草地]美国歌">[草地]美国歌</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4699.html" target="_blank" title="头，肩，膝盖和脚趾"><img src="/spic/20120725/6507.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4699.html" target="_blank"  title="头，肩，膝盖和脚趾">头，肩，膝盖和脚趾</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4709.html" target="_blank" title="试着数数字"><img src="/spic/20120725/6450.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4709.html" target="_blank"  title="试着数数字">试着数数字</a><p><i class="starAll star3"></i></p></dt></dl>           <div class="l_dash"></div>        <div class="c"></div>
+        </span>
+        <span class="high"> 
+			<dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/3617.html" target="_blank" title="蜗牛房子"><img src="/spic/20120725/2094.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/3617.html" target="_blank"  title="蜗牛房子">蜗牛房子</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/3767.html" target="_blank" title="韩国圣诞儿歌"><img src="/spic/20120725/2248.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/3767.html" target="_blank"  title="韩国圣诞儿歌">韩国圣诞儿歌</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4613.html" target="_blank" title="写字(韩语儿歌)"><img src="/spic/20120725/6351.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4613.html" target="_blank"  title="写字(韩语儿歌)">写字(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4620.html" target="_blank" title="小乌龟(韩语儿歌)"><img src="/spic/20120725/6357.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4620.html" target="_blank"  title="小乌龟(韩语儿歌)">小乌龟(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4626.html" target="_blank" title="为什么来我家(韩语儿歌)"><img src="/spic/20120725/6361.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4626.html" target="_blank"  title="为什么来我家(韩语儿歌)">为什么来我家(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4637.html" target="_blank" title="看窗外(韩语儿歌)"><img src="/spic/20120725/6355.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4637.html" target="_blank"  title="看窗外(韩语儿歌)">看窗外(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4638.html" target="_blank" title="杉树(韩语儿歌)"><img src="/spic/20120725/6379.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4638.html" target="_blank"  title="杉树(韩语儿歌)">杉树(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4640.html" target="_blank" title="爱(韩语儿歌)"><img src="/spic/20120725/6433.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4640.html" target="_blank"  title="爱(韩语儿歌)">爱(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4641.html" target="_blank" title="剪刀石头布(韩语儿歌)"><img src="/spic/20120725/6367.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4641.html" target="_blank"  title="剪刀石头布(韩语儿歌)">剪刀石头布(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4644.html" target="_blank" title="做梦的孩子(韩语儿歌)"><img src="/spic/20120725/6390.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4644.html" target="_blank"  title="做梦的孩子(韩语儿歌)">做梦的孩子(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4647.html" target="_blank" title="黄色蝴蝶(韩语儿歌)"><img src="/spic/20120725/6386.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4647.html" target="_blank"  title="黄色蝴蝶(韩语儿歌)">黄色蝴蝶(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4651.html" target="_blank" title="针线活(韩语儿歌)"><img src="/spic/20120725/6401.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4651.html" target="_blank"  title="针线活(韩语儿歌)">针线活(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4654.html" target="_blank" title="su和ni歌曲(韩语儿歌)"><img src="/spic/20120725/6398.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4654.html" target="_blank"  title="su和ni歌曲(韩语儿歌)">su和ni歌曲(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4656.html" target="_blank" title="小蕃茄(韩语儿歌)"><img src="/spic/20120725/6406.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4656.html" target="_blank"  title="小蕃茄(韩语儿歌)">小蕃茄(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4658.html" target="_blank" title="森林里的村庄(韩语儿歌)"><img src="/spic/20120725/6441.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4658.html" target="_blank"  title="森林里的村庄(韩语儿歌)">森林里的村庄(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4659.html" target="_blank" title="kosen(韩语儿歌)"><img src="/spic/20120725/6407.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4659.html" target="_blank"  title="kosen(韩语儿歌)">kosen(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4661.html" target="_blank" title="我的身体(韩语儿歌)"><img src="/spic/20120725/6419.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4661.html" target="_blank"  title="我的身体(韩语儿歌)">我的身体(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4663.html" target="_blank" title="狐狸啊干啥呢(韩语儿歌)"><img src="/spic/20120725/6453.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4663.html" target="_blank"  title="狐狸啊干啥呢(韩语儿歌)">狐狸啊干啥呢(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4665.html" target="_blank" title="月宫(韩语儿歌)"><img src="/spic/20120725/6415.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4665.html" target="_blank"  title="月宫(韩语儿歌)">月宫(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4667.html" target="_blank" title="难对付(韩语儿歌)"><img src="/spic/20120725/6347.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4667.html" target="_blank"  title="难对付(韩语儿歌)">难对付(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4668.html" target="_blank" title="猴子(韩语儿歌)"><img src="/spic/20120725/6463.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4668.html" target="_blank"  title="猴子(韩语儿歌)">猴子(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4670.html" target="_blank" title="夜风(韩语儿歌)"><img src="/spic/20120725/6439.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4670.html" target="_blank"  title="夜风(韩语儿歌)">夜风(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4673.html" target="_blank" title="哈密瓜声音(韩语儿歌)"><img src="/spic/20120725/6472.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4673.html" target="_blank"  title="哈密瓜声音(韩语儿歌)">哈密瓜声音(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4675.html" target="_blank" title="时间"><img src="/spic/20120725/6457.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4675.html" target="_blank"  title="时间">时间</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4677.html" target="_blank" title="野餐(韩语儿歌)"><img src="/spic/20120725/6465.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4677.html" target="_blank"  title="野餐(韩语儿歌)">野餐(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4680.html" target="_blank" title="灯塔(韩语儿歌)"><img src="/spic/20120725/6481.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4680.html" target="_blank"  title="灯塔(韩语儿歌)">灯塔(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4682.html" target="_blank" title="困困了"><img src="/spic/20120725/6475.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4682.html" target="_blank"  title="困困了">困困了</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4683.html" target="_blank" title="五只小黄鹂(韩语儿歌)"><img src="/spic/20120725/6469.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4683.html" target="_blank"  title="五只小黄鹂(韩语儿歌)">五只小黄鹂(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4688.html" target="_blank" title="草甸小路"><img src="/spic/20120725/6485.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4688.html" target="_blank"  title="草甸小路">草甸小路</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4689.html" target="_blank" title="我们的兄弟(韩语儿歌)"><img src="/spic/20120725/6431.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4689.html" target="_blank"  title="我们的兄弟(韩语儿歌)">我们的兄弟(韩语儿歌)</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4693.html" target="_blank" title="一个水瓶"><img src="/spic/20120725/6501.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4693.html" target="_blank"  title="一个水瓶">一个水瓶</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4694.html" target="_blank" title="[草地]美国歌"><img src="/spic/20120725/6499.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4694.html" target="_blank"  title="[草地]美国歌">[草地]美国歌</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4699.html" target="_blank" title="头，肩，膝盖和脚趾"><img src="/spic/20120725/6507.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4699.html" target="_blank"  title="头，肩，膝盖和脚趾">头，肩，膝盖和脚趾</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/tingerge/waiwenerge/4709.html" target="_blank" title="试着数数字"><img src="/spic/20120725/6450.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/tingerge/waiwenerge/4709.html" target="_blank"  title="试着数数字">试着数数字</a><p><i class="starAll star3"></i></p></dt></dl>			<div class="l_dash"></div>
+			<div class="c"></div>
+        </span>
+		</div>
+                 <div class="page list_margin">
+   					
+		<div class="c"></div>
+                </div>
+            </div>
+            <!--中部内容右栏结束-->
+		<div class="c"></div>
+     </div>
+
+	  <div class="box_content">
+		<div class="yl_top">
+		  <h3 class="classic"><span class="zs">推荐精品</span></h3>
+		  <i class="more"><a href="/s/t180.html" target="_blank">更多</a></i>
+		  <div class="c"></div>
+		</div>
+		<div class="yl_mid">
+		  <div class="list_yl remove">
+			<ul>
+		   <li><a href="http://127.0.0.1/tingerge/waiwenerge/4709.html"  target="_blank" title="试着数数字" >试着数数字</a></li><li><a href="http://127.0.0.1/tingerge/waiwenerge/4688.html"  target="_blank" title="草甸小路" >草甸小路</a></li><li><a href="http://127.0.0.1/tingerge/waiwenerge/4677.html"  target="_blank" title="野餐(韩语儿歌)" >野餐(韩语儿歌)</a></li><li><a href="http://127.0.0.1/tingerge/waiwenerge/4673.html"  target="_blank" title="哈密瓜声音(韩语儿歌)" >哈密瓜声音(韩语儿歌)</a></li><li><a href="http://127.0.0.1/tingerge/waiwenerge/4665.html"  target="_blank" title="月宫(韩语儿歌)" >月宫(韩语儿歌)</a></li><li><a href="http://127.0.0.1/tingerge/waiwenerge/4668.html"  target="_blank" title="猴子(韩语儿歌)" >猴子(韩语儿歌)</a></li><li><a href="http://127.0.0.1/tingerge/waiwenerge/4638.html"  target="_blank" title="杉树(韩语儿歌)" >杉树(韩语儿歌)</a></li><li><a href="http://127.0.0.1/tingerge/waiwenerge/4641.html"  target="_blank" title="剪刀石头布(韩语儿歌)" >剪刀石头布(韩语儿歌)</a></li><li><a href="http://127.0.0.1/tingerge/waiwenerge/4620.html"  target="_blank" title="小乌龟(韩语儿歌)" >小乌龟(韩语儿歌)</a></li><li><a href="http://127.0.0.1/tingerge/waiwenerge/4613.html"  target="_blank" title="写字(韩语儿歌)" >写字(韩语儿歌)</a></li><li><a href="http://127.0.0.1/tingerge/waiwenerge/3767.html"  target="_blank" title="韩国圣诞儿歌" >韩国圣诞儿歌</a></li><li><a href="http://127.0.0.1/tingerge/waiwenerge/3617.html"  target="_blank" title="蜗牛房子" >蜗牛房子</a></li>			  <div class="c"></div>
+			</ul>
+		  </div>
+		</div>
+		<div class="yl_bottom"></div>
+	  </div>
+ 
+</div>
+
+<!-- 尾部开始 --> 
+<!-- 尾部开始 --> 
+  <div id="footer_wrapx">
+  	<div id="footer_x">
+  		<div id="footer_content">
+        	<p class="about"><a href="/info/about.html" target="_blank">关于我们</a> | <a href="/info/contact.html" target="_blank">联系我们</a> | <a href="/info/terms.html" target="_blank">服务条款</a> | <a href="/info/privacy.html" target="_blank">隐私保护</a> | <a href="/info/map.html" target="_blank">网站地图</a> | <a href="/info/ad.html" target="_blank">广告服务</a> | <a href="/info/link.html" target="_blank">友情链接</a> | <a href="/info/help.html" target="_blank">网站帮助</a> | <a href="/info/upload.html" target="_blank">作品投稿</a> </p>
+            <p><a href="http://127.0.0.1/">儿歌网</a>专注于提供：<a href="http://127.0.0.1" target="_blank" alt="儿童歌曲大全"><b>儿童歌曲</b></a>、<b><a href="http://127.0.0.1/donghuapian/" target="_blank" alt="儿童动画片">动画片</a></b>、<a href="http://127.0.0.1/wanyouxi/" target="_blank" alt="儿童小游戏大全"><b>儿童小游戏</b></a>力争做最好的儿童网站。<br />
+</p>
+            <p>Copyright&copy; <a href="http://127.0.0.1/">儿歌网</a> cnymk.com All Rights Reserved</p>
+            <p>技术支持:宝贝<b><a href="http://127.0.0.1" target="_blank">儿歌网</a></b>  ICP备案证号:www.cnymk.com</p>
+ <p style="font-size:10px">本站部分资源来自网友上传，如有侵权请邮件通知，我们将在3个工作日内删除。<p> 
+        </div>
+  	</div>
+  </div> 
+<!-- 尾部结束 --> 
+<div style="display:none;">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F855494e4fd05db2e589008845a9e0344' type='text/javascript'%3E%3C/script%3E"));
+</script></div>
+ 
+<!-- 尾部结束 -->
+</body>
+</html>

@@ -1,0 +1,1 @@
+var gUserCenter = {"result":0,"resultstr":"操作成功！","uin":1936240};

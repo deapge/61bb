@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>木偶奇遇记-儿童歌曲-儿歌大全--源码库儿歌网</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="木偶奇遇记erge,儿歌，mp3,儿歌下载,英语儿歌,英文儿歌,儿歌童谣,儿歌flash,幼儿儿歌,儿歌大全,宝宝的源码库儿歌网" />
+<meta name="description" content="源码库儿歌网提供最新儿歌视听和儿歌下载，包括经典的童谣，儿童FLASH，为儿童打造一个优良是视听环境。"/>
+<link rel="stylesheet" type="text/css" href="/css/index.css"/>
+<script language="javascript" src="/js/jquery-1.7.min.js"></script>
+<script language="javascript" src="/js/func.js"></script>
+<script type="text/javascript" src="http://cbjs.baidu.com/js/m.js"></script>
+<link rel="stylesheet" href="/css/colorbox.css" type="text/css" />
+<script language="javascript" src="/js/jquery.colorbox.js"></script>
+<script language="javascript" src="/js/xqfunc.js"></script>
+</head>
+<body>
+<div id="shortcut">
+  <div class="w">
+    <ul>
+      <li><a href="/" target="_blank">儿歌网</a></li>
+      <li><a href="/s/n180.html" target="_blank">最新儿歌</a></li>
+      <li><a href="/s/h180.html" target="_blank">热门儿歌</a></li>
+      <li><a href="/s/t180.html" target="_blank">推荐儿歌</a></li>
+     
+      
+    </ul>
+    <ul class="divLoginBar">
+       
+      <li id="add"><a onclick="AddFavorite('http://127.0.0.1',':儿歌-儿童小游戏-儿歌大全-儿童歌曲-儿童歌曲大全-儿歌视频大全-儿歌童谣-童谣大全-儿歌播放器-儿童资源_127.0.0.1')" style="cursor:hand" href="javascript:;">加入收藏</a></li>
+      <li id="conf"><a onclick="SetHome(this,'')" href="javascript:;">设为首页</a></li>
+    </ul>
+  </div>
+</div>
+<div class="c"></div>
+
+<div id="bb_box"> <div id="header">
+  <div id="bb_logo"><a href="/"><img alt="儿歌网" src="/css/logo.gif"/></a></div>
+  <div id="topgg"> <script src="/d/js/acmsd/thea2.js"></script></div>
+  <div class="c"></div>
+  <div id="bb_nav">
+    <ul>
+      <li id="home" class="current" ><a href="/" >首页</a></li>
+      <li  id="c1"><a href="/tingerge/">听儿歌</a></li>
+      <li id="c2"><a href="/jianggushi/">儿童故事</a></li>
+      <li id="c3"><a href="/xuezhishi/">学知识</a></li>
+      <li id="c4"><a href="/wanyouxi/">儿童游戏</a></li>
+      <li id="c5"><a href="/donghuapian/">动画片</a></li>
+      <li  id="TV"><a href="/fm/">亲宝电台</a></li>
+      <li id="park"><a href="http://www.taohi.cn"  target="_blank" >宝宝乐园</a></li>
+      <li id="c199"><a href="/jiaoan/">幼儿园教案</a> </li>
+    </ul>
+    <div class="nav_search">
+            <div class="seachslect" onmouseout="selectseout('select_tops')" onmouseover="selectseover('select_tops')">
+            	<span class="currcodes">
+                <em id="selectvalue">视频</em>
+                    <div id="select_tops" class="subtop_select" style="display: none;">
+                    	<a onclick="return search_show('1','0',this)" href="javascript:void(0)">视频</a>
+                        <a onclick="return search_show('2','0',this)" href="javascript:void(0)">文章</a>
+                    </div>
+                </span>
+            </div>      
+             <form name="fsearch" method="post" action="/e/search/index.php" target="_blank">
+              <input type="hidden" name="show" value="title">
+              <input id="tempid" type="hidden" name="tempid" value="1">
+              <input id="tbname" type="hidden" name="tbname" value="game">
+                <input type="hidden" name="show" value="title,smalltext,newstext,writer" />
+                <input id="classid" name="classid" type="hidden" value="0" />
+                <input name="keyboard" type="text"  class="nav_box"  value="输入儿歌名称" id="keys"/>
+              <input type="submit" value="搜索" class="nav_btn">
+              <div class="c"></div>
+            </form>
+      </div>
+    <div class="c"></div>
+  </div>
+  <div class="extra">
+   
+    <ul>
+      <li><a href="/tingerge/zhongwenerge/" target="_blank" >中文儿歌</a></li>
+      <li><a href="/tingerge/yingwenerge/" target="_blank">英文儿歌</a></li>
+      <li><a href="/tingerge/tongyao/" target="_blank" >童谣</a></li>
+      <li><a href="/donghuapian/" target="_blank">儿童动画片</a></li>
+      <li><a href="/jianggushi/jingdianxiaogushi/" target="_blank" >儿童故事</a></li>
+      <li><a href="/jianggushi/tonghuagushi/" target="_blank">童话</a> <a href="/jianggushi/yuyangushi/" target="_blank">寓言</a></li>
+      <li><a href="/jianggushi/chengyugushi/" target="_blank">成语故事</a></li>
+      <li><a href="/jianggushi/shenhuachuanshuo/" target="_blank">神话传说</a></li>
+      <li><a href="/wudao/ertongwudao/" target="_blank">儿童舞蹈</a></li>
+      <li><a href="/xuezhishi/tangshisongci/" target="_blank">唐诗宋词</a></li>
+      <li><a href="/xuezhishi/kuailepinyin/" target="_blank">快乐拼音</a></li>
+      <li><a href="/xuezhishi/youerqimeng/" target="_blank">幼儿启蒙</a></li>
+      <li><a href="/xuezhishi/yingyujiaoyu/" target="_blank">英语教育</a></li>
+      <li><a href="/xuezhishi/baikechangshi/" target="_blank">百科常识</a></li>
+      <li><a href="/miyu/" target="_blank">谜语</a></li>
+      <li><a href="/tonghua/" target="_blank">童话故事</a></li>
+
+    </ul>
+  </div>
+</div> 
+</div>
+<script>
+var classid = '2';
+if(classid==0)classid='23';
+if(classid){$("#c"+classid).addClass("current");$("#home").removeClass("current");}
+</script>
+<div class="adm_960" id="adm"><script src="/d/js/acmsd/thea4.js"></script></div>
+
+<div id="content"> 
+	<!-- 导航指南开始 -->
+	<div class="content_mid"> 
+		<!--中部内容左栏开始-->
+		<div class="list_left">
+			<div class="list_boxs">
+				<div class="adm_250"> 
+					<script src="/d/js/acmsd/thea15.js"></script>
+				</div>
+				<div class="list_top"></div>
+				<div class="list_mid">
+					<h2 class="recommend_list">推荐专题</h2>
+					<dl>
+            <dd> <a href="/s/youergequ/" target="_blank" ><img border="0" src="/images/zt/24.jpg" width="57" alt="幼儿歌曲大全" /></a> </dd>
+            <dt> <a href="/s/youergequ/" target="_blank">幼儿歌曲大全</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="/s/qiaohuyouxi/" target="_blank" ><img border="0" src="/images/zt/12.jpg" width="57" alt="巧虎快乐版2011"/></a> </dd>
+            <dt> <a href="/s/qiaohuyouxi/" target="_blank">巧虎快乐版2011</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="/s/qinbaoshici/" target="_blank" ><img border="0" src="/images/zt/13.jpg" width="57" alt="亲宝诗词" /></a> </dd>
+            <dt> <a href="/s/qinbaoshici/" target="_blank">亲宝诗词</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="/s/ertongshuiqiangushi/" target="_blank" ><img border="0" src="/images/zt/14.jpg" width="57" alt="睡前故事" /></a> </dd>
+            <dt> <a href="/s/ertongshuiqiangushi/" target="_blank">睡前故事</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="/s/lianliankan/" target="_blank" ><img border="0" src="/images/zt/15.jpg" width="57" alt="连连看"/></a> </dd>
+            <dt> <a href="/s/lianliankan/" target="_blank">连连看</a> </dt>
+          </dl>
+          <dl>
+            <dd> <a href="/s/h50.html" target="_blank" ><img border="0" src="/images/zt/16.jpg" width="57" alt="儿歌串烧50首" /></a> </dd>
+            <dt> <a href="/s/h50.html" target="_blank">儿歌串烧50首</a> </dt>
+          </dl>
+				</div>
+				<div class="list_bottom"></div>
+			</div>
+			<div class="list_boxs no_margin">
+				<div class="list_top"></div>
+				<div class="list_mid">
+					<h2 class="like_list">宝宝们爱看</h2>
+					<ul>
+						<li><span><a href="http://127.0.0.1/jianggushi/muouqiyuji/3514.html" target="_blank"><img src="/spic/20120725/11812.gif" width="81"></a></span><p><b><a href="http://127.0.0.1/jianggushi/muouqiyuji/3514.html" target="_blank" title="木偶奇遇记2">木偶奇遇记2</a></b><s class="starAll star3 mb10"></s><a class="look" href="http://127.0.0.1/jianggushi/muouqiyuji/3514.html" target="_blank">马上观看</a></p></li><li><span><a href="http://127.0.0.1/jianggushi/muouqiyuji/3342.html" target="_blank"><img src="/spic/20120725/10404.gif" width="81"></a></span><p><b><a href="http://127.0.0.1/jianggushi/muouqiyuji/3342.html" target="_blank" title="木偶奇遇记30">木偶奇遇记30</a></b><s class="starAll star3 mb10"></s><a class="look" href="http://127.0.0.1/jianggushi/muouqiyuji/3342.html" target="_blank">马上观看</a></p></li><li><span><a href="http://127.0.0.1/jianggushi/muouqiyuji/3356.html" target="_blank"><img src="/spic/20120725/10390.gif" width="81"></a></span><p><b><a href="http://127.0.0.1/jianggushi/muouqiyuji/3356.html" target="_blank" title="木偶奇遇记29">木偶奇遇记29</a></b><s class="starAll star3 mb10"></s><a class="look" href="http://127.0.0.1/jianggushi/muouqiyuji/3356.html" target="_blank">马上观看</a></p></li><li><span><a href="http://127.0.0.1/jianggushi/muouqiyuji/3360.html" target="_blank"><img src="/spic/20120725/10384.gif" width="81"></a></span><p><b><a href="http://127.0.0.1/jianggushi/muouqiyuji/3360.html" target="_blank" title="木偶奇遇记27">木偶奇遇记27</a></b><s class="starAll star3 mb10"></s><a class="look" href="http://127.0.0.1/jianggushi/muouqiyuji/3360.html" target="_blank">马上观看</a></p></li><li><span><a href="http://127.0.0.1/jianggushi/muouqiyuji/3362.html" target="_blank"><img src="/spic/20120725/10528.gif" width="81"></a></span><p><b><a href="http://127.0.0.1/jianggushi/muouqiyuji/3362.html" target="_blank" title="木偶奇遇记25">木偶奇遇记25</a></b><s class="starAll star3 mb10"></s><a class="look" href="http://127.0.0.1/jianggushi/muouqiyuji/3362.html" target="_blank">马上观看</a></p></li><li><span><a href="http://127.0.0.1/jianggushi/muouqiyuji/3363.html" target="_blank"><img src="/spic/20120725/10400.gif" width="81"></a></span><p><b><a href="http://127.0.0.1/jianggushi/muouqiyuji/3363.html" target="_blank" title="木偶奇遇记28">木偶奇遇记28</a></b><s class="starAll star3 mb10"></s><a class="look" href="http://127.0.0.1/jianggushi/muouqiyuji/3363.html" target="_blank">马上观看</a></p></li><li><span><a href="http://127.0.0.1/jianggushi/muouqiyuji/3365.html" target="_blank"><img src="/spic/20120725/10432.gif" width="81"></a></span><p><b><a href="http://127.0.0.1/jianggushi/muouqiyuji/3365.html" target="_blank" title="木偶奇遇记26">木偶奇遇记26</a></b><s class="starAll star3 mb10"></s><a class="look" href="http://127.0.0.1/jianggushi/muouqiyuji/3365.html" target="_blank">马上观看</a></p></li>						<div class="c"></div>
+					</ul>
+				</div>
+				<div class="list_bottom"></div>
+			</div>
+		</div>
+		<!--中部内容左栏结束--> 
+    <!--中部内容右栏开始-->
+    <div class="list_right">
+      <div class="select_title"> <em>请按条件选择!</em> <i>您在</i>
+        <h1>木偶奇遇记</h1>
+        <a onclick="AddFavorite('',document.title)" style="cursor:hand" href="javascript:;">收藏此栏目</a>
+        <div class="c"></div>
+      </div>
+      <div class="language"> <b>儿童故事分类：</b> 
+       <div class="fl_a"><a href="../" class="current" id="flhome">全部</a><a href="http://127.0.0.1/jianggushi/jingdianxiaogushi/" id=fl18>经典小故事</a><a href="http://127.0.0.1/jianggushi/tonghuagushi/" id=fl19>童话故事</a><a href="http://127.0.0.1/jianggushi/yuyangushi/" id=fl20>寓言故事</a><a href="http://127.0.0.1/jianggushi/chengyugushi/" id=fl21>成语故事</a><a href="http://127.0.0.1/jianggushi/shenhuachuanshuo/" id=fl22>神话传说</a><a href="http://127.0.0.1/jianggushi/muouqiyuji/" id=fl23>木偶奇遇记</a><a href="http://127.0.0.1/jianggushi/sanguoyanyi/" id=fl24>三国演义</a> </div>
+      </div>
+    <script>
+	var navclassid =23;
+	if(navclassid){
+			 $("#fl"+navclassid).addClass("current");
+                         if($("#fl"+navclassid).length > 0) $("#flhome").removeClass("current");
+		   }
+	</script> 
+      <div class="best_fl">
+        <ul>
+          <li class="current"><span>最新发布</span></li>
+          <li ><span>最多人听</span></li>
+          <li ><span>评分最高</span></li>
+          <div class="c"></div>
+        </ul>
+      </div>
+      <div class="change">
+       <span class="new"> 
+	   <dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3514.html" target="_blank" title="木偶奇遇记2"><img src="/spic/20120725/11812.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3514.html" target="_blank"  title="木偶奇遇记2">木偶奇遇记2</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3513.html" target="_blank" title="木偶奇遇记3"><img src="/spic/20120725/11816.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3513.html" target="_blank"  title="木偶奇遇记3">木偶奇遇记3</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3511.html" target="_blank" title="木偶奇遇记1"><img src="/spic/20120725/11880.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3511.html" target="_blank"  title="木偶奇遇记1">木偶奇遇记1</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3499.html" target="_blank" title="木偶奇遇记4"><img src="/spic/20120725/11828.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3499.html" target="_blank"  title="木偶奇遇记4">木偶奇遇记4</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3489.html" target="_blank" title="木偶奇遇记6"><img src="/spic/20120725/11498.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3489.html" target="_blank"  title="木偶奇遇记6">木偶奇遇记6</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3486.html" target="_blank" title="木偶奇遇记5"><img src="/spic/20120725/11450.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3486.html" target="_blank"  title="木偶奇遇记5">木偶奇遇记5</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3480.html" target="_blank" title="木偶奇遇记8"><img src="/spic/20120725/11304.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3480.html" target="_blank"  title="木偶奇遇记8">木偶奇遇记8</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3477.html" target="_blank" title="木偶奇遇记7"><img src="/spic/20120725/11276.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3477.html" target="_blank"  title="木偶奇遇记7">木偶奇遇记7</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3460.html" target="_blank" title="木偶奇遇记10"><img src="/spic/20120725/11144.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3460.html" target="_blank"  title="木偶奇遇记10">木偶奇遇记10</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3457.html" target="_blank" title="木偶奇遇记9"><img src="/spic/20120725/11244.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3457.html" target="_blank"  title="木偶奇遇记9">木偶奇遇记9</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3454.html" target="_blank" title="木偶奇遇记12"><img src="/spic/20120725/11089.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3454.html" target="_blank"  title="木偶奇遇记12">木偶奇遇记12</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3452.html" target="_blank" title="木偶奇遇记11"><img src="/spic/20120725/11070.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3452.html" target="_blank"  title="木偶奇遇记11">木偶奇遇记11</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3436.html" target="_blank" title="木偶奇遇记14"><img src="/spic/20120725/10945.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3436.html" target="_blank"  title="木偶奇遇记14">木偶奇遇记14</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3433.html" target="_blank" title="木偶奇遇记16"><img src="/spic/20120725/10943.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3433.html" target="_blank"  title="木偶奇遇记16">木偶奇遇记16</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3434.html" target="_blank" title="木偶奇遇记13"><img src="/spic/20120725/11079.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3434.html" target="_blank"  title="木偶奇遇记13">木偶奇遇记13</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3430.html" target="_blank" title="木偶奇遇记15"><img src="/spic/20120725/10931.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3430.html" target="_blank"  title="木偶奇遇记15">木偶奇遇记15</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3410.html" target="_blank" title="木偶奇遇记18"><img src="/spic/20120725/10792.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3410.html" target="_blank"  title="木偶奇遇记18">木偶奇遇记18</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3407.html" target="_blank" title="木偶奇遇记17"><img src="/spic/20120725/10764.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3407.html" target="_blank"  title="木偶奇遇记17">木偶奇遇记17</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3391.html" target="_blank" title="木偶奇遇记20"><img src="/spic/20120725/10640.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3391.html" target="_blank"  title="木偶奇遇记20">木偶奇遇记20</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3393.html" target="_blank" title="木偶奇遇记21"><img src="/spic/20120725/10644.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3393.html" target="_blank"  title="木偶奇遇记21">木偶奇遇记21</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3389.html" target="_blank" title="木偶奇遇记19"><img src="/spic/20120725/10720.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3389.html" target="_blank"  title="木偶奇遇记19">木偶奇遇记19</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3379.html" target="_blank" title="木偶奇遇记22"><img src="/spic/20120725/10658.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3379.html" target="_blank"  title="木偶奇遇记22">木偶奇遇记22</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3380.html" target="_blank" title="木偶奇遇记24"><img src="/spic/20120725/10554.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3380.html" target="_blank"  title="木偶奇遇记24">木偶奇遇记24</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3377.html" target="_blank" title="木偶奇遇记23"><img src="/spic/20120725/10532.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3377.html" target="_blank"  title="木偶奇遇记23">木偶奇遇记23</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3365.html" target="_blank" title="木偶奇遇记26"><img src="/spic/20120725/10432.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3365.html" target="_blank"  title="木偶奇遇记26">木偶奇遇记26</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3362.html" target="_blank" title="木偶奇遇记25"><img src="/spic/20120725/10528.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3362.html" target="_blank"  title="木偶奇遇记25">木偶奇遇记25</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3363.html" target="_blank" title="木偶奇遇记28"><img src="/spic/20120725/10400.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3363.html" target="_blank"  title="木偶奇遇记28">木偶奇遇记28</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3360.html" target="_blank" title="木偶奇遇记27"><img src="/spic/20120725/10384.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3360.html" target="_blank"  title="木偶奇遇记27">木偶奇遇记27</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3356.html" target="_blank" title="木偶奇遇记29"><img src="/spic/20120725/10390.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3356.html" target="_blank"  title="木偶奇遇记29">木偶奇遇记29</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3342.html" target="_blank" title="木偶奇遇记30"><img src="/spic/20120725/10404.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3342.html" target="_blank"  title="木偶奇遇记30">木偶奇遇记30</a><p><i class="starAll star3"></i></p></dt></dl>
+		<div class="l_dash"></div> 
+                 <div class="c"></div>
+        </span>
+        <span class="much"> 
+           <dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3514.html" target="_blank" title="木偶奇遇记2"><img src="/spic/20120725/11812.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3514.html" target="_blank"  title="木偶奇遇记2">木偶奇遇记2</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3342.html" target="_blank" title="木偶奇遇记30"><img src="/spic/20120725/10404.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3342.html" target="_blank"  title="木偶奇遇记30">木偶奇遇记30</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3356.html" target="_blank" title="木偶奇遇记29"><img src="/spic/20120725/10390.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3356.html" target="_blank"  title="木偶奇遇记29">木偶奇遇记29</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3360.html" target="_blank" title="木偶奇遇记27"><img src="/spic/20120725/10384.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3360.html" target="_blank"  title="木偶奇遇记27">木偶奇遇记27</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3362.html" target="_blank" title="木偶奇遇记25"><img src="/spic/20120725/10528.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3362.html" target="_blank"  title="木偶奇遇记25">木偶奇遇记25</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3363.html" target="_blank" title="木偶奇遇记28"><img src="/spic/20120725/10400.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3363.html" target="_blank"  title="木偶奇遇记28">木偶奇遇记28</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3365.html" target="_blank" title="木偶奇遇记26"><img src="/spic/20120725/10432.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3365.html" target="_blank"  title="木偶奇遇记26">木偶奇遇记26</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3377.html" target="_blank" title="木偶奇遇记23"><img src="/spic/20120725/10532.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3377.html" target="_blank"  title="木偶奇遇记23">木偶奇遇记23</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3379.html" target="_blank" title="木偶奇遇记22"><img src="/spic/20120725/10658.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3379.html" target="_blank"  title="木偶奇遇记22">木偶奇遇记22</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3380.html" target="_blank" title="木偶奇遇记24"><img src="/spic/20120725/10554.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3380.html" target="_blank"  title="木偶奇遇记24">木偶奇遇记24</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3389.html" target="_blank" title="木偶奇遇记19"><img src="/spic/20120725/10720.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3389.html" target="_blank"  title="木偶奇遇记19">木偶奇遇记19</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3391.html" target="_blank" title="木偶奇遇记20"><img src="/spic/20120725/10640.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3391.html" target="_blank"  title="木偶奇遇记20">木偶奇遇记20</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3393.html" target="_blank" title="木偶奇遇记21"><img src="/spic/20120725/10644.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3393.html" target="_blank"  title="木偶奇遇记21">木偶奇遇记21</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3407.html" target="_blank" title="木偶奇遇记17"><img src="/spic/20120725/10764.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3407.html" target="_blank"  title="木偶奇遇记17">木偶奇遇记17</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3410.html" target="_blank" title="木偶奇遇记18"><img src="/spic/20120725/10792.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3410.html" target="_blank"  title="木偶奇遇记18">木偶奇遇记18</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3430.html" target="_blank" title="木偶奇遇记15"><img src="/spic/20120725/10931.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3430.html" target="_blank"  title="木偶奇遇记15">木偶奇遇记15</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3433.html" target="_blank" title="木偶奇遇记16"><img src="/spic/20120725/10943.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3433.html" target="_blank"  title="木偶奇遇记16">木偶奇遇记16</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3434.html" target="_blank" title="木偶奇遇记13"><img src="/spic/20120725/11079.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3434.html" target="_blank"  title="木偶奇遇记13">木偶奇遇记13</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3436.html" target="_blank" title="木偶奇遇记14"><img src="/spic/20120725/10945.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3436.html" target="_blank"  title="木偶奇遇记14">木偶奇遇记14</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3452.html" target="_blank" title="木偶奇遇记11"><img src="/spic/20120725/11070.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3452.html" target="_blank"  title="木偶奇遇记11">木偶奇遇记11</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3454.html" target="_blank" title="木偶奇遇记12"><img src="/spic/20120725/11089.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3454.html" target="_blank"  title="木偶奇遇记12">木偶奇遇记12</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3457.html" target="_blank" title="木偶奇遇记9"><img src="/spic/20120725/11244.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3457.html" target="_blank"  title="木偶奇遇记9">木偶奇遇记9</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3460.html" target="_blank" title="木偶奇遇记10"><img src="/spic/20120725/11144.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3460.html" target="_blank"  title="木偶奇遇记10">木偶奇遇记10</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3477.html" target="_blank" title="木偶奇遇记7"><img src="/spic/20120725/11276.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3477.html" target="_blank"  title="木偶奇遇记7">木偶奇遇记7</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3480.html" target="_blank" title="木偶奇遇记8"><img src="/spic/20120725/11304.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3480.html" target="_blank"  title="木偶奇遇记8">木偶奇遇记8</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3486.html" target="_blank" title="木偶奇遇记5"><img src="/spic/20120725/11450.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3486.html" target="_blank"  title="木偶奇遇记5">木偶奇遇记5</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3489.html" target="_blank" title="木偶奇遇记6"><img src="/spic/20120725/11498.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3489.html" target="_blank"  title="木偶奇遇记6">木偶奇遇记6</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3499.html" target="_blank" title="木偶奇遇记4"><img src="/spic/20120725/11828.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3499.html" target="_blank"  title="木偶奇遇记4">木偶奇遇记4</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3511.html" target="_blank" title="木偶奇遇记1"><img src="/spic/20120725/11880.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3511.html" target="_blank"  title="木偶奇遇记1">木偶奇遇记1</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3513.html" target="_blank" title="木偶奇遇记3"><img src="/spic/20120725/11816.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3513.html" target="_blank"  title="木偶奇遇记3">木偶奇遇记3</a><p><i class="starAll star3"></i></p></dt></dl>           <div class="l_dash"></div>        <div class="c"></div>
+        </span>
+        <span class="high"> 
+			<dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3342.html" target="_blank" title="木偶奇遇记30"><img src="/spic/20120725/10404.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3342.html" target="_blank"  title="木偶奇遇记30">木偶奇遇记30</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3356.html" target="_blank" title="木偶奇遇记29"><img src="/spic/20120725/10390.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3356.html" target="_blank"  title="木偶奇遇记29">木偶奇遇记29</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3360.html" target="_blank" title="木偶奇遇记27"><img src="/spic/20120725/10384.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3360.html" target="_blank"  title="木偶奇遇记27">木偶奇遇记27</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3362.html" target="_blank" title="木偶奇遇记25"><img src="/spic/20120725/10528.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3362.html" target="_blank"  title="木偶奇遇记25">木偶奇遇记25</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3363.html" target="_blank" title="木偶奇遇记28"><img src="/spic/20120725/10400.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3363.html" target="_blank"  title="木偶奇遇记28">木偶奇遇记28</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3365.html" target="_blank" title="木偶奇遇记26"><img src="/spic/20120725/10432.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3365.html" target="_blank"  title="木偶奇遇记26">木偶奇遇记26</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3377.html" target="_blank" title="木偶奇遇记23"><img src="/spic/20120725/10532.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3377.html" target="_blank"  title="木偶奇遇记23">木偶奇遇记23</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3379.html" target="_blank" title="木偶奇遇记22"><img src="/spic/20120725/10658.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3379.html" target="_blank"  title="木偶奇遇记22">木偶奇遇记22</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3380.html" target="_blank" title="木偶奇遇记24"><img src="/spic/20120725/10554.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3380.html" target="_blank"  title="木偶奇遇记24">木偶奇遇记24</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3389.html" target="_blank" title="木偶奇遇记19"><img src="/spic/20120725/10720.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3389.html" target="_blank"  title="木偶奇遇记19">木偶奇遇记19</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3391.html" target="_blank" title="木偶奇遇记20"><img src="/spic/20120725/10640.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3391.html" target="_blank"  title="木偶奇遇记20">木偶奇遇记20</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3393.html" target="_blank" title="木偶奇遇记21"><img src="/spic/20120725/10644.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3393.html" target="_blank"  title="木偶奇遇记21">木偶奇遇记21</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3407.html" target="_blank" title="木偶奇遇记17"><img src="/spic/20120725/10764.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3407.html" target="_blank"  title="木偶奇遇记17">木偶奇遇记17</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3410.html" target="_blank" title="木偶奇遇记18"><img src="/spic/20120725/10792.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3410.html" target="_blank"  title="木偶奇遇记18">木偶奇遇记18</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3430.html" target="_blank" title="木偶奇遇记15"><img src="/spic/20120725/10931.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3430.html" target="_blank"  title="木偶奇遇记15">木偶奇遇记15</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3433.html" target="_blank" title="木偶奇遇记16"><img src="/spic/20120725/10943.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3433.html" target="_blank"  title="木偶奇遇记16">木偶奇遇记16</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3434.html" target="_blank" title="木偶奇遇记13"><img src="/spic/20120725/11079.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3434.html" target="_blank"  title="木偶奇遇记13">木偶奇遇记13</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3436.html" target="_blank" title="木偶奇遇记14"><img src="/spic/20120725/10945.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3436.html" target="_blank"  title="木偶奇遇记14">木偶奇遇记14</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3452.html" target="_blank" title="木偶奇遇记11"><img src="/spic/20120725/11070.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3452.html" target="_blank"  title="木偶奇遇记11">木偶奇遇记11</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3454.html" target="_blank" title="木偶奇遇记12"><img src="/spic/20120725/11089.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3454.html" target="_blank"  title="木偶奇遇记12">木偶奇遇记12</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3457.html" target="_blank" title="木偶奇遇记9"><img src="/spic/20120725/11244.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3457.html" target="_blank"  title="木偶奇遇记9">木偶奇遇记9</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3460.html" target="_blank" title="木偶奇遇记10"><img src="/spic/20120725/11144.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3460.html" target="_blank"  title="木偶奇遇记10">木偶奇遇记10</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3477.html" target="_blank" title="木偶奇遇记7"><img src="/spic/20120725/11276.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3477.html" target="_blank"  title="木偶奇遇记7">木偶奇遇记7</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3480.html" target="_blank" title="木偶奇遇记8"><img src="/spic/20120725/11304.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3480.html" target="_blank"  title="木偶奇遇记8">木偶奇遇记8</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3486.html" target="_blank" title="木偶奇遇记5"><img src="/spic/20120725/11450.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3486.html" target="_blank"  title="木偶奇遇记5">木偶奇遇记5</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3489.html" target="_blank" title="木偶奇遇记6"><img src="/spic/20120725/11498.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3489.html" target="_blank"  title="木偶奇遇记6">木偶奇遇记6</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3499.html" target="_blank" title="木偶奇遇记4"><img src="/spic/20120725/11828.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3499.html" target="_blank"  title="木偶奇遇记4">木偶奇遇记4</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3511.html" target="_blank" title="木偶奇遇记1"><img src="/spic/20120725/11880.jpg"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3511.html" target="_blank"  title="木偶奇遇记1">木偶奇遇记1</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3513.html" target="_blank" title="木偶奇遇记3"><img src="/spic/20120725/11816.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3513.html" target="_blank"  title="木偶奇遇记3">木偶奇遇记3</a><p><i class="starAll star3"></i></p></dt></dl><dl><dd><a href="http://127.0.0.1/jianggushi/muouqiyuji/3514.html" target="_blank" title="木偶奇遇记2"><img src="/spic/20120725/11812.gif"  width="69px" /></a></dd> <dt><a href="http://127.0.0.1/jianggushi/muouqiyuji/3514.html" target="_blank"  title="木偶奇遇记2">木偶奇遇记2</a><p><i class="starAll star3"></i></p></dt></dl>			<div class="l_dash"></div>
+			<div class="c"></div>
+        </span>
+		</div>
+                 <div class="page list_margin">
+   					
+		<div class="c"></div>
+                </div>
+            </div>
+            <!--中部内容右栏结束-->
+		<div class="c"></div>
+     </div>
+
+	  <div class="box_content">
+		<div class="yl_top">
+		  <h3 class="classic"><span class="zs">推荐精品</span></h3>
+		  <i class="more"><a href="/s/t180.html" target="_blank">更多</a></i>
+		  <div class="c"></div>
+		</div>
+		<div class="yl_mid">
+		  <div class="list_yl remove">
+			<ul>
+		   			  <div class="c"></div>
+			</ul>
+		  </div>
+		</div>
+		<div class="yl_bottom"></div>
+	  </div>
+ 
+</div>
+
+<!-- 尾部开始 --> 
+<!-- 尾部开始 --> 
+  <div id="footer_wrapx">
+  	<div id="footer_x">
+  		<div id="footer_content">
+        	<p class="about"><a href="/info/about.html" target="_blank">关于我们</a> | <a href="/info/contact.html" target="_blank">联系我们</a> | <a href="/info/terms.html" target="_blank">服务条款</a> | <a href="/info/privacy.html" target="_blank">隐私保护</a> | <a href="/info/map.html" target="_blank">网站地图</a> | <a href="/info/ad.html" target="_blank">广告服务</a> | <a href="/info/link.html" target="_blank">友情链接</a> | <a href="/info/help.html" target="_blank">网站帮助</a> | <a href="/info/upload.html" target="_blank">作品投稿</a> </p>
+            <p><a href="http://127.0.0.1/">儿歌网</a>专注于提供：<a href="http://127.0.0.1" target="_blank" alt="儿童歌曲大全"><b>儿童歌曲</b></a>、<b><a href="http://127.0.0.1/donghuapian/" target="_blank" alt="儿童动画片">动画片</a></b>、<a href="http://127.0.0.1/wanyouxi/" target="_blank" alt="儿童小游戏大全"><b>儿童小游戏</b></a>力争做最好的儿童网站。<br />
+</p>
+            <p>Copyright&copy; <a href="http://127.0.0.1/">儿歌网</a> cnymk.com All Rights Reserved</p>
+            <p>技术支持:宝贝<b><a href="http://127.0.0.1" target="_blank">儿歌网</a></b>  ICP备案证号:www.cnymk.com</p>
+ <p style="font-size:10px">本站部分资源来自网友上传，如有侵权请邮件通知，我们将在3个工作日内删除。<p> 
+        </div>
+  	</div>
+  </div> 
+<!-- 尾部结束 --> 
+<div style="display:none;">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F855494e4fd05db2e589008845a9e0344' type='text/javascript'%3E%3C/script%3E"));
+</script></div>
+ 
+<!-- 尾部结束 -->
+</body>
+</html>

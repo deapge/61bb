@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<source>
+	<!-- 菜单 -->
+	<menu>
+		<song name="数鸭子" url="http://s.61baobao.com/mp3/erge/001.mp3" />
+	    <song name="两只老虎" url="http://s.61baobao.com/mp3/erge/002.mp3" />
+		<song name="采蘑菇的小姑娘" url="http://s.61baobao.com/mp3/erge/003.mp3" />
+		<song name="蓝精灵" url="http://s.61baobao.com/mp3/erge/ljl.mp3" />
+		<song name="小螺号" url="http://s.61baobao.com/mp3/erge/004.mp3" />
+		<song name="幸福拍手歌" url="http://s.61baobao.com/mp3/erge/005.mp3" />
+		<song name="小背篓" url="http://s.61baobao.com/mp3/erge/006.mp3" />
+		<song name="蜗牛与黄鹂鸟" url="http://s.61baobao.com/mp3/erge/007.mp3" />
+		<song name="鲁冰花" url="http://s.61baobao.com/mp3/erge/008.mp3" />
+		<song name="读书郎" url="http://s.61baobao.com/mp3/erge/009.mp3" />
+		<song name="捉泥鳅" url="http://s.61baobao.com/mp3/erge/010.mp3" />
+	    <song name="歌声与微笑" url="http://s.61baobao.com/mp3/erge/gsywx.mp3" />
+		<song name="花仙子之歌" url="http://s.61baobao.com/mp3/erge/hxzzg.mp3" />
+		<song name="老师" url="http://s.61baobao.com/mp3/erge/ls.mp3" />
+		<song name="路灯下的小姑娘" url="http://s.61baobao.com/mp3/erge/ldxdxgn.mp3" />
+		<song name="每当我走过老师窗前" url="http://s.61baobao.com/mp3/erge/mdwzglscq.mp3" />
+		<song name="妹妹背着洋娃娃" url="http://s.61baobao.com/mp3/erge/mmbzyww.mp3" />
+		<song name="梦中的额吉" url="http://s.61baobao.com/mp3/erge/mzdej.mp3" />
+		<song name="明天会更好" url="http://s.61baobao.com/mp3/erge/mthgh.mp3" />
+		<song name="茉莉花" url="http://s.61baobao.com/mp3/erge/mlh.mp3" />
+		<song name="泥娃娃" url="http://s.61baobao.com/mp3/erge/nww.mp3" />
+		<song name="亲亲猪猪宝贝" url="http://s.61baobao.com/mp3/erge/qqzzbb.mp3" />
+		<song name="三个和尚" url="http://s.61baobao.com/mp3/erge/sghs.mp3" />
+		<song name="少年先锋队队歌" url="http://s.61baobao.com/mp3/erge/snxfddg.mp3" />
+		<song name="生日快乐歌" url="http://s.61baobao.com/mp3/erge/srklg.mp3" />
+		<song name="太阳出来了" url="http://s.61baobao.com/mp3/erge/tycll.mp3" />
+		<song name="我爱北京天安门 儿" url="http://s.61baobao.com/mp3/erge/wabjtame.mp3" />
+		<song name="我们多么幸福" url="http://s.61baobao.com/mp3/erge/wmdmxf.mp3" />
+		<song name="我有一个家" url="http://s.61baobao.com/mp3/erge/wyygj.mp3" />
+		<song name="西游记" url="http://s.61baobao.com/mp3/erge/xyj.mp3" />
+		<song name="小白船" url="http://s.61baobao.com/mp3/erge/xbc.mp3" />
+		<song name="小草" url="http://s.61baobao.com/mp3/erge/xc.mp3" />
+		<song name="小金鱼" url="http://s.61baobao.com/mp3/erge/xjy.mp3" />
+		<song name="小蚂蚁" url="http://s.61baobao.com/mp3/erge/xmy.mp3" />
+		<song name="小蜜蜂" url="http://s.61baobao.com/mp3/erge/xmf.mp3" />
+		<song name="小蜗牛" url="http://s.61baobao.com/mp3/erge/xwn.mp3" />
+		<song name="小小粉刷匠" url="http://s.61baobao.com/mp3/erge/xxfsj.mp3" />
+		<song name="小星星" url="http://s.61baobao.com/mp3/erge/xxx.mp3" />
+		<song name="一分钱" url="http://s.61baobao.com/mp3/erge/yfq.mp3" />
+	</menu>
+	<menu>
+		<song name="不准偷喝" url="http://s.61baobao.com/mp3/gushi/bzth.mp3" />
+        <song name="猜猜我是谁" url="http://s.61baobao.com/mp3/gushi/ccwss.mp3" />
+		<song name="馋嘴" url="http://s.61baobao.com/mp3/gushi/cz.mp3" />
+		<song name="陈平分肉" url="http://s.61baobao.com/mp3/gushi/cpfr.mp3" />
+		<song name="赤绳系足" url="http://s.61baobao.com/mp3/gushi/csxz.mp3" />
+		<song name="出水芙蓉" url="http://s.61baobao.com/mp3/gushi/csfr.mp3" />
+		<song name="聪明的徒弟" url="http://s.61baobao.com/mp3/gushi/cmdtd.mp3" />
+        <song name="得过且过，捉襟见肘" url="http://s.61baobao.com/mp3/gushi/dgqgzjjz.mp3" />
+		<song name="饭团儿" url="http://s.61baobao.com/mp3/gushi/fte.mp3" />
+		<song name="佛头着粪" url="http://s.61baobao.com/mp3/gushi/ftzf.mp3" />
+		<song name="赴宴" url="http://s.61baobao.com/mp3/gushi/fy.mp3" />
+		<song name="高阳酒徒" url="http://s.61baobao.com/mp3/gushi/gyjt.mp3" />
+		<song name="狗肉官司" url="http://s.61baobao.com/mp3/gushi/grgs.mp3" />
+        <song name="拐弯抹角" url="http://s.61baobao.com/mp3/gushi/gwmj.mp3" />
+		<song name="涸辙之腹" url="http://s.61baobao.com/mp3/gushi/hzzf.mp3" />
+		<song name="侯门如雪" url="http://s.61baobao.com/mp3/gushi/hmrx.mp3" />
+		<song name="鸡犬新丰" url="http://s.61baobao.com/mp3/gushi/jqxf.mp3" />
+		<song name="乱七八糟的变色龙" url="http://s.61baobao.com/mp3/gushi/lqbzdbsl.mp3" />
+		<song name="猫头鹰喔喔呼" url="http://s.61baobao.com/mp3/gushi/mtyooh.mp3" />
+        <song name="匹夫之勇" url="http://s.61baobao.com/mp3/gushi/pfzy.mp3" />
+		<song name="射石饮血" url="http://s.61baobao.com/mp3/gushi/ssyx.mp3" />
+		<song name="特别的日子" url="http://s.61baobao.com/mp3/gushi/tbdrz.mp3" />
+		<song name="铁杵磨针" url="http://s.61baobao.com/mp3/gushi/tcmz.mp3" />
+		<song name="丸泥封关" url="http://s.61baobao.com/mp3/gushi/wnfg.mp3" />
+		<song name="忘了说我爱你" url="http://s.61baobao.com/mp3/gushi/wlswan.mp3" />
+        <song name="我就是喜欢我" url="http://s.61baobao.com/mp3/gushi/wjsxhw.mp3" />
+		<song name="小熊孵蛋" url="http://s.61baobao.com/mp3/gushi/xxfd.mp3" />
+		<song name="小猪变形记" url="http://s.61baobao.com/mp3/gushi/xzbxj.mp3" />
+		<song name="一字千金" url="http://s.61baobao.com/mp3/gushi/yzqj.mp3" />
+		<song name="债台高筑" url="http://s.61baobao.com/mp3/gushi/ztgz.mp3" />
+		<song name="纸醉金迷" url="http://s.61baobao.com/mp3/gushi/zzjm.mp3" />
+	</menu>
+    <menu>
+        <song name="爱国士子公车上书" url="http://s.61baobao.com/mp3/xuezhishi/agszgcss.mp3" />
+		<song name="巴黎公社" url="http://s.61baobao.com/mp3/xuezhishi/blgs.mp3" />
+		<song name="长恨歌" url="http://s.61baobao.com/mp3/xuezhishi/chg.mp3" />
+		<song name="长相思" url="http://s.61baobao.com/mp3/xuezhishi/cxs.mp3" />
+		<song name="调虎离山" url="http://s.61baobao.com/mp3/xuezhishi/dhls.mp3" />
+		<song name="断头将军" url="http://s.61baobao.com/mp3/xuezhishi/dtjj.mp3" />
+		<song name="非驴非马" url="http://s.61baobao.com/mp3/xuezhishi/flfm.mp3" />
+		<song name="负重致远" url="http://s.61baobao.com/mp3/xuezhishi/fzzy.mp3" />
+		<song name="垓下歌" url="http://s.61baobao.com/mp3/xuezhishi/gxg.mp3" />
+		<song name="关门捉贼" url="http://s.61baobao.com/mp3/xuezhishi/gmzz.mp3" />
+		<song name="黄忠计夺天荡山" url="http://s.61baobao.com/mp3/xuezhishi/hzjdtds.mp3" />
+		<song name="佳人" url="http://s.61baobao.com/mp3/xuezhishi/jr.mp3" />
+		<song name="苦肉计" url="http://s.61baobao.com/mp3/xuezhishi/krj.mp3" />
+		<song name="凉州词" url="http://s.61baobao.com/mp3/xuezhishi/lzc.mp3" />
+		<song name="六君子血溅菜市口" url="http://s.61baobao.com/mp3/xuezhishi/ljzxjcsk.mp3" />
+		<song name="明太祖滥杀功臣" url="http://s.61baobao.com/mp3/xuezhishi/mtzlsgc.mp3" />
+		<song name="齐女舍身助重耳" url="http://s.61baobao.com/mp3/xuezhishi/qnsszce.mp3" />
+		<song name="亲桓公饿死深宫" url="http://s.61baobao.com/mp3/xuezhishi/qhgessg.mp3" />
+		<song name="秦穆公羊皮换相" url="http://s.61baobao.com/mp3/xuezhishi/qmgyphx.mp3" />
+		<song name="青鸟" url="http://s.61baobao.com/mp3/xuezhishi/qn.mp3" />
+		<song name="收姜维" url="http://s.61baobao.com/mp3/xuezhishi/sjw.mp3" />
+		<song name="小儿垂钓" url="http://s.61baobao.com/mp3/xuezhishi/xecd.mp3" />
+		<song name="杳杳寒山道" url="http://s.61baobao.com/mp3/xuezhishi/yyhsd.mp3" />
+		<song name="夜雨寄北" url="http://s.61baobao.com/mp3/xuezhishi/yyjb.mp3" />
+		<song name="雨夜书怀" url="http://s.61baobao.com/mp3/xuezhishi/yysh.mp3" />
+		<song name="元日" url="http://s.61baobao.com/mp3/xuezhishi/yr.mp3" />
+		<song name="赠外孙" url="http://s.61baobao.com/mp3/xuezhishi/zws.mp3" />
+		<song name="章西女王" url="http://s.61baobao.com/mp3/xuezhishi/zxnw.mp3" />
+		<song name="赵孤儿死里逃生" url="http://s.61baobao.com/mp3/xuezhishi/zgeslts.mp3" />
+		<song name="郑和远航下西洋" url="http://s.61baobao.com/mp3/xuezhishi/zhyhxxy.mp3" />
+    </menu>
+	<menu>
+	    <song name="Out Of The Boat" url="http://s.61baobao.com/mp3/eng/001.mp3" />
+		<song name="The Pirates Who" url="http://s.61baobao.com/mp3/eng/002.mp3" />
+		<song name="Stop! And Go With Mercy" url="http://s.61baobao.com/mp3/eng/003.mp3" />
+		<song name="Help Me Listen" url="http://s.61baobao.com/mp3/eng/004.mp3" />
+		<song name="Share The Love" url="http://s.61baobao.com/mp3/eng/005.mp3" />
+		<song name="Credits Song" url="http://s.61baobao.com/mp3/eng/006.mp3" />
+		<song name="Billy Joe McGruffey" url="http://s.61baobao.com/mp3/eng/007.mp3" />
+		<song name="You Are The One" url="http://s.61baobao.com/mp3/eng/008.mp3" />
+		<song name="Love Overboard" url="http://s.61baobao.com/mp3/eng/009.mp3" />
+		<song name="Micah 6 8" url="http://s.61baobao.com/mp3/eng/010.mp3" />
+		<song name="Deep And Wide" url="http://s.61baobao.com/mp3/eng/011.mp3" />
+		<song name="We're Vikings" url="http://s.61baobao.com/mp3/eng/012.mp3" />
+		<song name="Sailing, Sailing Row" url="http://s.61baobao.com/mp3/eng/013.mp3" />
+		<song name="There's A Hole " url="http://s.61baobao.com/mp3/eng/014.mp3" />
+		<song name="The Wonder Of It All" url="http://s.61baobao.com/mp3/eng/015.mp3" />
+		<song name="Wide As The Ocean" url="http://s.61baobao.com/mp3/eng/016.mp3" />
+		<song name="The Ballad Of Jonah" url="http://s.61baobao.com/mp3/eng/017.mp3" />
+		<song name="The Slowest Ship " url="http://s.61baobao.com/mp3/eng/018.mp3" />
+		<song name="Who DId Swallow Jonah" url="http://s.61baobao.com/mp3/eng/019.mp3" />
+		<song name="Modern Major General" url="http://s.61baobao.com/mp3/eng/020.mp3" />
+		<song name="She'll Be Coming " url="http://s.61baobao.com/mp3/eng/021.mp3" />
+		<song name="hat's Where My " url="http://s.61baobao.com/mp3/eng/022.mp3" />
+		<song name="Get On Board" url="http://s.61baobao.com/mp3/eng/023.mp3" />
+		<song name="Eerie Canal" url="http://s.61baobao.com/mp3/eng/024.mp3" />
+		<song name="Did You Ever See" url="http://s.61baobao.com/mp3/eng/025.mp3" />
+		<song name="Ka Ganapuika Par " url="http://s.61baobao.com/mp3/eng/026.mp3" />
+		<song name="Eza Kazocins" url="http://s.61baobao.com/mp3/eng/027.mp3" />
+		<song name="Laulatie" url="http://s.61baobao.com/mp3/eng/028.mp3" />
+		<song name="Zakis Par Mednieku" url="http://s.61baobao.com/mp3/eng/029.mp3" />
+		<song name="Laima Izpilda Tris" url="http://s.61baobao.com/mp3/eng/030.mp3" />
+		<song name="Skaudamas Zales" url="http://s.61baobao.com/mp3/eng/031.mp3" />
+		<song name="Ka Zakis Pazaudeja Asti" url="http://s.61baobao.com/mp3/eng/032.mp3" />
+		<song name="Ka Zakis Dabuja Garas Ausis" url="http://s.61baobao.com/mp3/eng/033.mp3" />
+		<song name="Pats Darija" url="http://s.61baobao.com/mp3/eng/034.mp3" />
+		<song name="Zakis Un Vina Draugi" url="http://s.61baobao.com/mp3/eng/035.mp3" />
+		<song name="Vecisa Cimdins" url="http://s.61baobao.com/mp3/eng/036.mp3" />
+		<song name="Brinumu Putns" url="http://s.61baobao.com/mp3/eng/037.mp3" />
+		<song name="Liela Breka, Maza Vilna" url="http://s.61baobao.com/mp3/eng/038.mp3" />
+		<song name="Tris Teva Padomi" url="http://s.61baobao.com/mp3/eng/039.mp3" />
+		<song name="Stiprinieki" url="http://s.61baobao.com/mp3/eng/040.mp3" />
+		<song name="Dziesma Pulkstens " url="http://s.61baobao.com/mp3/eng/041.mp3" />
+		<song name="Dziesma Pulkstens " url="http://s.61baobao.com/mp3/eng/042.mp3" />
+		<song name="Macatins" url="http://s.61baobao.com/mp3/eng/043.mp3" />
+		<song name="Sita, Sita Atveries" url="http://s.61baobao.com/mp3/eng/044.mp3" />
+		<song name="Nabaga Saimnieks" url="http://s.61baobao.com/mp3/eng/045.mp3" />
+		<song name="Froggie Went A-Courtin'" url="http://s.61baobao.com/mp3/eng/046.mp3" />
+		<song name="Sailing Medley" url="http://s.61baobao.com/mp3/eng/047.mp3" />
+		<song name="Western Medley" url="http://s.61baobao.com/mp3/eng/048.mp3" />
+		<song name="Brahm's By Nightlight" url="http://s.61baobao.com/mp3/eng/049.mp3" />
+		<song name="Nappytime" url="http://s.61baobao.com/mp3/eng/050.mp3" />
+		<song name="Little Bunnykins " url="http://s.61baobao.com/mp3/eng/051.mp3" />
+		<song name="Sleepytime Serenade" url="http://s.61baobao.com/mp3/eng/052.mp3" />
+		<song name="Appalachian Lullabye" url="http://s.61baobao.com/mp3/eng/053.mp3" />
+		<song name="Brahm's By Nightlight" url="http://s.61baobao.com/mp3/eng/054.mp3" />
+		<song name="Nappytime" url="http://s.61baobao.com/mp3/eng/055.mp3" />
+		<song name="Baby Dreams" url="http://s.61baobao.com/mp3/eng/056.mp3" />
+		<song name="Clippy Clop" url="http://s.61baobao.com/mp3/eng/057.mp3" />
+		<song name="Appalachian Lullabye" url="http://s.61baobao.com/mp3/eng/058.mp3" />
+		<song name="Sleepytowne" url="http://s.61baobao.com/mp3/eng/059.mp3" />
+		<song name="Cradle Of Love" url="http://s.61baobao.com/mp3/eng/060.mp3" />
+		<song name="Sunshine And Rain" url="http://s.61baobao.com/mp3/eng/061.mp3" />
+		<song name="Baby Of MineBrahm's " url="http://s.61baobao.com/mp3/eng/062.mp3" />
+		<song name="Sleepytime Serenade" url="http://s.61baobao.com/mp3/eng/063.mp3" />
+		<song name="Clippy Clop" url="http://s.61baobao.com/mp3/eng/064.mp3" />
+		<song name="Sleepytowne" url="http://s.61baobao.com/mp3/eng/065.mp3" />
+		<song name="Le Chardonneret Italie" url="http://s.61baobao.com/mp3/eng/066.mp3" />
+		<song name="Haut Les Mains! Israel" url="http://s.61baobao.com/mp3/eng/067.mp3" />
+		<song name="Berceuse Suède" url="http://s.61baobao.com/mp3/eng/068.mp3" />
+		<song name="Allons Dormir Etas-Unis" url="http://s.61baobao.com/mp3/eng/069.mp3" />
+		<song name="Hush-A-Bye, Baby " url="http://s.61baobao.com/mp3/eng/070.mp3" />
+		<song name="Berceuse Arménie" url="http://s.61baobao.com/mp3/eng/071.mp3" />
+		<song name="Le Vent Fais Danser " url="http://s.61baobao.com/mp3/eng/072.mp3" />
+		<song name="Amour, Donne-Moi " url="http://s.61baobao.com/mp3/eng/073.mp3" />
+		<song name="Toute La Nuit" url="http://s.61baobao.com/mp3/eng/074.mp3" />
+		<song name="Dodo, L'enfant Do" url="http://s.61baobao.com/mp3/eng/075.mp3" />
+		<song name="Bleu Lavande" url="http://s.61baobao.com/mp3/eng/076.mp3" />
+		<song name="Petit Frère" url="http://s.61baobao.com/mp3/eng/077.mp3" />
+		<song name="Dors, Mon Petit" url="http://s.61baobao.com/mp3/eng/078.mp3" />
+		<song name="Par Dela La Colline" url="http://s.61baobao.com/mp3/eng/079.mp3" />
+		<song name="Every Promise In The Book" url="http://s.61baobao.com/mp3/eng/080.mp3" />
+		<song name="Little David" url="http://s.61baobao.com/mp3/eng/081.mp3" />
+		<song name="My God Is So Great" url="http://s.61baobao.com/mp3/eng/082.mp3" />
+		<song name="Everybody Ought To Know" url="http://s.61baobao.com/mp3/eng/083.mp3" />
+		<song name="My God Is So Great" url="http://s.61baobao.com/mp3/eng/084.mp3" />
+		<song name="Into My Heart" url="http://s.61baobao.com/mp3/eng/085.mp3" />
+		<song name="Do Lord" url="http://s.61baobao.com/mp3/eng/086.mp3" />
+		<song name="I Will SIng " url="http://s.61baobao.com/mp3/eng/087.mp3" />
+		<song name="Joshua Fought The Battle" url="http://s.61baobao.com/mp3/eng/088.mp3" />
+		<song name="Silver And Gold Have I None" url="http://s.61baobao.com/mp3/eng/089.mp3" />
+		<song name="Dare To Be A Daniel" url="http://s.61baobao.com/mp3/eng/090.mp3" />
+		<song name="Peter, James And John" url="http://s.61baobao.com/mp3/eng/091.mp3" />
+		<song name="Into My Heart" url="http://s.61baobao.com/mp3/eng/092.mp3" />
+		<song name="The B-I-B-L-E" url="http://s.61baobao.com/mp3/eng/093.mp3" />
+		<song name="Silver And Gold Have I None" url="http://s.61baobao.com/mp3/eng/094.mp3" />
+		<song name="Little David" url="http://s.61baobao.com/mp3/eng/095.mp3" />
+		<song name="Leaning On The Everlasting Arms" url="http://s.61baobao.com/mp3/eng/096.mp3" />
+		<song name="Do Lord" url="http://s.61baobao.com/mp3/eng/097.mp3" />
+		<song name="Jesus Wants Me For A Sunbeam" url="http://s.61baobao.com/mp3/eng/098.mp3" />
+		<song name="Peter, James And John In A Sailboat" url="http://s.61baobao.com/mp3/eng/099.mp3" />
+		<song name="I Will SIng Of The Mercies Of The Lord" url="http://s.61baobao.com/mp3/eng/100.mp3" />
+		<song name="Jesus Loves Me" url="http://s.61baobao.com/mp3/eng/101.mp3" />
+		<song name="The B-I-B-L-E" url="http://s.61baobao.com/mp3/eng/102.mp3" />
+		<song name="Every Promise In The Book" url="http://s.61baobao.com/mp3/eng/103.mp3" />
+		<song name="Jesus Wants Me For A Sunbeam" url="http://s.61baobao.com/mp3/eng/104.mp3" />
+		<song name="Everybody Ought To Know" url="http://s.61baobao.com/mp3/eng/105.mp3" />
+		<song name="Dare To Be A Daniel" url="http://s.61baobao.com/mp3/eng/106.mp3" />
+		<song name="Jesus Loves Me" url="http://s.61baobao.com/mp3/eng/107.mp3" />
+		<song name="Joshua Fought The Battle Of Jericho" url="http://s.61baobao.com/mp3/eng/108.mp3" />
+		<song name="Lord, I Life Your Name On High" url="http://s.61baobao.com/mp3/eng/109.mp3" />
+		<song name="Majesty" url="http://s.61baobao.com/mp3/eng/110.mp3" />
+		<song name="I'll Say Yes" url="http://s.61baobao.com/mp3/eng/111.mp3" />
+		<song name="Make A Joyful Shout" url="http://s.61baobao.com/mp3/eng/112.mp3" />
+		<song name="For The Lord Is Great" url="http://s.61baobao.com/mp3/eng/113.mp3" />
+		<song name="I Will Joy" url="http://s.61baobao.com/mp3/eng/114.mp3" />
+		<song name="Bonus Track" url="http://s.61baobao.com/mp3/eng/115.mp3" />
+		<song name="We Love To Worship" url="http://s.61baobao.com/mp3/eng/116.mp3" />
+		<song name="The Secret Place" url="http://s.61baobao.com/mp3/eng/117.mp3" />
+		<song name="The Lord Is My Rock" url="http://s.61baobao.com/mp3/eng/118.mp3" />
+		<song name="Let's All Worship" url="http://s.61baobao.com/mp3/eng/119.mp3" />
+		<song name="He's Worthy" url="http://s.61baobao.com/mp3/eng/120.mp3" />
+		<song name="He's Jehovah Jireh" url="http://s.61baobao.com/mp3/eng/121.mp3" />
+		<song name="Exercise Hymn" url="http://s.61baobao.com/mp3/eng/122.mp3" />
+		<song name="How Deep The Father's Love For Us" url="http://s.61baobao.com/mp3/eng/123.mp3" />
+		<song name="Give, Said The Little Stream" url="http://s.61baobao.com/mp3/eng/124.mp3" />
+		<song name="Faith Of Our Fathers" url="http://s.61baobao.com/mp3/eng/125.mp3" />
+		<song name="Let The Sunshine In" url="http://s.61baobao.com/mp3/eng/126.mp3" />
+		<song name="Into My Heart" url="http://s.61baobao.com/mp3/eng/127.mp3" />
+		<song name="And All I Know" url="http://s.61baobao.com/mp3/eng/128.mp3" />
+		<song name="Dare To Be A Daniel" url="http://s.61baobao.com/mp3/eng/129.mp3" />
+		<song name="Oh Worship The King" url="http://s.61baobao.com/mp3/eng/130.mp3" />
+		<song name="You Are In Control" url="http://s.61baobao.com/mp3/eng/131.mp3" />
+		<song name="Tis Simple As Can Be" url="http://s.61baobao.com/mp3/eng/132.mp3" />
+		<song name="Helper, Comforter, Best Friend" url="http://s.61baobao.com/mp3/eng/133.mp3" />
+		<song name="Wide, Wide As The Ocean" url="http://s.61baobao.com/mp3/eng/134.mp3" />
+		<song name="Standin' In The Need Of Prayer" url="http://s.61baobao.com/mp3/eng/135.mp3" />
+		<song name="Lord, I Love You (Underwood)" url="http://s.61baobao.com/mp3/eng/136.mp3" />
+		<song name="Hymn Of Praise" url="http://s.61baobao.com/mp3/eng/137.mp3" />
+		<song name="Happy All The Time" url="http://s.61baobao.com/mp3/eng/138.mp3" />
+		<song name="Praise Him" url="http://s.61baobao.com/mp3/eng/139.mp3" />
+		<song name="Silver And Gold Have I None" url="http://s.61baobao.com/mp3/eng/140.mp3" />
+		<song name="Marching Along" url="http://s.61baobao.com/mp3/eng/141.mp3" />
+		<song name="I Could Sing Of Your Love Forever" url="http://s.61baobao.com/mp3/eng/142.mp3" />
+		<song name="One Door, And Only One" url="http://s.61baobao.com/mp3/eng/143.mp3" />
+		<song name="Count Your Blessings" url="http://s.61baobao.com/mp3/eng/144.mp3" />
+		<song name="Alive, Alive" url="http://s.61baobao.com/mp3/eng/145.mp3" />
+		<song name="Esta Noche De Travesura" url="http://s.61baobao.com/mp3/eng/146.mp3" />
+		<song name="Bailando" url="http://s.61baobao.com/mp3/eng/147.mp3" />
+		<song name="Los Pistoleros" url="http://s.61baobao.com/mp3/eng/148.mp3" />
+		<song name="Se Activaron Los Anormales" url="http://s.61baobao.com/mp3/eng/149.mp3" />
+		<song name="Dale Don Dale" url="http://s.61baobao.com/mp3/eng/150.mp3" />
+		<song name="La Tortura" url="http://s.61baobao.com/mp3/eng/151.mp3" />
+		<song name="Play That Song" url="http://s.61baobao.com/mp3/eng/152.mp3" />
+		<song name="Amor" url="http://s.61baobao.com/mp3/eng/153.mp3" />
+		<song name="Lo Que Paso, Paso" url="http://s.61baobao.com/mp3/eng/154.mp3" />
+		<song name="Reggaeton Latino" url="http://s.61baobao.com/mp3/eng/155.mp3" />
+		<song name="Gasolina" url="http://s.61baobao.com/mp3/eng/156.mp3" />
+		<song name="Pobre Diablo" url="http://s.61baobao.com/mp3/eng/157.mp3" />
+		<song name="Ten Little Monkeys" url="http://s.61baobao.com/mp3/eng/158.mp3" />
+		<song name="Girls And Boys Come Out To Play" url="http://s.61baobao.com/mp3/eng/159.mp3" />
+		<song name="Animal Fair" url="http://s.61baobao.com/mp3/eng/160.mp3" />
+		<song name="I Am The Music Man" url="http://s.61baobao.com/mp3/eng/161.mp3" />
+		<song name="If You're Happy And You Know It" url="http://s.61baobao.com/mp3/eng/162.mp3" />
+		<song name="One Man Went To Mow" url="http://s.61baobao.com/mp3/eng/163.mp3" />
+		<song name="Horsey, Horsey" url="http://s.61baobao.com/mp3/eng/164.mp3" />
+		<song name="One Finger, One Thumb" url="http://s.61baobao.com/mp3/eng/165.mp3" />
+		<song name="Pass The Parcel Megamix" url="http://s.61baobao.com/mp3/eng/166.mp3" />
+		<song name="Five Little Ducks" url="http://s.61baobao.com/mp3/eng/167.mp3" />
+		<song name="Hokey Cokey" url="http://s.61baobao.com/mp3/eng/168.mp3" />
+		<song name="Happy Birthday Maxine" url="http://s.61baobao.com/mp3/eng/169.mp3" />
+		<song name="Jelly On A Plate" url="http://s.61baobao.com/mp3/eng/170.mp3" />
+		<song name="Musical Chairs Statues Megamix" url="http://s.61baobao.com/mp3/eng/171.mp3" />
+		<song name="Dingle Dangle Scarecrow" url="http://s.61baobao.com/mp3/eng/172.mp3" />
+		<song name="Head, Shoulders, Knees And Toes" url="http://s.61baobao.com/mp3/eng/173.mp3" />
+		<song name="The Farmer's In His Den" url="http://s.61baobao.com/mp3/eng/174.mp3" />
+		<song name="Old Macdonald" url="http://s.61baobao.com/mp3/eng/175.mp3" />
+		<song name="Ring A Ring A Roses" url="http://s.61baobao.com/mp3/eng/176.mp3" />
+		<song name="Old Macdonald" url="http://s.61baobao.com/mp3/eng/177.mp3" />
+		<song name="Ring A Ring A Roses" url="http://s.61baobao.com/mp3/eng/178.mp3" />
+		<song name="Pass The Parcel Megamix" url="http://s.61baobao.com/mp3/eng/179.mp3" />
+		<song name="Dingle Dangle Scarecrow" url="http://s.61baobao.com/mp3/eng/180.mp3" />
+		<song name="Ten Little Monkeys" url="http://s.61baobao.com/mp3/eng/181.mp3" />
+		<song name="Animal Fair" url="http://s.61baobao.com/mp3/eng/182.mp3" />
+		<song name="One Man Went To Mow" url="http://s.61baobao.com/mp3/eng/183.mp3" />
+		<song name="I Am The Music Man" url="http://s.61baobao.com/mp3/eng/184.mp3" />
+		<song name="Horsey, Horsey" url="http://s.61baobao.com/mp3/eng/185.mp3" />
+		<song name="Girls And Boys Come Out To Play" url="http://s.61baobao.com/mp3/eng/186.mp3" />
+		<song name="Head, Shoulders, Knees And Toes" url="http://s.61baobao.com/mp3/eng/187.mp3" />
+		<song name="Happy Birthday Robyn" url="http://s.61baobao.com/mp3/eng/188.mp3" />
+		<song name="Musical Chairs Statues Megamix" url="http://s.61baobao.com/mp3/eng/189.mp3" />
+		<song name="Hokey Cokey" url="http://s.61baobao.com/mp3/eng/190.mp3" />
+		<song name="The Farmer's In His Den" url="http://s.61baobao.com/mp3/eng/191.mp3" />
+		<song name="Jelly On A Plate" url="http://s.61baobao.com/mp3/eng/192.mp3" />
+		<song name="One Finger, One Thumb" url="http://s.61baobao.com/mp3/eng/193.mp3" />
+		<song name="Five Little Ducks" url="http://s.61baobao.com/mp3/eng/194.mp3" />
+		<song name="If You're Happy And You Know It" url="http://s.61baobao.com/mp3/eng/195.mp3" />
+		<song name="Happy Birthday Lydia" url="http://s.61baobao.com/mp3/eng/196.mp3" />
+		<song name="If You're Happy And You Know It" url="http://s.61baobao.com/mp3/eng/197.mp3" />
+		<song name="Head, Shoulders, Knees And Toes" url="http://s.61baobao.com/mp3/eng/198.mp3" />
+		<song name="One Man Went To Mow" url="http://s.61baobao.com/mp3/eng/199.mp3" />
+		<song name="Girls And Boys Come Out To Play" url="http://s.61baobao.com/mp3/eng/200.mp3" />
+		<song name="Ring A Ring A Roses" url="http://s.61baobao.com/mp3/eng/201.mp3" />
+		<song name="Pass The Parcel Megamix" url="http://s.61baobao.com/mp3/eng/202.mp3" />
+		<song name="Five Little Ducks" url="http://s.61baobao.com/mp3/eng/203.mp3" />
+	</menu>
+    <menu>
+<song name="A大调短笛协奏曲" url="http://s.61baobao.com/mp3/tj/10919.mp3" />
+<song name="安睡吧 小宝贝" url="http://s.61baobao.com/mp3/tj/10918.mp3" />
+<song name="c大调小星星变奏曲" url="http://s.61baobao.com/mp3/tj/10750.mp3" />
+<song name="妈咪的爱-亲亲小宝贝" url="http://s.61baobao.com/mp3/tj/10390.mp3" />
+<song name="妈咪的怀抱里" url="http://s.61baobao.com/mp3/tj/12113.mp3" />
+<song name="好甜好甜的梦" url="http://s.61baobao.com/mp3/tj/12118.mp3" />
+<song name="柴可夫斯基：银精灵" url="http://s.61baobao.com/mp3/tj/12409.wma" />
+<song name="柴可夫斯基：金丝雀" url="http://s.61baobao.com/mp3/tj/12028.wma" />
+<song name="德标西：布娃娃" url="http://s.61baobao.com/mp3/tj/12034.wma" />
+<song name="开心的笑" url="http://s.61baobao.com/mp3/tj/12114.mp3" />
+<song name="温柔的夜" url="http://s.61baobao.com/mp3/tj/10632.mp3" />
+<song name="天真无邪" url="http://s.61baobao.com/mp3/tj/10635.mp3" />
+<song name="小夜曲之浪漫曲" url="http://s.61baobao.com/mp3/tj/10639.mp3" />
+<song name="让世界充满爱" url="http://s.61baobao.com/mp3/tj/10640.mp3" />
+<song name="常常在静夜里 - 穆尔" url="http://s.61baobao.com/mp3/tj/12045.wma" />
+<song name="天生星星下凡来" url="http://s.61baobao.com/mp3/tj/12116.mp3" />
+<song name="无限的祝福" url="http://s.61baobao.com/mp3/tj/10634.mp3" />
+<song name="春江花月夜" url="http://s.61baobao.com/mp3/tj/12115.wma" />
+<song name="小红帽和狼之舞" url="http://s.61baobao.com/mp3/tj/12042.wma" />
+<song name="好甜好甜的梦" url="http://s.61baobao.com/mp3/tj/12118.mp3" />
+<song name="宁静的小世界" url="http://s.61baobao.com/mp3/tj/10391.mp3" />
+<song name="小步舞曲" url="http://s.61baobao.com/mp3/tj/01.mp3" />
+<song name="摇篮曲" url="http://s.61baobao.com/mp3/tj/02.mp3" />
+<song name="杜鹃圆舞曲" url="http://s.61baobao.com/mp3/tj/03.mp3" />
+<song name="舒伯特小夜曲" url="http://s.61baobao.com/mp3/tj/04.mp3" />
+<song name="蓝色多瑙河" url="http://s.61baobao.com/mp3/tj/05.mp3" />
+<song name="月光下的凤尾竹 " url="http://s.61baobao.com/mp3/tj/06.mp3" />
+<song name="爱的真谛" url="http://s.61baobao.com/mp3/tj/07.wma" />
+    </menu>
+ <menu>
+<song name="找朋友" url="http://s.61baobao.com/mp3/cq/01.mp3" />
+<song name="ABC Song" url="http://s.61baobao.com/mp3/cq/02.mp3" />
+<song name="Apple Tree" url="http://s.61baobao.com/mp3/cq/03.mp3" />
+<song name="饼干歌" url="http://s.61baobao.com/mp3/cq/04.mp3" />
+<song name="春天到" url="http://s.61baobao.com/mp3/cq/05.mp3" />
+<song name="春天在哪里" url="http://s.61baobao.com/mp3/cq/06.mp3" />
+<song name="粗心的小画家" url="http://s.61baobao.com/mp3/cq/07.mp3" />
+<song name="大头儿子小头爸爸" url="http://s.61baobao.com/mp3/cq/08.mp3" />
+<song name="稻草里的火鸡" url="http://s.61baobao.com/mp3/cq/09.mp3" />
+<song name="读书郎" url="http://s.61baobao.com/mp3/cq/10.mp3" />
+<song name="儿童歌曲大联唱B" url="http://s.61baobao.com/mp3/cq/11.mp3" />
+<song name="福星拱照" url="http://s.61baobao.com/mp3/cq/12.mp3" />
+<song name="汉语拼音歌" url="http://s.61baobao.com/mp3/cq/13.mp3" />
+<song name="健康歌" url="http://s.61baobao.com/mp3/cq/14.mp3" />
+<song name="金月亮" url="http://s.61baobao.com/mp3/cq/15.mp3" />
+<song name="快乐的小鸟" url="http://s.61baobao.com/mp3/cq/16.mp3" />
+<song name="快乐向前走" url="http://s.61baobao.com/mp3/cq/17.mp3" />
+<song name="兰花草" url="http://s.61baobao.com/mp3/cq/18.mp3" />
+<song name="蓝皮鼠和大脸猫" url="http://s.61baobao.com/mp3/cq/19.mp3" />
+<song name="老鹰捉小鸡" url="http://s.61baobao.com/mp3/cq/20.mp3" />
+<song name="两只老虎" url="http://s.61baobao.com/mp3/cq/21.mp3" />
+<song name="妈妈的吻" url="http://s.61baobao.com/mp3/cq/22.mp3" />
+<song name="玛丽的小绵羊" url="http://s.61baobao.com/mp3/cq/23.mp3" />
+<song name="每当我走过老师窗前" url="http://s.61baobao.com/mp3/cq/24.mp3" />
+<song name="明天会更好" url="http://s.61baobao.com/mp3/cq/25.mp3" />
+<song name="茉莉花" url="http://s.61baobao.com/mp3/cq/26.mp3" />
+<song name="排骨队" url="http://s.61baobao.com/mp3/cq/27.mp3" />
+<song name="平安回家" url="http://s.61baobao.com/mp3/cq/28.mp3" />
+<song name="让我们荡起双桨" url="http://s.61baobao.com/mp3/cq/29.mp3" />
+<song name="如意吉祥" url="http://s.61baobao.com/mp3/cq/30.mp3" />
+<song name="三个和尚" url="http://s.61baobao.com/mp3/cq/31.mp3" />
+<song name="少年英雄小哪吒" url="http://s.61baobao.com/mp3/cq/32.mp3" />
+<song name="少先队队歌" url="http://s.61baobao.com/mp3/cq/33.mp3" />
+<song name="世上只有妈妈好" url="http://s.61baobao.com/mp3/cq/34.mp3" />
+<song name="刷牙歌" url="http://s.61baobao.com/mp3/cq/35.mp3" />
+<song name="驼羔之歌" url="http://s.61baobao.com/mp3/cq/36.mp3" />
+<song name="外婆的澎湖湾" url="http://s.61baobao.com/mp3/cq/37.mp3" />
+<song name="蜗牛与黄鹂鸟" url="http://s.61baobao.com/mp3/cq/38.mp3" />
+<song name="我爱北京天安门" url="http://s.61baobao.com/mp3/cq/39.mp3" />
+<song name="五月歌" url="http://s.61baobao.com/mp3/cq/40.mp3" />
+<song name="小白兔乖乖" url="http://s.61baobao.com/mp3/cq/41.mp3" />
+<song name="小红帽a" url="http://s.61baobao.com/mp3/cq/42.mp3" />
+<song name="小老鼠上灯台" url="http://s.61baobao.com/mp3/cq/43.mp3" />
+<song name="小螺号" url="http://s.61baobao.com/mp3/cq/44.mp3" />
+<song name="小蜜蜂" url="http://s.61baobao.com/mp3/cq/45.mp3" />
+<song name="小乌鸦" url="http://s.61baobao.com/mp3/cq/46.mp3" />
+<song name="小燕子" url="http://s.61baobao.com/mp3/cq/47.mp3" />
+<song name="新年好" url="http://s.61baobao.com/mp3/cq/48.mp3" />
+<song name="雪绒花" url="http://s.61baobao.com/mp3/cq/49.mp3" />
+<song name="迎春花" url="http://s.61baobao.com/mp3/cq/50.mp3" />
+    </menu>
+    <menuname> 
+        <id name="中文儿歌" url="pic/erge.png" />
+        <id name="儿童故事" url="pic/gushi.png" />
+        <id name="学习知识" url="pic/zhishi.png" />
+        <id name="英文儿歌" url="pic/eng.png" />
+        <id name="胎教音乐" url="pic/zhishi.png" />
+        <id name="串烧50首" url="pic/eng.png" />
+        <id url="pic/liebiao.png" />
+</menuname>
+</source>	

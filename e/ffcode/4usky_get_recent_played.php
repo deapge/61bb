@@ -1,0 +1,1 @@
+var gRecentPlayed = {"result":0,"resultstr":"操作成功！","uin":1936240,"game_count":1,"ary_recent_played":[{"game_id":1000251,"time":1323499332,"game_name":"弹火柴"}]};

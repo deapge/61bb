@@ -1,0 +1,1 @@
+document.write("tags_积分页上通栏(广告位ID：13)")
